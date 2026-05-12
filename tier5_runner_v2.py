@@ -20,7 +20,7 @@ import urllib.request
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_KEY = "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"
+OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY", "sk-or-v1-XX")
 
 CIPHER_FAMILIES = {
     "aes_128": "aes128",
