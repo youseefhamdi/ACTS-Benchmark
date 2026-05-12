@@ -1,0 +1,139 @@
+[
+  {
+    "stage": "stage0",
+    "files": [
+      "stage0/gap_matrix.json",
+      "stage0/claim_inventory.json"
+    ]
+  },
+  {
+    "stage": "stage1",
+    "files": [
+      "stage1/corpus_counts.txt",
+      "stage1/manifest_expanded_700.json",
+      "stage1/manifest.json"
+    ]
+  },
+  {
+    "stage": "stage2",
+    "files": [
+      "stage2/results/gptoss_corpus14.json",
+      "stage2/results/generate_comparison_table.py",
+      "stage2/results/TIER5_SENSITIVITY_ANALYSIS.md",
+      "stage2/results/TIER5_EXECUTION_SUMMARY.md",
+      "stage2/results/TIER5_EXPANDED_SUMMARY.md",
+      "stage2/results/STATISTICAL_ANALYSIS.md",
+      "stage2/results/tier5a_full_claude_self_inference.json",
+      "stage2/results/tier5a_pilot_claude_self_inference.json",
+      "stage2/results/SCALING_COMPARISON.md",
+      "stage2/results/tier6_features_expanded.csv",
+      "stage2/results/tier5c_pilot_claude_self_inference.json",
+      "stage2/results/nemotron_all_tiers.json",
+      "stage2/results/tier5c_full_claude_self_inference.json",
+      "stage2/results/TIER5_VARIANT_TESTING.md",
+      "stage2/results/tier6_results.json",
+      "stage2/results/nemotron_corpus14_tier3only.json",
+      "stage2/results/tier5b_full_claude_self_inference.json",
+      "stage2/results/gptoss_all_tiers.json",
+      "stage2/results/gemma4_all_tiers.json",
+      "stage2/results/gemma4_corpus14.json",
+      "stage2/results/merged_real_results.json",
+      "stage2/results/TIER5_COMPARISON.json",
+      "stage2/results/TIER7_ADVERSARIAL_SUMMARY.md",
+      "stage2/results/MASTER_FINDINGS.json",
+      "stage2/results/test_run.json",
+      "stage2/results/tier7_adversarial_results.json",
+      "stage2/results/EXHIBIT_A_SELF_ADMISSION.md",
+      "stage2/results/TIER6_EXECUTION_SUMMARY.md",
+      "stage2/results/FINAL_REBUTTAL_SYNTHESIS.md",
+      "stage2/results/test_gptoss.json",
+      "stage2/results/minimax_all_tiers.json",
+      "stage2/results/openrouter_nemotron_super_v2.json",
+      "stage2/results/gemma4_fixed.json",
+      "stage2/results/openrouter_tier3_batch1.json",
+      "stage2/results/tier6_expanded_results.json",
+      "stage2/results/BENCHMARK_RESULTS_REAL.md",
+      "stage2/results/tier5_expanded_results.json",
+      "stage2/results/BENCHMARK_RESULTS_CORPUS_V1.md",
+      "stage2/results/tier5b_pilot_claude_self_inference.json",
+      "stage2/results/tier6_features.csv",
+      "stage2/results/merge_all_results.py",
+      "stage2/results/TIER6_EXPANDED_SUMMARY.md",
+      "stage2/results/glm51_all_tiers.json",
+      "stage2/results/TIER5_VARIANT_TESTING.json",
+      "stage2/results/merged_corpus_results.json",
+      "stage2/results/tier5a_pilot_gemma4_31b-cloud_ollama.json",
+      "stage2/scripts/final_validation.py",
+      "stage2/scripts/tier5_sensitivity_analysis.py",
+      "stage2/scripts/run_expanded_tier6.py",
+      "stage2/scripts/tier7_adversarial.py",
+      "stage2/scripts/tier6_feature_extractor_expanded.py",
+      "stage2/scripts/run_expanded_tier5.py",
+      "stage2/scripts/tier6_classifier_expanded.py",
+      "stage2/scripts/scaling_synthesizer.py"
+    ]
+  },
+  {
+    "stage": "stage3",
+    "files": [
+      "stage3/TABLES_FINAL.tex",
+      "stage3/REMOVED_MOCK_FILES.txt",
+      "stage3/docs/table2_wilson.tex",
+      "stage3/docs/table1_overview.tex",
+      "stage3/docs/table1_overview_v2.tex",
+      "stage3/docs/generate_latex_tables.py",
+      "stage3/docs/TABLES_FINAL.tex",
+      "stage3/docs/table2_wilson_v2.tex",
+      "stage3/docs/table3_mcnemar.tex",
+      "stage3/docs/table3_mcnemar_v2.tex",
+      "stage3/docs/generate_latex_tables_v2.py"
+    ]
+  },
+  {
+    "stage": "stage4",
+    "files": [
+      "stage4/README.md",
+      "stage4/chi2_validation/chi2_results.json"
+    ]
+  },
+  {
+    "stage": "stage5",
+    "files": [
+      "stage5/sections/section3_methodology.md",
+      "stage5/sections/ABSTRACT_FINAL.md",
+      "stage5/sections/RESULTS_AND_DISCUSSION_FINAL.md",
+      "stage5/sections/abstract_and_results.md"
+    ]
+  },
+  {
+    "stage": "stage6",
+    "files": [
+      "stage6/FINAL_RESULTS_SUMMARY.json",
+      "stage6/LIMITATIONS.md",
+      "stage6/REBUTTAL_LETTER_FINAL.md",
+      "stage6/SCALING_COMPARISON.md",
+      "stage6/DELIVERABLES_INDEX.md",
+      "stage6/PAPER_SYNTHESIS.md",
+      "stage6/MASTER_FINDINGS.json",
+      "stage6/DOI_ARTIFACT_CATALOG.md",
+      "stage6/FINAL_REBUTTAL_SYNTHESIS.md"
+    ]
+  },
+  {
+    "stage": "stage7",
+    "files": [
+      "stage7/acts_v2_poc_final.zip",
+      "stage7/acts_v2_poc_final.zip.sha256",
+      "stage7/assembly/FINAL_CHECKLIST.md",
+      "stage7/assembly/SUBMISSION_PACKAGE.md",
+      "stage7/assembly/ASSEMBLY_CHECKLIST.md",
+      "stage7/assembly/submission_package/SUBMISSION_CHECKLIST.md"
+    ]
+  },
+  {
+    "stage": "stage8",
+    "files": [
+      "stage8/README_SUBMISSION.md"
+    ]
+  }
+]

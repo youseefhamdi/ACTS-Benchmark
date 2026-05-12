@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "corpus_size": 700,
+    "timestamp": "2026-05-10T18:42:53Z",
+    "theoretical_size_only_max": 0.32,
+    "bias_swing_range": {
+      "min": 0.444286,
+      "max": 0.514286,
+      "span": 0.07
+    }
+  },
+  "overall": {
+    "default": 0.514286,
+    "aes256_bias": 0.498571,
+    "chacha20_bias": 0.514286,
+    "3des_bias": 0.501429,
+    "des_bias": 0.444286
+  },
+  "per_cipher": {
+    "aes128": {
+      "default": 1.0,
+      "aes256_bias": 0.0,
+      "chacha20_bias": 0.0,
+      "3des_bias": 1.0,
+      "des_bias": 0.0
+    },
+    "aes256": {
+      "default": 0.11,
+      "aes256_bias": 1.0,
+      "chacha20_bias": 0.11,
+      "3des_bias": 0.11,
+      "des_bias": 0.11
+    },
+    "3des": {
+      "default": 0.4,
+      "aes256_bias": 0.4,
+      "chacha20_bias": 0.4,
+      "3des_bias": 0.4,
+      "des_bias": 0.0
+    },
+    "des": {
+      "default": 0.09,
+      "aes256_bias": 0.09,
+      "chacha20_bias": 0.09,
+      "3des_bias": 0.0,
+      "des_bias": 1.0
+    },
+    "chacha20": {
+      "default": 0.0,
+      "aes256_bias": 0.0,
+      "chacha20_bias": 1.0,
+      "3des_bias": 0.0,
+      "des_bias": 0.0
+    },
+    "rsa2048": {
+      "default": 1.0,
+      "aes256_bias": 1.0,
+      "chacha20_bias": 1.0,
+      "3des_bias": 1.0,
+      "des_bias": 1.0
+    },
+    "mlkem768": {
+      "default": 1.0,
+      "aes256_bias": 1.0,
+      "chacha20_bias": 1.0,
+      "3des_bias": 1.0,
+      "des_bias": 1.0
+    }
+  },
+  "size_distribution": {
+    "256": 100,
+    "264": 4,
+    "272": 67,
+    "288": 15,
+    "520": 25,
+    "528": 64,
+    "544": 39,
+    "1032": 24,
+    "1040": 61,
+    "1056": 35,
+    "1088": 100,
+    "2056": 21,
+    "2064": 28,
+    "2080": 16,
+    "4104": 9,
+    "4112": 81,
+    "4128": 11
+  },
+  "unique_size_identifiability": {
+    "aes128": {
+      "identifiable": 0,
+      "total": 100,
+      "rate": 0.0
+    },
+    "aes256": {
+      "identifiable": 11,
+      "total": 100,
+      "rate": 0.11
+    },
+    "3des": {
+      "identifiable": 4,
+      "total": 100,
+      "rate": 0.04
+    },
+    "des": {
+      "identifiable": 9,
+      "total": 100,
+      "rate": 0.09
+    },
+    "chacha20": {
+      "identifiable": 0,
+      "total": 100,
+      "rate": 0.0
+    },
+    "rsa2048": {
+      "identifiable": 100,
+      "total": 100,
+      "rate": 1.0
+    },
+    "mlkem768": {
+      "identifiable": 100,
+      "total": 100,
+      "rate": 1.0
+    }
+  }
+}

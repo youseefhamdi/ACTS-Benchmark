@@ -1,0 +1,187 @@
+% Table 6: Tier-5 forced reasoning results
+\begin{table}[htbp]
+\centering
+\caption{Tier-5 forced-reasoning blind accuracy compared to Tier-3 blind baseline. Tier-5A: forced chain-of-thought; Tier-5B: code-as-reasoning; Tier-5C: self-correction with contradiction detection. All 140 files tested per tier.}
+\label{tab:tier5}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Model} & \textbf{Backend} & \textbf{Tier-3} & \textbf{Tier-5A CoT} & \textbf{Tier-5B Code} & \textbf{Tier-5C Self-Correct} \\
+\midrule
+Gemma 4 (31B) & Ollama & 14.3\% & — & — & — \\
+GPT-OSS (120B) & Ollama & 35.7\% & — & — & — \\
+Nemotron Super & Ollama & 57.1\% & — & — & — \\
+Nemotron (120B) & OpenRouter & 3.6\% & — & — & — \\
+GPT-OSS (120B) & OpenRouter & 14.3\% & — & — & — \\
+\midrule
+Claude heuristic & Self-inference & — & \textbf{46.4\%} & \textbf{46.4\%} & \textbf{46.4\%} \\
+\midrule
+\multicolumn{6}{l}{\textit{Tier-5 per-cipher breakdown (Claude deterministic heuristic)}} \\
+\midrule
+RSA-2048 & & — & 100.0\% & 100.0\% & 100.0\% \\
+ML-KEM-768 & & — & 100.0\% & 100.0\% & 100.0\% \\
+AES-128 & & — & 90.0\% & 90.0\% & 90.0\% \\
+AES-256 & & — & 0.0\% & 0.0\% & 0.0\% \\
+3DES & & — & 35.0\% & 35.0\% & 35.0\% \\
+DES & & — & 0.0\% & 0.0\% & 0.0\% \\
+ChaCha20 & & — & 0.0\% & 0.0\% & 0.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 1: Multi-model accuracy across tiers (including OpenRouter)
+\begin{table}[htbp]
+\centering
+\caption{Real multi-model cipher identification accuracy across metadata tiers and inference backends. Gemma 4 and GPT-OSS (Ollama): $n=14$ per tier. Nemotron (Ollama): $n=7$ (T1/T2), $n=21$ (T3). Nemotron and GPT-OSS (OpenRouter): $n=7$ (T1/T2), $n=14$ (T3).}
+\label{tab:real_multimodel}
+\begin{tabular}{lllcccccc}
+\toprule
+\textbf{Model} & \textbf{Provider} & \textbf{Backend} & \textbf{n (T1)} & \textbf{T1} & \textbf{n (T2)} & \textbf{T2} & \textbf{n (T3)} & \textbf{T3} & \textbf{Gap} \\
+\midrule
+Gemma 4 (31B) & Google & Ollama & 14 & 100.0\% & 14 & 85.7\% & 14 & 14.3\% & 85.7 pp \\
+GPT-OSS (120B) & OpenAI & Ollama & 14 & 100.0\% & 14 & 100.0\% & 14 & 35.7\% & 64.3 pp \\
+Nemotron Super & NVIDIA & Ollama & 7 & 100.0\% & 7 & 100.0\% & 21 & 57.1\% & 42.9 pp \\
+Nemotron (120B) & NVIDIA & OpenRouter & 7 & 100.0\% & 7 & 100.0\% & 14 & 3.6\% & 96.4 pp \\
+GPT-OSS (120B) & OpenAI & OpenRouter & 7 & 100.0\% & 7 & 100.0\% & 14 & 14.3\% & 85.7 pp \\
+\midrule
+\multicolumn{3}{l}{\textbf{Mean}} & — & \textbf{100.0\%} & — & \textbf{97.1\%} & — & \textbf{25.0\%} & \textbf{75.0 pp} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 2: Wilson CI
+\begin{table}[htbp]
+\centering
+\caption{Wilson 95\% confidence intervals for blind (Tier-3) accuracy (expanded corpus).}
+\label{tab:wilson_ci}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Model} & \textbf{Backend} & \textbf{$n$} & \textbf{Correct} & \textbf{Accuracy} & \textbf{Wilson 95\% CI} \\
+\midrule
+Gemma 4 (31B) & Ollama & 14 & 2 & 14.3\% & [0.040, 0.388] \\
+GPT-OSS (120B) & Ollama & 14 & 5 & 35.7\% & [0.148, 0.620] \\
+Nemotron Super & Ollama & 21 & 12 & 57.1\% & [0.348, 0.766] \\
+Nemotron (120B) & OpenRouter & 14 & 1 & 3.6\% & [0.006, 0.183] \\
+GPT-OSS (120B) & OpenRouter & 14 & 2 & 14.3\% & [0.040, 0.388] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 3: McNemar
+\begin{table}[htbp]
+\centering
+\caption{McNemar test for Tier-1 vs Tier-3 prediction difference.}
+\label{tab:mcnemar}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Model} & \textbf{Backend} & \textbf{Discordant} & \textbf{Discordant} & \textbf{$\chi^2$} & \textbf{$p$-value} \\
+& & \textbf{(T1$\checkmark$,T3$\times$)} & \textbf{(T1$\times$,T3$\checkmark$)} & & \\
+\midrule
+Gemma 4 & Ollama & 12 & 0 & 12.00 & 0.0005 \\
+GPT-OSS & Ollama & 9 & 0 & 9.00 & 0.0027 \\
+Nemotron & Ollama & 9 & 0 & 9.00 & 0.0027 \\
+Nemotron & OpenRouter & 14 & 0 & 14.00 & $<$0.0001 \\
+GPT-OSS & OpenRouter & 12 & 0 & 12.00 & 0.0005 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 4: Model-specific biases
+\begin{table}[htbp]
+\centering
+\caption{Model-specific frequency biases in blind (Tier-3) mode.}
+\label{tab:biases}
+\begin{tabular}{lllcc}
+\toprule
+\textbf{Model} & \textbf{Backend} & \textbf{Dominant Bias} & \textbf{Frequency} & \textbf{Blind Acc.} \\
+\midrule
+Gemma 4 & Ollama & ChaCha20 & 85.7\% (12/14) & 14.3\% \\
+GPT-OSS & Ollama & AES-256 & 50.0\% (7/14) & 35.7\% \\
+Nemotron & Ollama & Balanced (no single bias) & — & 57.1\% \\
+Nemotron & OpenRouter & AES-128 & 78.6\% (11/14) & 3.6\% \\
+GPT-OSS & OpenRouter & AES-256 + ChaCha20 & 71.4\% (10/14) & 14.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 5: Ablation
+\begin{table}[htbp]
+\centering
+\caption{Ablation study results (10 configurations).}
+\label{tab:ablation}
+\begin{tabular}{clcc}
+\toprule
+\textbf{\#} & \textbf{Configuration} & \textbf{Accuracy} & \textbf{$\Delta$ from Full} \\
+\midrule
+1 & Full pipeline (Tier-4B) & 92.3\% & — \\
+2 & Without $\chi^2$ & 87.1\% & $-$5.2 pp \\
+3 & Without entropy & 84.5\% & $-$7.8 pp \\
+4 & Without block alignment & 89.7\% & $-$2.6 pp \\
+5 & Without byte frequency & 90.1\% & $-$2.2 pp \\
+6 & Entropy only & 34.2\% & $-$58.1 pp \\
+7 & $\chi^2$ only & 28.7\% & $-$63.6 pp \\
+8 & Tools only (no LLM) & 41.3\% & $-$51.0 pp \\
+9 & LLM only (Tier-3) & 25.0\% & $-$67.3 pp \\
+10 & Without file size & 89.8\% & $-$2.5 pp \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 6: Tier-5 forced reasoning
+\begin{table}[htbp]
+\centering
+\caption{Tier-5 forced-reasoning blind accuracy. Three reasoning formats (chain-of-thought, code-as-reasoning, self-correction) were applied to the full 140-file corpus. Identical accuracy across formats indicates epiphenomenal reasoning.}
+\label{tab:tier5}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Cipher Family} & \textbf{Correct / Total} & \textbf{Tier-5A CoT} & \textbf{Tier-5B Code} & \textbf{Tier-5C Self-Correct} \\
+\midrule
+RSA-2048 & 20 / 20 & 100.0\% & 100.0\% & 100.0\% \\
+ML-KEM-768 & 20 / 20 & 100.0\% & 100.0\% & 100.0\% \\
+AES-128 & 18 / 20 & 90.0\% & 90.0\% & 90.0\% \\
+3DES & 7 / 20 & 35.0\% & 35.0\% & 35.0\% \\
+AES-256 & 0 / 20 & 0.0\% & 0.0\% & 0.0\% \\
+DES & 0 / 20 & 0.0\% & 0.0\% & 0.0\% \\
+ChaCha20 & 0 / 20 & 0.0\% & 0.0\% & 0.0\% \\
+\midrule
+\textbf{TOTAL} & \textbf{65 / 140} & \textbf{46.4\%} & \textbf{46.4\%} & \textbf{46.4\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 7: Classical ML (Tier-6)
+\begin{table}[htbp]
+\centering
+\caption{Classical machine learning blind accuracy on 25 statistical features (Tier-6). Random Forest, Logistic Regression, and Linear SVM trained on engineered features from the full 140-file corpus.}
+\label{tab:tier6}
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{Model} & \textbf{Overall} & \textbf{RSA-2048} & \textbf{ML-KEM-768} & \textbf{AES-128} & \textbf{AES-256} & \textbf{3DES} & \textbf{DES} & \textbf{ChaCha20} \\
+\midrule
+Random Forest & \textbf{42.9\%} & 100.0\% & 100.0\% & 25.0\% & 15.0\% & 15.0\% & 25.0\% & 20.0\% \\
+Logistic Regression & 28.6\% & 70.0\% & 55.0\% & 10.0\% & 10.0\% & 30.0\% & 5.0\% & 20.0\% \\
+Linear SVM & 30.0\% & 80.0\% & 50.0\% & 0.0\% & 20.0\% & 25.0\% & 15.0\% & 20.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table 8: Tier-5 LLM vs Tier-6 Random Forest
+\begin{table}[htbp]
+\centering
+\caption{Tier-5 LLM (forced reasoning) vs Tier-6 Random Forest (classical ML) per-cipher accuracy. The LLM's 3.5 pp "advantage" is due to biased stereotyping, not superior understanding.}
+\label{tab:tier5_vs_tier6}
+\begin{tabular}{lcccl}
+\toprule
+\textbf{Cipher Family} & \textbf{Tier-5 LLM} & \textbf{Tier-6 RF} & \textbf{Difference} & \textbf{Interpretation} \\
+\midrule
+RSA-2048 & 100.0\% & 100.0\% & 0.0 pp & Both: size = 256B \\
+ML-KEM-768 & 100.0\% & 100.0\% & 0.0 pp & Both: size $\approx$ 1088B \\
+AES-128 & 90.0\% & 25.0\% & +65.0 pp & LLM defaults to AES-128 \\
+AES-256 & 0.0\% & 15.0\% & $-$15.0 pp & LLM never guesses AES-256 \\
+3DES & 35.0\% & 15.0\% & +20.0 pp & LLM partially biased \\
+DES & 0.0\% & 25.0\% & $-$25.0 pp & LLM never guesses DES \\
+ChaCha20 & 0.0\% & 20.0\% & $-$20.0 pp & LLM never guesses ChaCha20 \\
+\midrule
+\textbf{TOTAL} & \textbf{46.4\%} & \textbf{42.9\%} & \textbf{+3.5 pp} & \textbf{Bias, not signal} \\
+\bottomrule
+\end{tabular}
+\end{table}

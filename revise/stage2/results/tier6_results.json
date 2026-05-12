@@ -1,0 +1,3919 @@
+{
+  "RandomForest": {
+    "model_name": "RandomForest",
+    "overall_accuracy": 0.4286,
+    "per_class_accuracy": {
+      "3des": {
+        "correct": 3,
+        "total": 20,
+        "accuracy": 0.15
+      },
+      "aes128": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "aes256": {
+        "correct": 3,
+        "total": 20,
+        "accuracy": 0.15
+      },
+      "chacha20": {
+        "correct": 4,
+        "total": 20,
+        "accuracy": 0.2
+      },
+      "des": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "mlkem768": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "rsa2048": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "3des",
+        "aes128",
+        "aes256",
+        "chacha20",
+        "des",
+        "mlkem768",
+        "rsa2048"
+      ],
+      "matrix": [
+        [
+          3,
+          3,
+          4,
+          4,
+          5,
+          0,
+          1
+        ],
+        [
+          2,
+          5,
+          5,
+          7,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          3,
+          4,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          6,
+          2,
+          4,
+          5,
+          0,
+          0
+        ],
+        [
+          8,
+          2,
+          3,
+          2,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ]
+    },
+    "classification_report": {
+      "3des": {
+        "precision": 0.16666666666666666,
+        "recall": 0.15,
+        "f1-score": 0.15789473684210525,
+        "support": 20.0
+      },
+      "aes128": {
+        "precision": 0.21739130434782608,
+        "recall": 0.25,
+        "f1-score": 0.23255813953488372,
+        "support": 20.0
+      },
+      "aes256": {
+        "precision": 0.17647058823529413,
+        "recall": 0.15,
+        "f1-score": 0.16216216216216217,
+        "support": 20.0
+      },
+      "chacha20": {
+        "precision": 0.19047619047619047,
+        "recall": 0.2,
+        "f1-score": 0.1951219512195122,
+        "support": 20.0
+      },
+      "des": {
+        "precision": 0.25,
+        "recall": 0.25,
+        "f1-score": 0.25,
+        "support": 20.0
+      },
+      "mlkem768": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "rsa2048": {
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1-score": 0.975609756097561,
+        "support": 20.0
+      },
+      "accuracy": 0.42857142857142855,
+      "macro avg": {
+        "precision": 0.42191224315813286,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.42476382083660347,
+        "support": 140.0
+      },
+      "weighted avg": {
+        "precision": 0.4219122431581328,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.4247638208366035,
+        "support": 140.0
+      }
+    },
+    "feature_importance": {
+      "trigram_entropy": 0.08565332422764071,
+      "bigram_entropy": 0.0784608966260262,
+      "file_size": 0.07440887786517454,
+      "block_entropy_std_16": 0.05868528109207614,
+      "entropy": 0.0554507680075385,
+      "diff_entropy": 0.05409462198681519,
+      "runs": 0.04805509128736997,
+      "top16_ratio": 0.0434601448820322,
+      "top8_ratio": 0.04063990602983991,
+      "block_entropy_std_8": 0.040295533206769985,
+      "block_mean_std_8": 0.039764108257956864,
+      "serial_corr": 0.035458678810319534,
+      "byte_kurtosis": 0.03414936015447765,
+      "even_byte_ratio": 0.032737731399995286,
+      "byte_mean": 0.032059170512107764,
+      "chi2": 0.03169194060161471,
+      "byte_skewness": 0.03160047492762567,
+      "block_mean_std_16": 0.031233290684916846,
+      "runs_z": 0.030172632531001654,
+      "zero_byte_ratio": 0.027700904136858058,
+      "high_byte_ratio": 0.02734362353052692,
+      "low_byte_ratio": 0.026103328571083963,
+      "byte_variance": 0.023369966834780393,
+      "peak_count": 0.011449685644363276,
+      "max_run_length": 0.005960658191088123
+    },
+    "individual_predictions": [
+      {
+        "file": "aes_128_s000_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s001_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s002_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s003_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s004_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s005_openssl.bin",
+        "true": "aes128",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s006_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s007_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s008_openssl.bin",
+        "true": "aes128",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s009_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s010_liboqs.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s011_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s012_liboqs.bin",
+        "true": "aes128",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s013_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s014_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_128_s015_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_128_s016_liboqs.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s017_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s018_liboqs.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_128_s019_liboqs.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s020_openssl.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s021_openssl.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s022_openssl.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s023_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_256_s024_openssl.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s025_openssl.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s026_openssl.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s027_openssl.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s028_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s029_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s030_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s031_liboqs.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s032_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s033_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s034_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s035_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s036_liboqs.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s037_liboqs.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s038_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_256_s039_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "des_s040_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s041_openssl.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s042_openssl.bin",
+        "true": "des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s043_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s044_openssl.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s045_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s046_openssl.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s047_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s048_openssl.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s049_openssl.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s050_liboqs.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s051_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "des_s052_liboqs.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s053_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s054_liboqs.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s055_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s056_liboqs.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s057_liboqs.bin",
+        "true": "des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s058_liboqs.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s059_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s060_openssl.bin",
+        "true": "3des",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s061_openssl.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s062_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s063_openssl.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s064_openssl.bin",
+        "true": "3des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s065_openssl.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s066_openssl.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s067_openssl.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s068_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s069_openssl.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s070_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "3des_s071_liboqs.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s072_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s073_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "3des_s074_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s075_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s076_liboqs.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s077_liboqs.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s078_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s079_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "chacha20_s080_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s081_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s082_openssl.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s083_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s084_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s085_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s086_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s087_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "chacha20_s088_openssl.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s089_openssl.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s090_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s091_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s092_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s093_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s094_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s095_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s096_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s097_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s098_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s099_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s100_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s101_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s102_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "rsa_2048_s103_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s104_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "rsa_2048_s105_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s106_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s107_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s108_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s109_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s110_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s111_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s112_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s113_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s114_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s115_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s116_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s117_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s118_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s119_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s120_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s121_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s122_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s123_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s124_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s125_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s126_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s127_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s128_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s129_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s130_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s131_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s132_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s133_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s134_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s135_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s136_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s137_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s138_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s139_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      }
+    ]
+  },
+  "LogisticRegression": {
+    "model_name": "LogisticRegression",
+    "overall_accuracy": 0.2857,
+    "per_class_accuracy": {
+      "3des": {
+        "correct": 6,
+        "total": 20,
+        "accuracy": 0.3
+      },
+      "aes128": {
+        "correct": 2,
+        "total": 20,
+        "accuracy": 0.1
+      },
+      "aes256": {
+        "correct": 2,
+        "total": 20,
+        "accuracy": 0.1
+      },
+      "chacha20": {
+        "correct": 4,
+        "total": 20,
+        "accuracy": 0.2
+      },
+      "des": {
+        "correct": 1,
+        "total": 20,
+        "accuracy": 0.05
+      },
+      "mlkem768": {
+        "correct": 11,
+        "total": 20,
+        "accuracy": 0.55
+      },
+      "rsa2048": {
+        "correct": 14,
+        "total": 20,
+        "accuracy": 0.7
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "3des",
+        "aes128",
+        "aes256",
+        "chacha20",
+        "des",
+        "mlkem768",
+        "rsa2048"
+      ],
+      "matrix": [
+        [
+          6,
+          0,
+          3,
+          3,
+          6,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          6,
+          5,
+          2,
+          2,
+          3
+        ],
+        [
+          4,
+          4,
+          2,
+          2,
+          2,
+          6,
+          0
+        ],
+        [
+          3,
+          3,
+          1,
+          4,
+          3,
+          5,
+          1
+        ],
+        [
+          8,
+          2,
+          4,
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          2,
+          11,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          2,
+          0,
+          0,
+          14
+        ]
+      ]
+    },
+    "classification_report": {
+      "3des": {
+        "precision": 0.2727272727272727,
+        "recall": 0.3,
+        "f1-score": 0.2857142857142857,
+        "support": 20.0
+      },
+      "aes128": {
+        "precision": 0.13333333333333333,
+        "recall": 0.1,
+        "f1-score": 0.11428571428571428,
+        "support": 20.0
+      },
+      "aes256": {
+        "precision": 0.1,
+        "recall": 0.1,
+        "f1-score": 0.1,
+        "support": 20.0
+      },
+      "chacha20": {
+        "precision": 0.19047619047619047,
+        "recall": 0.2,
+        "f1-score": 0.1951219512195122,
+        "support": 20.0
+      },
+      "des": {
+        "precision": 0.0625,
+        "recall": 0.05,
+        "f1-score": 0.05555555555555555,
+        "support": 20.0
+      },
+      "mlkem768": {
+        "precision": 0.4074074074074074,
+        "recall": 0.55,
+        "f1-score": 0.46808510638297873,
+        "support": 20.0
+      },
+      "rsa2048": {
+        "precision": 0.7368421052631579,
+        "recall": 0.7,
+        "f1-score": 0.717948717948718,
+        "support": 20.0
+      },
+      "accuracy": 0.2857142857142857,
+      "macro avg": {
+        "precision": 0.2718980441724802,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.27667304730096637,
+        "support": 140.0
+      },
+      "weighted avg": {
+        "precision": 0.27189804417248026,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.27667304730096637,
+        "support": 140.0
+      }
+    },
+    "feature_importance": {},
+    "individual_predictions": [
+      {
+        "file": "aes_128_s000_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s001_openssl.bin",
+        "true": "aes128",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s002_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s003_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s004_openssl.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s005_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s006_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s007_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s008_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s009_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s010_liboqs.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s011_liboqs.bin",
+        "true": "aes128",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s012_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s013_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s014_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes128",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_128_s015_liboqs.bin",
+        "true": "aes128",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_128_s016_liboqs.bin",
+        "true": "aes128",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s017_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s018_liboqs.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_128_s019_liboqs.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s020_openssl.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s021_openssl.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s022_openssl.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s023_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_256_s024_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s025_openssl.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s026_openssl.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s027_openssl.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s028_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s029_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s030_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s031_liboqs.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s032_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s033_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s034_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s035_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s036_liboqs.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s037_liboqs.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s038_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_256_s039_liboqs.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "des_s040_openssl.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s041_openssl.bin",
+        "true": "des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s042_openssl.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s043_openssl.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s044_openssl.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s045_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s046_openssl.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s047_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s048_openssl.bin",
+        "true": "des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s049_openssl.bin",
+        "true": "des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s050_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s051_liboqs.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "des_s052_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s053_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s054_liboqs.bin",
+        "true": "des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s055_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s056_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s057_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s058_liboqs.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s059_liboqs.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s060_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s061_openssl.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s062_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s063_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s064_openssl.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s065_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s066_openssl.bin",
+        "true": "3des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s067_openssl.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s068_openssl.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s069_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s070_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "3des_s071_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s072_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s073_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "3des_s074_liboqs.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s075_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s076_liboqs.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s077_liboqs.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s078_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s079_liboqs.bin",
+        "true": "3des",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "chacha20_s080_openssl.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s081_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s082_openssl.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s083_openssl.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s084_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s085_openssl.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s086_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s087_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "chacha20_s088_openssl.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s089_openssl.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s090_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s091_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s092_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s093_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s094_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s095_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s096_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s097_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s098_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s099_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s100_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s101_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s102_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "rsa_2048_s103_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s104_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "rsa_2048_s105_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s106_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s107_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s108_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s109_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s110_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s111_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s112_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s113_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s114_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s115_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s116_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s117_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s118_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s119_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s120_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s121_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s122_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s123_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s124_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s125_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s126_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s127_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s128_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s129_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s130_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s131_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s132_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s133_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s134_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s135_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s136_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s137_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s138_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s139_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      }
+    ]
+  },
+  "LinearSVM": {
+    "model_name": "LinearSVM",
+    "overall_accuracy": 0.3,
+    "per_class_accuracy": {
+      "3des": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "aes128": {
+        "correct": 0,
+        "total": 20,
+        "accuracy": 0.0
+      },
+      "aes256": {
+        "correct": 4,
+        "total": 20,
+        "accuracy": 0.2
+      },
+      "chacha20": {
+        "correct": 4,
+        "total": 20,
+        "accuracy": 0.2
+      },
+      "des": {
+        "correct": 3,
+        "total": 20,
+        "accuracy": 0.15
+      },
+      "mlkem768": {
+        "correct": 10,
+        "total": 20,
+        "accuracy": 0.5
+      },
+      "rsa2048": {
+        "correct": 16,
+        "total": 20,
+        "accuracy": 0.8
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "3des",
+        "aes128",
+        "aes256",
+        "chacha20",
+        "des",
+        "mlkem768",
+        "rsa2048"
+      ],
+      "matrix": [
+        [
+          5,
+          0,
+          3,
+          2,
+          7,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          5,
+          3,
+          2,
+          5
+        ],
+        [
+          2,
+          1,
+          4,
+          3,
+          3,
+          6,
+          1
+        ],
+        [
+          4,
+          2,
+          2,
+          4,
+          3,
+          4,
+          1
+        ],
+        [
+          7,
+          1,
+          3,
+          3,
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          4,
+          4,
+          1,
+          10,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          2,
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    "classification_report": {
+      "3des": {
+        "precision": 0.2631578947368421,
+        "recall": 0.25,
+        "f1-score": 0.2564102564102564,
+        "support": 20.0
+      },
+      "aes128": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 20.0
+      },
+      "aes256": {
+        "precision": 0.19047619047619047,
+        "recall": 0.2,
+        "f1-score": 0.1951219512195122,
+        "support": 20.0
+      },
+      "chacha20": {
+        "precision": 0.17391304347826086,
+        "recall": 0.2,
+        "f1-score": 0.18604651162790697,
+        "support": 20.0
+      },
+      "des": {
+        "precision": 0.15,
+        "recall": 0.15,
+        "f1-score": 0.15,
+        "support": 20.0
+      },
+      "mlkem768": {
+        "precision": 0.38461538461538464,
+        "recall": 0.5,
+        "f1-score": 0.43478260869565216,
+        "support": 20.0
+      },
+      "rsa2048": {
+        "precision": 0.64,
+        "recall": 0.8,
+        "f1-score": 0.7111111111111111,
+        "support": 20.0
+      },
+      "accuracy": 0.3,
+      "macro avg": {
+        "precision": 0.25745178761523974,
+        "recall": 0.3,
+        "f1-score": 0.27621034843777703,
+        "support": 140.0
+      },
+      "weighted avg": {
+        "precision": 0.25745178761523974,
+        "recall": 0.3,
+        "f1-score": 0.276210348437777,
+        "support": 140.0
+      }
+    },
+    "feature_importance": {},
+    "individual_predictions": [
+      {
+        "file": "aes_128_s000_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s001_openssl.bin",
+        "true": "aes128",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s002_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s003_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s004_openssl.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s005_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s006_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s007_openssl.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s008_openssl.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s009_openssl.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s010_liboqs.bin",
+        "true": "aes128",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s011_liboqs.bin",
+        "true": "aes128",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s012_liboqs.bin",
+        "true": "aes128",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_128_s013_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s014_liboqs.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_128_s015_liboqs.bin",
+        "true": "aes128",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_128_s016_liboqs.bin",
+        "true": "aes128",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_128_s017_liboqs.bin",
+        "true": "aes128",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_128_s018_liboqs.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_128_s019_liboqs.bin",
+        "true": "aes128",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s020_openssl.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s021_openssl.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s022_openssl.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s023_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_256_s024_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s025_openssl.bin",
+        "true": "aes256",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s026_openssl.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "aes_256_s027_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s028_openssl.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s029_openssl.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s030_liboqs.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s031_liboqs.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s032_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s033_liboqs.bin",
+        "true": "aes256",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "aes_256_s034_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s035_liboqs.bin",
+        "true": "aes256",
+        "predicted": "aes256",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "aes_256_s036_liboqs.bin",
+        "true": "aes256",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s037_liboqs.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "aes_256_s038_liboqs.bin",
+        "true": "aes256",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "aes_256_s039_liboqs.bin",
+        "true": "aes256",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "des_s040_openssl.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s041_openssl.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s042_openssl.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s043_openssl.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s044_openssl.bin",
+        "true": "des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s045_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s046_openssl.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s047_openssl.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s048_openssl.bin",
+        "true": "des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s049_openssl.bin",
+        "true": "des",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s050_liboqs.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s051_liboqs.bin",
+        "true": "des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "des_s052_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s053_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "des_s054_liboqs.bin",
+        "true": "des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s055_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "des_s056_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s057_liboqs.bin",
+        "true": "des",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "des_s058_liboqs.bin",
+        "true": "des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "des_s059_liboqs.bin",
+        "true": "des",
+        "predicted": "des",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s060_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s061_openssl.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s062_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s063_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s064_openssl.bin",
+        "true": "3des",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s065_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s066_openssl.bin",
+        "true": "3des",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s067_openssl.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s068_openssl.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "3des_s069_openssl.bin",
+        "true": "3des",
+        "predicted": "3des",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s070_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "3des_s071_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s072_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s073_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "3des_s074_liboqs.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s075_liboqs.bin",
+        "true": "3des",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "3des_s076_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s077_liboqs.bin",
+        "true": "3des",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "3des_s078_liboqs.bin",
+        "true": "3des",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "3des_s079_liboqs.bin",
+        "true": "3des",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "chacha20_s080_openssl.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s081_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s082_openssl.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s083_openssl.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s084_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s085_openssl.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s086_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s087_openssl.bin",
+        "true": "chacha20",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "chacha20_s088_openssl.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s089_openssl.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s090_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s091_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s092_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s093_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "chacha20_s094_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "rsa2048",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "chacha20_s095_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s096_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "mlkem768",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "chacha20_s097_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s098_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "chacha20_s099_liboqs.bin",
+        "true": "chacha20",
+        "predicted": "chacha20",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s100_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s101_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s102_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "3des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "rsa_2048_s103_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s104_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "rsa_2048_s105_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s106_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s107_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s108_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s109_openssl.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s110_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s111_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s112_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s113_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s114_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s115_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "rsa_2048_s116_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "rsa_2048_s117_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "rsa_2048_s118_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "rsa_2048_s119_liboqs.bin",
+        "true": "rsa2048",
+        "predicted": "rsa2048",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s120_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s121_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s122_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "des",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s123_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s124_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s125_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s126_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "openssl",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s127_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s128_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s129_openssl.bin",
+        "true": "mlkem768",
+        "predicted": "aes128",
+        "correct": false,
+        "implementation": "openssl",
+        "padding_mode": "Zero"
+      },
+      {
+        "file": "ml_kem_768_s130_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s131_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s132_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s133_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s134_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "chacha20",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s135_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ISO10126"
+      },
+      {
+        "file": "ml_kem_768_s136_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      },
+      {
+        "file": "ml_kem_768_s137_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "aes256",
+        "correct": false,
+        "implementation": "liboqs",
+        "padding_mode": "PKCS7"
+      },
+      {
+        "file": "ml_kem_768_s138_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "Random"
+      },
+      {
+        "file": "ml_kem_768_s139_liboqs.bin",
+        "true": "mlkem768",
+        "predicted": "mlkem768",
+        "correct": true,
+        "implementation": "liboqs",
+        "padding_mode": "ANSI_X923"
+      }
+    ]
+  }
+}

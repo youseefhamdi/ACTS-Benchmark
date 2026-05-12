@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Expanded multi-model cipher identification accuracy across metadata tiers. Gemma 4 and GPT-OSS: $n=14$ per tier. Nemotron: $n=7$ (T1/T2), $n=21$ (T3).}
+\label{tab:corpus14_multimodel}
+\begin{tabular}{lccc@{\hspace{1em}}c}
+\toprule
+\textbf{Model} & \textbf{Tier-1 (Meta)} & \textbf{Tier-2 (File)} & \textbf{Tier-3 (Blind)} & \textbf{Gap} \\
+\midrule
+Gemma 4 (31B) & 14/14 (100.0%) & 12/14 (85.7%) & 2/14 (14.3%) & 85.7% \\
+GPT-OSS (120B) & 14/14 (100.0%) & 14/14 (100.0%) & 5/14 (35.7%) & 64.3% \\
+Nemotron Super & 7/7 (100.0%) & 7/7 (100.0%) & 12/21 (57.1%) & 42.9% \\
+\midrule
+\textbf{Average} & 100.0% & 95.2% & 35.7% & 64.3% \\
+\bottomrule
+\end{tabular}
+\end{table}

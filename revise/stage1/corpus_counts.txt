@@ -1,0 +1,2 @@
+Pilot corpus: 140 files (20 per cipher)
+Expanded corpus: 700 files (100 per cipher)

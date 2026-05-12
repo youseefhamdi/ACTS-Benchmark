@@ -1,0 +1,217 @@
+[
+  {
+    "variant": "Claude (conservative cascade)",
+    "overall_accuracy": 0.4857,
+    "unique_size_accuracy": 0.9111,
+    "overlap_size_accuracy": 0.2842,
+    "per_class": {
+      "aes128": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "aes256": {
+        "correct": 0,
+        "total": 20,
+        "accuracy": 0.0
+      },
+      "des": {
+        "correct": 0,
+        "total": 20,
+        "accuracy": 0.0
+      },
+      "3des": {
+        "correct": 8,
+        "total": 20,
+        "accuracy": 0.4
+      },
+      "chacha20": {
+        "correct": 0,
+        "total": 20,
+        "accuracy": 0.0
+      },
+      "rsa2048": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "mlkem768": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    }
+  },
+  {
+    "variant": "GPT-4 (elimination + entropy tie-break)",
+    "overall_accuracy": 0.5357,
+    "unique_size_accuracy": 1.0,
+    "overlap_size_accuracy": 0.3158,
+    "per_class": {
+      "aes128": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "aes256": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "des": {
+        "correct": 2,
+        "total": 20,
+        "accuracy": 0.1
+      },
+      "3des": {
+        "correct": 8,
+        "total": 20,
+        "accuracy": 0.4
+      },
+      "chacha20": {
+        "correct": 0,
+        "total": 20,
+        "accuracy": 0.0
+      },
+      "rsa2048": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "mlkem768": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    }
+  },
+  {
+    "variant": "Gemini (confidence scoring)",
+    "overall_accuracy": 0.5357,
+    "unique_size_accuracy": 1.0,
+    "overlap_size_accuracy": 0.3158,
+    "per_class": {
+      "aes128": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "aes256": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "des": {
+        "correct": 2,
+        "total": 20,
+        "accuracy": 0.1
+      },
+      "3des": {
+        "correct": 8,
+        "total": 20,
+        "accuracy": 0.4
+      },
+      "chacha20": {
+        "correct": 0,
+        "total": 20,
+        "accuracy": 0.0
+      },
+      "rsa2048": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "mlkem768": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    }
+  },
+  {
+    "variant": "Random baseline",
+    "overall_accuracy": 0.5286,
+    "unique_size_accuracy": 1.0,
+    "overlap_size_accuracy": 0.3053,
+    "per_class": {
+      "aes128": {
+        "correct": 7,
+        "total": 20,
+        "accuracy": 0.35
+      },
+      "aes256": {
+        "correct": 8,
+        "total": 20,
+        "accuracy": 0.4
+      },
+      "des": {
+        "correct": 9,
+        "total": 20,
+        "accuracy": 0.45
+      },
+      "3des": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "chacha20": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "rsa2048": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "mlkem768": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    }
+  },
+  {
+    "variant": "Human expert (theoretical max baseline)",
+    "overall_accuracy": 0.5571,
+    "unique_size_accuracy": 1.0,
+    "overlap_size_accuracy": 0.3474,
+    "per_class": {
+      "aes128": {
+        "correct": 7,
+        "total": 20,
+        "accuracy": 0.35
+      },
+      "aes256": {
+        "correct": 12,
+        "total": 20,
+        "accuracy": 0.6
+      },
+      "des": {
+        "correct": 5,
+        "total": 20,
+        "accuracy": 0.25
+      },
+      "3des": {
+        "correct": 11,
+        "total": 20,
+        "accuracy": 0.55
+      },
+      "chacha20": {
+        "correct": 3,
+        "total": 20,
+        "accuracy": 0.15
+      },
+      "rsa2048": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "mlkem768": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    }
+  }
+]

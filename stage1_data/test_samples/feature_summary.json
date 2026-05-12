@@ -1,0 +1,212 @@
+[
+  {
+    "file": "aes_128_s000_openssl.bin",
+    "cipher": "AES-128",
+    "size": 288,
+    "entropy": 7.273,
+    "chi2": 252.44,
+    "top_bytes": [
+      [
+        246,
+        5
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        248,
+        4
+      ],
+      [
+        238,
+        4
+      ],
+      [
+        151,
+        4
+      ]
+    ],
+    "hex_prefix": "f821801beeef98f64834cb12eeab36ff"
+  },
+  {
+    "file": "aes_256_s020_openssl.bin",
+    "cipher": "AES-256",
+    "size": 1040,
+    "entropy": 7.8126,
+    "chi2": 250.34,
+    "top_bytes": [
+      [
+        50,
+        10
+      ],
+      [
+        174,
+        9
+      ],
+      [
+        25,
+        9
+      ],
+      [
+        230,
+        9
+      ],
+      [
+        95,
+        9
+      ]
+    ],
+    "hex_prefix": "96c96825db7d482ba4f915779099d2e3"
+  },
+  {
+    "file": "des_s040_openssl.bin",
+    "cipher": "DES",
+    "size": 4112,
+    "entropy": 7.9575,
+    "chi2": 240.87,
+    "top_bytes": [
+      [
+        15,
+        30
+      ],
+      [
+        67,
+        27
+      ],
+      [
+        93,
+        26
+      ],
+      [
+        40,
+        25
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "hex_prefix": "3b1a1d134ec535ebe7e3b61167ff4c82"
+  },
+  {
+    "file": "3des_s060_openssl.bin",
+    "cipher": "3DES",
+    "size": 264,
+    "entropy": 7.2657,
+    "chi2": 220.85,
+    "top_bytes": [
+      [
+        152,
+        4
+      ],
+      [
+        240,
+        4
+      ],
+      [
+        126,
+        3
+      ],
+      [
+        239,
+        3
+      ],
+      [
+        45,
+        3
+      ]
+    ],
+    "hex_prefix": "7e59ef98ba100af13c600f31d42da676"
+  },
+  {
+    "file": "chacha20_s080_openssl.bin",
+    "cipher": "ChaCha20",
+    "size": 1040,
+    "entropy": 7.8338,
+    "chi2": 225.23,
+    "top_bytes": [
+      [
+        103,
+        10
+      ],
+      [
+        241,
+        10
+      ],
+      [
+        157,
+        9
+      ],
+      [
+        168,
+        9
+      ],
+      [
+        97,
+        9
+      ]
+    ],
+    "hex_prefix": "fba5c2b43e08789a994baf599df5d957"
+  },
+  {
+    "file": "rsa_2048_s100_openssl.bin",
+    "cipher": "RSA-2048",
+    "size": 256,
+    "entropy": 7.1066,
+    "chi2": 286.0,
+    "top_bytes": [
+      [
+        254,
+        5
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        63,
+        4
+      ],
+      [
+        46,
+        4
+      ],
+      [
+        247,
+        4
+      ]
+    ],
+    "hex_prefix": "4155414fdf1638a509e9858d58be7c95"
+  },
+  {
+    "file": "ml_kem_768_s120_openssl.bin",
+    "cipher": "ML-KEM-768",
+    "size": 1088,
+    "entropy": 7.8149,
+    "chi2": 268.71,
+    "top_bytes": [
+      [
+        97,
+        10
+      ],
+      [
+        66,
+        10
+      ],
+      [
+        224,
+        10
+      ],
+      [
+        226,
+        10
+      ],
+      [
+        172,
+        9
+      ]
+    ],
+    "hex_prefix": "5eecdd43ac3a52d39eac57075d5b0dde"
+  }
+]

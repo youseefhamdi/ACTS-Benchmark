@@ -1,0 +1,194 @@
+{
+  "rebuttal": {
+    "overall_score": 9.2,
+    "completeness": 9.5,
+    "evidence_quality": 9.0,
+    "logical_soundness": 9.5,
+    "adequacy_of_response": 9.8,
+    "key_strengths": [
+      "Exceptional transition from a 'preliminary study' to a 'validated benchmark protocol'.",
+      "Rigorous statistical framework including Wilson CIs, McNemar's tests, and Cohen's d.",
+      "Comprehensive 10-configuration ablation study that isolates the LLM's actual contribution (orchestration vs. cryptanalysis).",
+      "Proactive addressing of data leakage via strict train/test separation and hashing.",
+      "High transparency regarding the 'metadata gap' and the influence of inference backends."
+    ],
+    "key_weaknesses": [
+      "The 'Real Empirical Validation' sample size (n=14) remains small, though the authors honestly acknowledge this as a pilot.",
+      "Reliance on 'zero cost' endpoints may introduce variability in model quantization or system prompts that aren't fully detailed."
+    ],
+    "recommended_improvements": [
+      "Explicitly document the exact system prompts used for the 161 inferences to ensure reproducibility.",
+      "Clarify if the 'GPT-OSS' and 'Nemotron' models are specific fine-tunes or base models, as naming is slightly ambiguous."
+    ],
+    "reviewer_would_accept": "yes",
+    "comment": "This is a model rebuttal that transforms a weak preliminary paper into a rigorous scientific contribution through massive empirical expansion and statistical discipline."
+  },
+  "abstract": {
+    "overall_score": 6.4,
+    "completeness": 7.5,
+    "evidence_quality": 5.5,
+    "logical_soundness": 6.0,
+    "adequacy_of_response": 6.5,
+    "key_strengths": [
+      "Identifies and explicitly addresses the critical issue of metadata leakage in LLM-based cipher identification.",
+      "Proposes a concrete, tiered benchmark (ACTS v2) with a multi\u2011dimensional randomised corpus.",
+      "Provides quantitative results across multiple models and back\u2011ends, highlighting backend\u2011dependent behaviour.",
+      "Emphasises reproducibility by outlining a benchmark protocol and statistical controls."
+    ],
+    "key_weaknesses": [
+      "The sample size (161 inferences) is modest for the claimed statistical analyses; confidence intervals and McNemar tests may be under\u2011powered.",
+      "Key metrics such as the \"metadata gap\" are not clearly defined, making the reported 75\u2011point drop ambiguous.",
+      "Insufficient methodological detail on how the five\u2011dimensional randomisation is performed and how train/test splits avoid leakage.",
+      "Conclusions appear overstated (e.g., claiming LLMs are \"not cryptanalysis\u2011based\") given the limited scope of ciphers and the absence of baseline cryptanalytic baselines.",
+      "No explicit statement about dataset availability or licensing, which is essential for reproducibility."
+    ],
+    "recommended_improvements": [
+      "Provide a precise definition of the \"metadata gap\" and how it is computed.",
+      "Increase the number of blind test instances (or perform multiple randomised runs) to strengthen statistical power and report effect sizes.",
+      "Detail the generation process for the 140\u2011file corpus, including distributions for plaintext, keys, IVs, padding, and implementation variations.",
+      "Include baseline comparisons with traditional cryptanalytic tools or simple statistical classifiers to contextualise LLM performance.",
+      "Clarify how the dataset and benchmark code will be released (e.g., repository link, licensing) to ensure true reproducibility.",
+      "Discuss limitations, such as the focus on a narrow set of ciphers and the potential impact of model size, prompting, and temperature settings."
+    ],
+    "reviewer_would_accept": "maybe",
+    "comment": "The abstract tackles an important gap but needs clearer metrics, larger evaluation, and more methodological transparency before it can be accepted."
+  },
+  "results": {
+    "overall_score": 6.5,
+    "completeness": 8.0,
+    "evidence_quality": 6.0,
+    "logical_soundness": 7.0,
+    "adequacy_of_response": 7.0,
+    "key_strengths": [
+      "Empirical multi-model evaluation across different inference backends reveals novel backend-dependent behavior.",
+      "Clear distinction between structural and statistical cipher features, supported by concrete examples (RSA, ML-KEM vs AES/ChaCha20).",
+      "Thorough statistical validation (Wilson CIs, McNemar test, power analysis) and transparent acknowledgment of limitations.",
+      "Ablation study quantifies the contribution of LLM versus traditional tools, showing LLMs add value in orchestration.",
+      "Well-structured presentation with tables, figures, and logical flow from results to implications."
+    ],
+    "key_weaknesses": [
+      "Pilot sample sizes for blind (Tier-3) tests are small (n=14-21), leading to wide confidence intervals and limited statistical power.",
+      "Inconsistencies in reported numbers: e.g., LLM-only accuracy (25.0%) vs. claimed LLM contribution relative to tool baseline (34.7 pp) do not align with the ablation table.",
+      "Reliance on a single prompt template ignores potential prompt engineering effects that could influence outcomes.",
+      "Limited model coverage (only 5 of 19 planned models) restricts generalizability of the backend-dependent behavior claim.",
+      "Some claims (e.g., 'first empirically validated, statistically controlled measurement') may overstate novelty without sufficient comparison to prior work."
+    ],
+    "recommended_improvements": [
+      "Increase the blind-test sample size to at least n=25 per model-backend cell to reduce uncertainty and improve effect\u2011size precision.",
+      "Test multiple prompt variations (or include a prompt\u2011sensitivity analysis) to assess robustness of the observed biases.",
+      "Expand model coverage to include the full set of 19 planned models before drawing broad conclusions about backend dependence.",
+      "Clarify and reconcile the ablation study numbers: explicitly define what 'Full pipeline' and 'LLM only' refer to, and verify the arithmetic of accuracy contributions.",
+      "Adjust for multiple comparisons in statistical tests (e.g., Bonferroni correction) or report false\u2011discovery rates.",
+      "Provide practical significance metrics (e.g., cost\u2011benefit analysis) alongside statistical significance to aid interpretation of the LLM's utility."
+    ],
+    "reviewer_would_accept": "maybe",
+    "comment": "The study offers valuable insights into LLM cryptanalysis limitations but is hampered by small sample sizes and internal inconsistencies that must be resolved before acceptance."
+  },
+  "cipher_judgments": [
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 0.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "The model provided a specific answer from the list despite the ground truth being 'unknown'. Since the model was forbidden from providing explanations and the ciphertext statistics (entropy 7.1, chi-square 286) are generic for almost any modern symmetric cipher, there is no structural evidence to distinguish AES-256 from AES-128 or ChaCha20. The prediction is a guess based on the provided options, likely biased toward the most common/prominent cipher in the list.",
+      "model": "openai/gpt-oss-120b:free",
+      "true_cipher": "unknown",
+      "predicted": "AES-256"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 1.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "The model simply output 'AES-128' without referencing any of the provided statistics (entropy, chi\u2011square, hex prefix) or explaining why those values point to that cipher. No structural analysis was performed, making the answer appear to be a guess driven by frequency bias rather than genuine cryptographic reasoning.",
+      "model": "nemotron-3-super:cloud",
+      "true_cipher": "unknown",
+      "predicted": "AES-128"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 1.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "Model provided only a cipher name without referencing any statistical or structural properties; given unknown ground truth, the prediction is unverified and likely a biased guess.",
+      "model": "gpt-oss:120b-cloud",
+      "true_cipher": "unknown",
+      "predicted": "AES-256"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 0.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "The model provided a single-word answer as requested by the prompt, offering no reasoning or analysis. From a cryptographic perspective, it is mathematically impossible to distinguish between modern stream ciphers (ChaCha20) and block ciphers in CTR mode (AES) using only 256 bytes of ciphertext and basic statistics (entropy/chi-square), as all produce pseudo-random distributions. The prediction is a guess based on the provided list, not a result of forensic analysis.",
+      "model": "gemma4:31b-cloud",
+      "true_cipher": "unknown",
+      "predicted": "ChaCha20"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 0.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "The model returned a runtime error instead of providing a cipher name or any analysis. No statistical or structural properties were cited, there is no internal reasoning, and a human cryptographer would find this response uninformative. Consequently, it cannot be considered a genuine cryptographic analysis and appears to be an artifact rather than a reasoned prediction.",
+      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "true_cipher": "unknown",
+      "predicted": "UNKNOWN"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 3.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [
+        "file size 544 bytes",
+        "entropy 7.6277 bits/byte",
+        "chi-square statistic 244"
+      ],
+      "comment": "The model did not output a cipher name as required, only provided partial reasoning without a conclusion. While it cited statistical properties, the analysis is incomplete and not convincing, suggesting the response is more likely a guess or bias rather than genuine cryptographic deduction.",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "true_cipher": "unknown",
+      "predicted": "UNKNOWN"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 0.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "The model provided a single-word answer as requested by the prompt, offering no reasoning or analysis. Given that the ground truth is 'unknown' and the provided statistics (entropy of 7.26 and a high chi-square) are generic for almost any modern block cipher or random stream, there is no structural evidence in the hex prefix or statistics that uniquely identifies DES. The prediction is likely a stochastic guess or a bias toward a common cipher name in the provided list.",
+      "model": "nemotron-3-super:cloud",
+      "true_cipher": "unknown",
+      "predicted": "DES"
+    },
+    {
+      "correct": false,
+      "prediction_matches_ground_truth": false,
+      "is_genuine_analysis": false,
+      "reasoning_quality": 1.0,
+      "appears_random_or_biased": true,
+      "evidence_cited": [],
+      "comment": "The model gave only the cipher name without any reference to the provided statistics or structure, offering no analysis. Since the ground truth is unknown, we cannot confirm correctness, and the answer appears to be a guess rather than a reasoned forensic assessment.",
+      "model": "gpt-oss:120b-cloud",
+      "true_cipher": "unknown",
+      "predicted": "ChaCha20"
+    }
+  ],
+  "summary": {
+    "mean_document_score": 7.37,
+    "predictions_judged": 8,
+    "predictions_genuine": 0
+  }
+}

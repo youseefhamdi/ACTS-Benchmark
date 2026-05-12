@@ -1,0 +1,4 @@
+*.omc
+.rune
+.omc/
+.rune/

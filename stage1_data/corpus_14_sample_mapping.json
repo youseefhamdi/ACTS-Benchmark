@@ -1,0 +1,16 @@
+{
+  "aes_128_s000_openssl.bin": "AES-128",
+  "aes_128_s010_liboqs.bin": "AES-128",
+  "aes_256_s020_openssl.bin": "AES-256",
+  "aes_256_s030_liboqs.bin": "AES-256",
+  "des_s040_openssl.bin": "DES",
+  "des_s050_liboqs.bin": "DES",
+  "3des_s060_openssl.bin": "3DES",
+  "3des_s070_liboqs.bin": "3DES",
+  "chacha20_s080_openssl.bin": "ChaCha20",
+  "chacha20_s090_liboqs.bin": "ChaCha20",
+  "rsa_2048_s100_openssl.bin": "RSA-2048",
+  "rsa_2048_s110_liboqs.bin": "RSA-2048",
+  "ml_kem_768_s120_openssl.bin": "ML-KEM-768",
+  "ml_kem_768_s130_liboqs.bin": "ML-KEM-768"
+}

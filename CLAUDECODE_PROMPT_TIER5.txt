@@ -1,0 +1,213 @@
+﻿# Claude Code Prompt — ACTS v2 Tier-5 Benchmark Execution
+# اكتب دي كاملة في Claude Code عشان يبدأ مرحلة Tier-5
+
+You are Claude Code, an expert AI research assistant. You are executing a critical benchmark experiment for an academic paper revision (ESWA-D-26-11044R1).
+
+## YOUR MISSION
+
+Execute **Tier-5** of the ACTS v2 benchmark on the existing 140-file ciphertext corpus using the existing infrastructure. The goal is to test whether forcing chain-of-thought reasoning, code-based analysis, or self-correction improves blind cipher identification accuracy.
+
+## WORKING DIRECTORY
+
+All work must happen under:
+```
+/home/elaref/.gidaai/workspaces/default/upgrade/acts_v2_poc/
+```
+
+You must use the EXACT paths below. Do not create new top-level directories.
+
+## EXISTING ASSETS (DO NOT RE-GENERATE THESE)
+
+1. **Dataset (140 files):** `stage1_data/corpus/*.bin`
+   - Manifest: `stage1_data/corpus/manifest.json`
+   - 20 files per cipher family × 7 families = 140 files
+   - Families: aes128, aes256, 3des, des, chacha20, rsa2048, mlkem768
+
+2. **Tier-5 Prompt Templates (already written):**
+   - `stage2_execution/prompts/tier5a_cot_enforced.md`
+   - `stage2_execution/prompts/tier5b_code_reasoning.md`
+   - `stage2_execution/prompts/tier5c_self_correction.md`
+   - Documentation: `stage2_execution/prompts/README_TIER5.md`
+
+3. **Existing Runner (reference only):** `tier5_runner.py`
+   - This runner only supports Ollama. You may extend it or build a new runner that supports both Ollama and OpenRouter.
+
+4. **Existing Results (do not overwrite without confirming):**
+   - Tier-1/2/3 results are in `stage2_execution/results/`
+   - Final summary: `FINAL_RESULTS_SUMMARY.json`
+
+## WHAT YOU MUST BUILD
+
+Build or extend a benchmark runner that:
+
+### 1. Supports TWO backends
+- **Ollama** (local, free): `http://localhost:11434/api/generate`
+  - Available models: `gemma4:31b-cloud`, `gpt-oss:120b-cloud`, `nemotron-3-super:cloud`, `deepseek-v4-flash:cloud`
+  - Note: `deepseek-v4-flash:cloud` may return 403; skip and try next if so.
+- **OpenRouter** (cloud, free tier): `https://openrouter.ai/api/v1/chat/completions`
+  - API Key: `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`
+  - Free models to try:
+    - `nvidia/nemotron-3-super-120b-a12b:free`
+    - `openai/gpt-oss-120b:free`
+    - `nvidia/nemotron-3-nano-30b-a3b:free`
+
+### 2. Reads prompt templates dynamically
+For each file and each tier (5a, 5b, 5c), read the corresponding `.md` template and fill in:
+- `{filename}` — the file name
+- `{file_size}` — number of bytes
+- `{hex_preview}` — first 128 bytes in hex
+- `{entropy}` — Shannon entropy
+- `{chi2}` — chi-square statistic
+- `{chi2_p}` — approximate p-value
+- `{top_bytes}` — top 5 most frequent bytes
+
+Compute these values within your script. Reuse the helper functions from `tier5_runner.py` if useful.
+
+### 3. Executes inferences and parses structured responses
+Each Tier-5 prompt asks for structured output. Parse the response to extract:
+- `final_answer_text` — the line containing the predicted cipher
+- `confidence` — confidence percentage if stated
+- `cot_present` — boolean (did the model show step-by-step reasoning?)
+- `code_present` — boolean (for tier 5b, was Python code included?)
+- `self_critique_present` — boolean (for tier 5c, was there self-correction?)
+- `raw_response` — full text
+
+### 4. Determines correctness
+Map the predicted cipher string to one of:
+`aes128`, `aes256`, `3des`, `des`, `chacha20`, `rsa2048`, `mlkem768`
+
+Compare with the ground truth from the filename: 
+- Filename pattern: `encrypted_{cipher_family}_run{N}.bin`
+- Example: `encrypted_aes_run1.bin` → ground truth = `aes128`
+- `encrypted_aes256_run5.bin` → `aes256`
+- `encrypted_rsa_run3.bin` → `rsa2048`
+- `encrypted_ml_run2.bin` → `mlkem768`
+
+### 5. Saves results in the EXACT format below
+
+Save files to: `stage2_execution/results/`
+
+Naming convention:
+```
+tier5{SUBTIER}_{MODEL_NAME_SAFE}_{BACKEND}.json
+```
+Examples:
+- `tier5a_gemma4_31b_cloud_ollama.json`
+- `tier5b_gpt_oss_120b_cloud_openrouter.json`
+- `tier5c_nemotron_super_ollama.json`
+
+Each file MUST be valid JSON with this structure:
+```json
+{
+  "metadata": {
+    "tier": "5a",
+    "subtier": "tier5a_cot_enforced",
+    "model": "gemma4:31b-cloud",
+    "backend": "ollama",
+    "total_tests": 140,
+    "completed": 140,
+    "accuracy": 0.214,
+    "timestamp": "2026-05-10T14:00:00Z"
+  },
+  "aggregate": {
+    "cot_present_rate": 0.95,
+    "code_present_rate": 0.0,
+    "self_critique_rate": 0.0,
+    "mean_confidence": 72.5,
+    "mean_response_time_seconds": 45.2
+  },
+  "results": [
+    {
+      "file": "encrypted_aes_run1.bin",
+      "true_cipher": "aes128",
+      "predicted": "aes256",
+      "correct": false,
+      "confidence": 85,
+      "cot_present": true,
+      "code_present": false,
+      "self_critique_present": false,
+      "raw_response": "STEP 1 — ENTROPY ANALYSIS: ...",
+      "elapsed_seconds": 32.1,
+      "model": "gemma4:31b-cloud",
+      "backend": "ollama"
+    }
+  ]
+}
+```
+
+### 6. Runs a PILOT first, then full corpus
+
+**Phase 1 — PILOT (do this first):**
+Run on exactly **14 representative files** using `stage1_data/corpus_14_sample_mapping.json`. 
+This file maps which 14 files represent the full 140-file diversity (2 per cipher family).
+
+For each tier (5a, 5b, 5c), run at least ONE model through the pilot. 
+Save as: `tier5a_pilot_gemma4_ollama.json`, etc.
+
+**Phase 2 — FULL (only after pilot succeeds):**
+Run the full 140-file corpus if the pilot results are saved correctly.
+
+### 7. Compares Tier-5 vs Tier-3
+
+After collecting Tier-5 results, compare against existing Tier-3 results.
+Read: `stage2_execution/results/gemma4_corpus14.json` (or similar) for Tier-3.
+
+Generate a comparison table showing:
+- Model
+- Tier-3 Blind Accuracy
+- Tier-5A CoT Accuracy
+- Tier-5B Code Accuracy  
+- Tier-5C Self-Correct Accuracy
+- Did forcing reasoning improve results?
+
+Save this comparison as: `stage2_execution/results/TIER5_COMPARISON.json`
+
+## EXECUTION PRIORITY
+
+1. **Start with Tier-5A** (easiest for models; highest completion rate)
+2. **Use available models**:
+   - First try Ollama models (free, fast): `gemma4:31b-cloud`, `gpt-oss:120b-cloud`, `nemotron-3-super:cloud`
+   - If Ollama model returns 403 or hangs, try OpenRouter free models
+3. **Run pilot first (14 files)**
+4. **Full corpus only after pilot validates**
+
+## IMPORTANT CONSTRAINTS
+
+- Do NOT modify existing result files from Tiers 1–3 without explicit confirmation.
+- Do NOT regenerate the 140-file corpus. It exists. Use it.
+- Do NOT move or rename existing directories. Save new results only.
+- Implement rate limiting (1–2 seconds between Ollama requests; respect OpenRouter rate limits).
+- Set timeouts: Ollama = 180s, OpenRouter = 120s per request.
+- If a model returns empty response or error, log it and continue. Do not crash the entire benchmark.
+- Be thorough: this data will be used in a formal rebuttal to academic reviewers.
+
+## REPORTING
+
+When you finish, print a summary showing:
+```
+========================================
+TIER-5 BENCHMARK COMPLETE
+========================================
+Files tested:     N
+Models tested:    [list]
+Tiers completed:  [5a/5b/5c]
+Pilot accuracy:   X% (Tier-5A), Y% (Tier-5B), Z% (Tier-5C)
+Full accuracy:    X% (Tier-5A), Y% (Tier-5B), Z% (Tier-5C)
+Key finding:      "Forcing CoT [improved/did not improve] blind accuracy vs Tier-3."
+Output files:     [list all JSON files created]
+========================================
+```
+
+Also save this summary as: `stage2_execution/results/TIER5_EXECUTION_SUMMARY.md`
+
+---
+
+## START NOW
+
+1. First, run `ls stage2_execution/prompts/` and `ls stage1_data/corpus/` to verify the assets exist.
+2. Read the prompt templates to understand the expected output format.
+3. Build or extend the runner.
+4. Execute Phase 1 (pilot) for Tier-5A immediately.
+5. Report progress after the pilot completes.
+
+Do not wait for human confirmation between steps unless you encounter an error you cannot resolve. Proceed autonomously.

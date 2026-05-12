@@ -1,0 +1,3320 @@
+{
+  "pairwise_comparisons": [
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 272.4923076923072,
+      "aes_chi2": 250.338461538461,
+      "difference": 22.15384615384619,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 268.12121212121224,
+      "aes_chi2": 259.3939393939394,
+      "difference": 8.727272727272862,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 268.70588235294076,
+      "aes_chi2": 272.9411764705877,
+      "difference": -4.2352941176469585,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 294.588235294117,
+      "aes_chi2": 264.4705882352934,
+      "difference": 30.117647058823593,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 294.588235294117,
+      "aes_chi2": 223.0588235294112,
+      "difference": 71.5294117647058,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 272.4923076923072,
+      "aes_chi2": 285.78461538461477,
+      "difference": -13.292307692307588,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 272.4923076923072,
+      "aes_chi2": 232.12307692307655,
+      "difference": 40.369230769230626,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 278.58823529411745,
+      "aes_chi2": 226.8235294117644,
+      "difference": 51.76470588235304,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 287.9999999999998,
+      "aes_chi2": 261.33333333333286,
+      "difference": 26.666666666666913,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 268.12121212121224,
+      "aes_chi2": 256.9696969696969,
+      "difference": 11.151515151515355,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 278.58823529411745,
+      "aes_chi2": 244.70588235294116,
+      "difference": 33.88235294117629,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 268.70588235294076,
+      "aes_chi2": 265.4117647058822,
+      "difference": 3.294117647058556,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 268.70588235294076,
+      "aes_chi2": 300.70588235294105,
+      "difference": -32.000000000000284,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 278.58823529411745,
+      "aes_chi2": 293.6470588235293,
+      "difference": -15.058823529411825,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 268.12121212121224,
+      "aes_chi2": 313.6969696969702,
+      "difference": -45.57575757575796,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 268.12121212121224,
+      "aes_chi2": 237.57575757575756,
+      "difference": 30.545454545454675,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 268.70588235294076,
+      "aes_chi2": 251.2941176470584,
+      "difference": 17.411764705882348,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 268.70588235294076,
+      "aes_chi2": 228.23529411764682,
+      "difference": 40.470588235293945,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 273.9393939393945,
+      "aes_chi2": 236.12121212121252,
+      "difference": 37.81818181818198,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s120_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 268.70588235294076,
+      "aes_chi2": 269.176470588235,
+      "difference": -0.4705882352942581,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 257.72307692307663,
+      "aes_chi2": 250.338461538461,
+      "difference": 7.384615384615643,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 262.7878787878787,
+      "aes_chi2": 259.3939393939394,
+      "difference": 3.39393939393932,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 263.05882352941154,
+      "aes_chi2": 272.9411764705877,
+      "difference": -9.88235294117618,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 224.9411764705877,
+      "aes_chi2": 264.4705882352934,
+      "difference": -39.52941176470571,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 224.9411764705877,
+      "aes_chi2": 223.0588235294112,
+      "difference": 1.8823529411764923,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 257.72307692307663,
+      "aes_chi2": 285.78461538461477,
+      "difference": -28.061538461538134,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 257.72307692307663,
+      "aes_chi2": 232.12307692307655,
+      "difference": 25.60000000000008,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 276.7058823529414,
+      "aes_chi2": 226.8235294117644,
+      "difference": 49.882352941176975,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 243.555555555555,
+      "aes_chi2": 261.33333333333286,
+      "difference": -17.777777777777857,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 262.7878787878787,
+      "aes_chi2": 256.9696969696969,
+      "difference": 5.818181818181813,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 276.7058823529414,
+      "aes_chi2": 244.70588235294116,
+      "difference": 32.00000000000023,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 263.05882352941154,
+      "aes_chi2": 265.4117647058822,
+      "difference": -2.352941176470665,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 263.05882352941154,
+      "aes_chi2": 300.70588235294105,
+      "difference": -37.647058823529505,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 276.7058823529414,
+      "aes_chi2": 293.6470588235293,
+      "difference": -16.94117647058789,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 262.7878787878787,
+      "aes_chi2": 313.6969696969702,
+      "difference": -50.9090909090915,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 262.7878787878787,
+      "aes_chi2": 237.57575757575756,
+      "difference": 25.212121212121133,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 263.05882352941154,
+      "aes_chi2": 251.2941176470584,
+      "difference": 11.764705882353127,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 263.05882352941154,
+      "aes_chi2": 228.23529411764682,
+      "difference": 34.823529411764724,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 277.8181818181824,
+      "aes_chi2": 236.12121212121252,
+      "difference": 41.69696969696986,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s121_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 263.05882352941154,
+      "aes_chi2": 269.176470588235,
+      "difference": -6.117647058823479,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 223.26153846153818,
+      "aes_chi2": 250.338461538461,
+      "difference": -27.07692307692281,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 221.09090909090907,
+      "aes_chi2": 259.3939393939394,
+      "difference": -38.30303030303031,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 221.17647058823508,
+      "aes_chi2": 272.9411764705877,
+      "difference": -51.764705882352644,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 258.8235294117641,
+      "aes_chi2": 264.4705882352934,
+      "difference": -5.647058823529278,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 258.8235294117641,
+      "aes_chi2": 223.0588235294112,
+      "difference": 35.76470588235293,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 223.26153846153818,
+      "aes_chi2": 285.78461538461477,
+      "difference": -62.52307692307659,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 223.26153846153818,
+      "aes_chi2": 232.12307692307655,
+      "difference": -8.861538461538373,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 266.3529411764705,
+      "aes_chi2": 226.8235294117644,
+      "difference": 39.52941176470608,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 261.3333333333329,
+      "aes_chi2": 261.33333333333286,
+      "difference": 5.684341886080802e-14,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 221.09090909090907,
+      "aes_chi2": 256.9696969696969,
+      "difference": -35.87878787878782,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 266.3529411764705,
+      "aes_chi2": 244.70588235294116,
+      "difference": 21.647058823529335,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 221.17647058823508,
+      "aes_chi2": 265.4117647058822,
+      "difference": -44.23529411764713,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 221.17647058823508,
+      "aes_chi2": 300.70588235294105,
+      "difference": -79.52941176470597,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 266.3529411764705,
+      "aes_chi2": 293.6470588235293,
+      "difference": -27.294117647058783,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 221.09090909090907,
+      "aes_chi2": 313.6969696969702,
+      "difference": -92.60606060606113,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 221.09090909090907,
+      "aes_chi2": 237.57575757575756,
+      "difference": -16.4848484848485,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 221.17647058823508,
+      "aes_chi2": 251.2941176470584,
+      "difference": -30.117647058823337,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 221.17647058823508,
+      "aes_chi2": 228.23529411764682,
+      "difference": -7.05882352941174,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 265.21212121212176,
+      "aes_chi2": 236.12121212121252,
+      "difference": 29.090909090909236,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s122_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 221.17647058823508,
+      "aes_chi2": 269.176470588235,
+      "difference": -47.99999999999994,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 261.16923076923035,
+      "aes_chi2": 250.338461538461,
+      "difference": 10.830769230769363,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 252.12121212121204,
+      "aes_chi2": 259.3939393939394,
+      "difference": -7.272727272727337,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 261.176470588235,
+      "aes_chi2": 272.9411764705877,
+      "difference": -11.7647058823527,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 230.58823529411708,
+      "aes_chi2": 264.4705882352934,
+      "difference": -33.88235294117632,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 230.58823529411708,
+      "aes_chi2": 223.0588235294112,
+      "difference": 7.529411764705884,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 261.16923076923035,
+      "aes_chi2": 285.78461538461477,
+      "difference": -24.615384615384414,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 261.16923076923035,
+      "aes_chi2": 232.12307692307655,
+      "difference": 29.0461538461538,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 252.23529411764676,
+      "aes_chi2": 226.8235294117644,
+      "difference": 25.411764705882348,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 231.1111111111106,
+      "aes_chi2": 261.33333333333286,
+      "difference": -30.222222222222257,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 252.12121212121204,
+      "aes_chi2": 256.9696969696969,
+      "difference": -4.848484848484844,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 252.23529411764676,
+      "aes_chi2": 244.70588235294116,
+      "difference": 7.5294117647056,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 261.176470588235,
+      "aes_chi2": 265.4117647058822,
+      "difference": -4.235294117647186,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 261.176470588235,
+      "aes_chi2": 300.70588235294105,
+      "difference": -39.529411764706026,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 252.23529411764676,
+      "aes_chi2": 293.6470588235293,
+      "difference": -41.41176470588252,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 252.12121212121204,
+      "aes_chi2": 313.6969696969702,
+      "difference": -61.57575757575816,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 252.12121212121204,
+      "aes_chi2": 237.57575757575756,
+      "difference": 14.545454545454476,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 261.176470588235,
+      "aes_chi2": 251.2941176470584,
+      "difference": 9.882352941176606,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 261.176470588235,
+      "aes_chi2": 228.23529411764682,
+      "difference": 32.9411764705882,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 249.69696969697014,
+      "aes_chi2": 236.12121212121252,
+      "difference": 13.57575757575762,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s123_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 261.176470588235,
+      "aes_chi2": 269.176470588235,
+      "difference": -8.0,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 275.93846153846084,
+      "aes_chi2": 250.338461538461,
+      "difference": 25.599999999999852,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 269.5757575757575,
+      "aes_chi2": 259.3939393939394,
+      "difference": 10.18181818181813,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 271.99999999999966,
+      "aes_chi2": 272.9411764705877,
+      "difference": -0.9411764705880614,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 232.47058823529363,
+      "aes_chi2": 264.4705882352934,
+      "difference": -31.999999999999773,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 232.47058823529363,
+      "aes_chi2": 223.0588235294112,
+      "difference": 9.411764705882433,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 275.93846153846084,
+      "aes_chi2": 285.78461538461477,
+      "difference": -9.846153846153925,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 275.93846153846084,
+      "aes_chi2": 232.12307692307655,
+      "difference": 43.81538461538429,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 265.4117647058821,
+      "aes_chi2": 226.8235294117644,
+      "difference": 38.58823529411768,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 229.33333333333292,
+      "aes_chi2": 261.33333333333286,
+      "difference": -31.999999999999943,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 269.5757575757575,
+      "aes_chi2": 256.9696969696969,
+      "difference": 12.606060606060623,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 265.4117647058821,
+      "aes_chi2": 244.70588235294116,
+      "difference": 20.705882352940932,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 271.99999999999966,
+      "aes_chi2": 265.4117647058822,
+      "difference": 6.588235294117453,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 271.99999999999966,
+      "aes_chi2": 300.70588235294105,
+      "difference": -28.705882352941387,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 265.4117647058821,
+      "aes_chi2": 293.6470588235293,
+      "difference": -28.235294117647186,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 269.5757575757575,
+      "aes_chi2": 313.6969696969702,
+      "difference": -44.12121212121269,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 269.5757575757575,
+      "aes_chi2": 237.57575757575756,
+      "difference": 31.999999999999943,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 271.99999999999966,
+      "aes_chi2": 251.2941176470584,
+      "difference": 20.705882352941245,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 271.99999999999966,
+      "aes_chi2": 228.23529411764682,
+      "difference": 43.76470588235284,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 274.9090909090914,
+      "aes_chi2": 236.12121212121252,
+      "difference": 38.78787878787887,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s124_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 271.99999999999966,
+      "aes_chi2": 269.176470588235,
+      "difference": 2.823529411764639,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 242.461538461538,
+      "aes_chi2": 250.338461538461,
+      "difference": -7.876923076922992,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 242.4242424242424,
+      "aes_chi2": 259.3939393939394,
+      "difference": -16.96969696969697,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 253.17647058823488,
+      "aes_chi2": 272.9411764705877,
+      "difference": -19.764705882352843,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 268.23529411764656,
+      "aes_chi2": 264.4705882352934,
+      "difference": 3.764705882353155,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 268.23529411764656,
+      "aes_chi2": 223.0588235294112,
+      "difference": 45.17647058823536,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 242.461538461538,
+      "aes_chi2": 285.78461538461477,
+      "difference": -43.32307692307677,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 242.461538461538,
+      "aes_chi2": 232.12307692307655,
+      "difference": 10.338461538461445,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 241.8823529411762,
+      "aes_chi2": 226.8235294117644,
+      "difference": 15.058823529411796,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 261.33333333333314,
+      "aes_chi2": 261.33333333333286,
+      "difference": 2.8421709430404007e-13,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 242.4242424242424,
+      "aes_chi2": 256.9696969696969,
+      "difference": -14.545454545454476,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 241.8823529411762,
+      "aes_chi2": 244.70588235294116,
+      "difference": -2.8235294117649516,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 253.17647058823488,
+      "aes_chi2": 265.4117647058822,
+      "difference": -12.235294117647328,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 253.17647058823488,
+      "aes_chi2": 300.70588235294105,
+      "difference": -47.52941176470617,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 241.8823529411762,
+      "aes_chi2": 293.6470588235293,
+      "difference": -51.76470588235307,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 242.4242424242424,
+      "aes_chi2": 313.6969696969702,
+      "difference": -71.27272727272779,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 242.4242424242424,
+      "aes_chi2": 237.57575757575756,
+      "difference": 4.848484848484844,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 253.17647058823488,
+      "aes_chi2": 251.2941176470584,
+      "difference": 1.882352941176464,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 253.17647058823488,
+      "aes_chi2": 228.23529411764682,
+      "difference": 24.94117647058806,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 237.09090909090946,
+      "aes_chi2": 236.12121212121252,
+      "difference": 0.9696969696969404,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s125_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 253.17647058823488,
+      "aes_chi2": 269.176470588235,
+      "difference": -16.000000000000142,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 317.78461538461465,
+      "aes_chi2": 250.338461538461,
+      "difference": 67.44615384615366,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 317.57575757575773,
+      "aes_chi2": 259.3939393939394,
+      "difference": 58.18181818181836,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 317.647058823529,
+      "aes_chi2": 272.9411764705877,
+      "difference": 44.70588235294127,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 288.9411764705878,
+      "aes_chi2": 264.4705882352934,
+      "difference": 24.47058823529437,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 288.9411764705878,
+      "aes_chi2": 223.0588235294112,
+      "difference": 65.88235294117658,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 317.78461538461465,
+      "aes_chi2": 285.78461538461477,
+      "difference": 31.999999999999886,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 317.78461538461465,
+      "aes_chi2": 232.12307692307655,
+      "difference": 85.6615384615381,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 312.470588235294,
+      "aes_chi2": 226.8235294117644,
+      "difference": 85.64705882352956,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 282.66666666666646,
+      "aes_chi2": 261.33333333333286,
+      "difference": 21.3333333333336,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 317.57575757575773,
+      "aes_chi2": 256.9696969696969,
+      "difference": 60.60606060606085,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 312.470588235294,
+      "aes_chi2": 244.70588235294116,
+      "difference": 67.76470588235281,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 317.647058823529,
+      "aes_chi2": 265.4117647058822,
+      "difference": 52.23529411764679,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 317.647058823529,
+      "aes_chi2": 300.70588235294105,
+      "difference": 16.941176470587948,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 312.470588235294,
+      "aes_chi2": 293.6470588235293,
+      "difference": 18.823529411764696,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 317.57575757575773,
+      "aes_chi2": 313.6969696969702,
+      "difference": 3.8787878787875343,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 317.57575757575773,
+      "aes_chi2": 237.57575757575756,
+      "difference": 80.00000000000017,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 317.647058823529,
+      "aes_chi2": 251.2941176470584,
+      "difference": 66.35294117647058,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 317.647058823529,
+      "aes_chi2": 228.23529411764682,
+      "difference": 89.41176470588218,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 317.5757575757582,
+      "aes_chi2": 236.12121212121252,
+      "difference": 81.45454545454567,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s126_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 317.647058823529,
+      "aes_chi2": 269.176470588235,
+      "difference": 48.470588235293974,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 297.59999999999985,
+      "aes_chi2": 250.338461538461,
+      "difference": 47.26153846153886,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 300.12121212121247,
+      "aes_chi2": 259.3939393939394,
+      "difference": 40.72727272727309,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 298.3529411764705,
+      "aes_chi2": 272.9411764705877,
+      "difference": 25.411764705882774,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 236.23529411764656,
+      "aes_chi2": 264.4705882352934,
+      "difference": -28.235294117646845,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 236.23529411764656,
+      "aes_chi2": 223.0588235294112,
+      "difference": 13.176470588235361,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 297.59999999999985,
+      "aes_chi2": 285.78461538461477,
+      "difference": 11.815384615385085,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 297.59999999999985,
+      "aes_chi2": 232.12307692307655,
+      "difference": 65.4769230769233,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 253.176470588235,
+      "aes_chi2": 226.8235294117644,
+      "difference": 26.35294117647058,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 248.88888888888846,
+      "aes_chi2": 261.33333333333286,
+      "difference": -12.4444444444444,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 300.12121212121247,
+      "aes_chi2": 256.9696969696969,
+      "difference": 43.15151515151558,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 253.176470588235,
+      "aes_chi2": 244.70588235294116,
+      "difference": 8.470588235293832,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 298.3529411764705,
+      "aes_chi2": 265.4117647058822,
+      "difference": 32.94117647058829,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 298.3529411764705,
+      "aes_chi2": 300.70588235294105,
+      "difference": -2.3529411764705515,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 253.176470588235,
+      "aes_chi2": 293.6470588235293,
+      "difference": -40.47058823529429,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 300.12121212121247,
+      "aes_chi2": 313.6969696969702,
+      "difference": -13.575757575757734,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 300.12121212121247,
+      "aes_chi2": 237.57575757575756,
+      "difference": 62.5454545454549,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 298.3529411764705,
+      "aes_chi2": 251.2941176470584,
+      "difference": 47.05882352941208,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 298.3529411764705,
+      "aes_chi2": 228.23529411764682,
+      "difference": 70.11764705882368,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 251.63636363636408,
+      "aes_chi2": 236.12121212121252,
+      "difference": 15.515151515151558,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s127_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 298.3529411764705,
+      "aes_chi2": 269.176470588235,
+      "difference": 29.176470588235475,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 250.3384615384611,
+      "aes_chi2": 250.338461538461,
+      "difference": 1.1368683772161603e-13,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 245.81818181818178,
+      "aes_chi2": 259.3939393939394,
+      "difference": -13.575757575757592,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 247.9999999999997,
+      "aes_chi2": 272.9411764705877,
+      "difference": -24.941176470588033,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 255.05882352941126,
+      "aes_chi2": 264.4705882352934,
+      "difference": -9.411764705882149,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 255.05882352941126,
+      "aes_chi2": 223.0588235294112,
+      "difference": 32.00000000000006,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 250.3384615384611,
+      "aes_chi2": 285.78461538461477,
+      "difference": -35.44615384615366,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 250.3384615384611,
+      "aes_chi2": 232.12307692307655,
+      "difference": 18.21538461538455,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 252.23529411764702,
+      "aes_chi2": 226.8235294117644,
+      "difference": 25.411764705882604,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 252.44444444444403,
+      "aes_chi2": 261.33333333333286,
+      "difference": -8.888888888888829,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 245.81818181818178,
+      "aes_chi2": 256.9696969696969,
+      "difference": -11.151515151515099,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 252.23529411764702,
+      "aes_chi2": 244.70588235294116,
+      "difference": 7.529411764705856,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 247.9999999999997,
+      "aes_chi2": 265.4117647058822,
+      "difference": -17.41176470588252,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 247.9999999999997,
+      "aes_chi2": 300.70588235294105,
+      "difference": -52.70588235294136,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 252.23529411764702,
+      "aes_chi2": 293.6470588235293,
+      "difference": -41.41176470588226,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 245.81818181818178,
+      "aes_chi2": 313.6969696969702,
+      "difference": -67.87878787878842,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 245.81818181818178,
+      "aes_chi2": 237.57575757575756,
+      "difference": 8.242424242424221,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 247.9999999999997,
+      "aes_chi2": 251.2941176470584,
+      "difference": -3.2941176470587266,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 247.9999999999997,
+      "aes_chi2": 228.23529411764682,
+      "difference": 19.76470588235287,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 255.5151515151519,
+      "aes_chi2": 236.12121212121252,
+      "difference": 19.393939393939377,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s128_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 247.9999999999997,
+      "aes_chi2": 269.176470588235,
+      "difference": -21.176470588235333,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 258.21538461538404,
+      "aes_chi2": 250.338461538461,
+      "difference": 7.876923076923049,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 257.939393939394,
+      "aes_chi2": 259.3939393939394,
+      "difference": -1.4545454545453822,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 258.82352941176447,
+      "aes_chi2": 272.9411764705877,
+      "difference": -14.117647058823252,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 239.99999999999943,
+      "aes_chi2": 264.4705882352934,
+      "difference": -24.470588235293974,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 239.99999999999943,
+      "aes_chi2": 223.0588235294112,
+      "difference": 16.941176470588232,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 258.21538461538404,
+      "aes_chi2": 285.78461538461477,
+      "difference": -27.569230769230728,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 258.21538461538404,
+      "aes_chi2": 232.12307692307655,
+      "difference": 26.092307692307486,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 295.52941176470614,
+      "aes_chi2": 226.8235294117644,
+      "difference": 68.70588235294173,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 241.77777777777726,
+      "aes_chi2": 261.33333333333286,
+      "difference": -19.5555555555556,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 257.939393939394,
+      "aes_chi2": 256.9696969696969,
+      "difference": 0.9696969696971109,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 295.52941176470614,
+      "aes_chi2": 244.70588235294116,
+      "difference": 50.82352941176498,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 258.82352941176447,
+      "aes_chi2": 265.4117647058822,
+      "difference": -6.588235294117737,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 258.82352941176447,
+      "aes_chi2": 300.70588235294105,
+      "difference": -41.88235294117658,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 295.52941176470614,
+      "aes_chi2": 293.6470588235293,
+      "difference": 1.8823529411768618,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 257.939393939394,
+      "aes_chi2": 313.6969696969702,
+      "difference": -55.757575757576205,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 257.939393939394,
+      "aes_chi2": 237.57575757575756,
+      "difference": 20.36363636363643,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 258.82352941176447,
+      "aes_chi2": 251.2941176470584,
+      "difference": 7.5294117647060546,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 258.82352941176447,
+      "aes_chi2": 228.23529411764682,
+      "difference": 30.588235294117652,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 280.7272727272734,
+      "aes_chi2": 236.12121212121252,
+      "difference": 44.60606060606085,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s129_openssl.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 258.82352941176447,
+      "aes_chi2": 269.176470588235,
+      "difference": -10.352941176470551,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 273.96923076923,
+      "aes_chi2": 250.338461538461,
+      "difference": 23.630769230769033,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 277.8181818181818,
+      "aes_chi2": 259.3939393939394,
+      "difference": 18.424242424242436,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 275.29411764705833,
+      "aes_chi2": 272.9411764705877,
+      "difference": 2.3529411764706083,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 270.117647058823,
+      "aes_chi2": 264.4705882352934,
+      "difference": 5.647058823529619,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 270.117647058823,
+      "aes_chi2": 223.0588235294112,
+      "difference": 47.058823529411825,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 273.96923076923,
+      "aes_chi2": 285.78461538461477,
+      "difference": -11.815384615384744,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 273.96923076923,
+      "aes_chi2": 232.12307692307655,
+      "difference": 41.84615384615347,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 261.64705882352933,
+      "aes_chi2": 226.8235294117644,
+      "difference": 34.82352941176492,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 282.66666666666634,
+      "aes_chi2": 261.33333333333286,
+      "difference": 21.333333333333485,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 277.8181818181818,
+      "aes_chi2": 256.9696969696969,
+      "difference": 20.84848484848493,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 261.64705882352933,
+      "aes_chi2": 244.70588235294116,
+      "difference": 16.941176470588175,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 275.29411764705833,
+      "aes_chi2": 265.4117647058822,
+      "difference": 9.882352941176123,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 275.29411764705833,
+      "aes_chi2": 300.70588235294105,
+      "difference": -25.411764705882717,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 261.64705882352933,
+      "aes_chi2": 293.6470588235293,
+      "difference": -31.999999999999943,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 277.8181818181818,
+      "aes_chi2": 313.6969696969702,
+      "difference": -35.87878787878839,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 277.8181818181818,
+      "aes_chi2": 237.57575757575756,
+      "difference": 40.24242424242425,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 275.29411764705833,
+      "aes_chi2": 251.2941176470584,
+      "difference": 23.999999999999915,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 275.29411764705833,
+      "aes_chi2": 228.23529411764682,
+      "difference": 47.05882352941151,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 271.0303030303037,
+      "aes_chi2": 236.12121212121252,
+      "difference": 34.90909090909116,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s130_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 275.29411764705833,
+      "aes_chi2": 269.176470588235,
+      "difference": 6.117647058823309,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 224.7384615384612,
+      "aes_chi2": 250.338461538461,
+      "difference": -25.599999999999795,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 226.42424242424244,
+      "aes_chi2": 259.3939393939394,
+      "difference": -32.96969696969694,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 233.8823529411763,
+      "aes_chi2": 272.9411764705877,
+      "difference": -39.05882352941143,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 245.6470588235288,
+      "aes_chi2": 264.4705882352934,
+      "difference": -18.82352941176461,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 245.6470588235288,
+      "aes_chi2": 223.0588235294112,
+      "difference": 22.588235294117595,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 224.7384615384612,
+      "aes_chi2": 285.78461538461477,
+      "difference": -61.04615384615357,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 224.7384615384612,
+      "aes_chi2": 232.12307692307655,
+      "difference": -7.384615384615358,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 224.94117647058792,
+      "aes_chi2": 226.8235294117644,
+      "difference": -1.8823529411764923,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 250.6666666666661,
+      "aes_chi2": 261.33333333333286,
+      "difference": -10.66666666666677,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 226.42424242424244,
+      "aes_chi2": 256.9696969696969,
+      "difference": -30.545454545454447,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 224.94117647058792,
+      "aes_chi2": 244.70588235294116,
+      "difference": -19.76470588235324,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 233.8823529411763,
+      "aes_chi2": 265.4117647058822,
+      "difference": -31.529411764705912,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 233.8823529411763,
+      "aes_chi2": 300.70588235294105,
+      "difference": -66.82352941176475,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 224.94117647058792,
+      "aes_chi2": 293.6470588235293,
+      "difference": -68.70588235294136,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 226.42424242424244,
+      "aes_chi2": 313.6969696969702,
+      "difference": -87.27272727272776,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 226.42424242424244,
+      "aes_chi2": 237.57575757575756,
+      "difference": -11.151515151515127,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 233.8823529411763,
+      "aes_chi2": 251.2941176470584,
+      "difference": -17.41176470588212,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 233.8823529411763,
+      "aes_chi2": 228.23529411764682,
+      "difference": 5.647058823529477,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 222.54545454545507,
+      "aes_chi2": 236.12121212121252,
+      "difference": -13.57575757575745,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s131_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 233.8823529411763,
+      "aes_chi2": 269.176470588235,
+      "difference": -35.29411764705873,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 226.2153846153843,
+      "aes_chi2": 250.338461538461,
+      "difference": -24.123076923076695,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 230.30303030303025,
+      "aes_chi2": 259.3939393939394,
+      "difference": -29.090909090909122,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 225.41176470588212,
+      "aes_chi2": 272.9411764705877,
+      "difference": -47.5294117647056,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 245.64705882352888,
+      "aes_chi2": 264.4705882352934,
+      "difference": -18.823529411764525,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 245.64705882352888,
+      "aes_chi2": 223.0588235294112,
+      "difference": 22.58823529411768,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 226.2153846153843,
+      "aes_chi2": 285.78461538461477,
+      "difference": -59.56923076923047,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 226.2153846153843,
+      "aes_chi2": 232.12307692307655,
+      "difference": -5.907692307692258,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 242.82352941176458,
+      "aes_chi2": 226.8235294117644,
+      "difference": 16.00000000000017,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 259.5555555555552,
+      "aes_chi2": 261.33333333333286,
+      "difference": -1.7777777777776578,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 230.30303030303025,
+      "aes_chi2": 256.9696969696969,
+      "difference": -26.66666666666663,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 242.82352941176458,
+      "aes_chi2": 244.70588235294116,
+      "difference": -1.8823529411765776,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 225.41176470588212,
+      "aes_chi2": 265.4117647058822,
+      "difference": -40.000000000000085,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 225.41176470588212,
+      "aes_chi2": 300.70588235294105,
+      "difference": -75.29411764705893,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 242.82352941176458,
+      "aes_chi2": 293.6470588235293,
+      "difference": -50.823529411764696,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 230.30303030303025,
+      "aes_chi2": 313.6969696969702,
+      "difference": -83.39393939393995,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 230.30303030303025,
+      "aes_chi2": 237.57575757575756,
+      "difference": -7.272727272727309,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 225.41176470588212,
+      "aes_chi2": 251.2941176470584,
+      "difference": -25.882352941176293,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 225.41176470588212,
+      "aes_chi2": 228.23529411764682,
+      "difference": -2.823529411764696,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 243.87878787878844,
+      "aes_chi2": 236.12121212121252,
+      "difference": 7.757575757575921,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s132_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 225.41176470588212,
+      "aes_chi2": 269.176470588235,
+      "difference": -43.7647058823529,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 259.69230769230705,
+      "aes_chi2": 250.338461538461,
+      "difference": 9.353846153846064,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 261.81818181818176,
+      "aes_chi2": 259.3939393939394,
+      "difference": 2.4242424242423795,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 256.47058823529386,
+      "aes_chi2": 272.9411764705877,
+      "difference": -16.47058823529386,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 243.76470588235233,
+      "aes_chi2": 264.4705882352934,
+      "difference": -20.705882352941074,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 243.76470588235233,
+      "aes_chi2": 223.0588235294112,
+      "difference": 20.70588235294113,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 259.69230769230705,
+      "aes_chi2": 285.78461538461477,
+      "difference": -26.092307692307713,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 259.69230769230705,
+      "aes_chi2": 232.12307692307655,
+      "difference": 27.5692307692305,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 251.29411764705856,
+      "aes_chi2": 226.8235294117644,
+      "difference": 24.470588235294144,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 241.77777777777726,
+      "aes_chi2": 261.33333333333286,
+      "difference": -19.5555555555556,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 261.81818181818176,
+      "aes_chi2": 256.9696969696969,
+      "difference": 4.848484848484873,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 251.29411764705856,
+      "aes_chi2": 244.70588235294116,
+      "difference": 6.588235294117396,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 256.47058823529386,
+      "aes_chi2": 265.4117647058822,
+      "difference": -8.941176470588346,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 256.47058823529386,
+      "aes_chi2": 300.70588235294105,
+      "difference": -44.235294117647186,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 251.29411764705856,
+      "aes_chi2": 293.6470588235293,
+      "difference": -42.35294117647072,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 261.81818181818176,
+      "aes_chi2": 313.6969696969702,
+      "difference": -51.878787878788444,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 261.81818181818176,
+      "aes_chi2": 237.57575757575756,
+      "difference": 24.242424242424192,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 256.47058823529386,
+      "aes_chi2": 251.2941176470584,
+      "difference": 5.176470588235446,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 256.47058823529386,
+      "aes_chi2": 228.23529411764682,
+      "difference": 28.235294117647044,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 243.87878787878827,
+      "aes_chi2": 236.12121212121252,
+      "difference": 7.757575757575751,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s133_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 256.47058823529386,
+      "aes_chi2": 269.176470588235,
+      "difference": -12.70588235294116,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 222.27692307692269,
+      "aes_chi2": 250.338461538461,
+      "difference": -28.061538461538305,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 218.18181818181807,
+      "aes_chi2": 259.3939393939394,
+      "difference": -41.2121212121213,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 221.64705882352894,
+      "aes_chi2": 272.9411764705877,
+      "difference": -51.29411764705878,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 247.52941176470523,
+      "aes_chi2": 264.4705882352934,
+      "difference": -16.941176470588175,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 247.52941176470523,
+      "aes_chi2": 223.0588235294112,
+      "difference": 24.47058823529403,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 222.27692307692269,
+      "aes_chi2": 285.78461538461477,
+      "difference": -63.50769230769208,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 222.27692307692269,
+      "aes_chi2": 232.12307692307655,
+      "difference": -9.846153846153868,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 218.35294117647038,
+      "aes_chi2": 226.8235294117644,
+      "difference": -8.47058823529403,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 239.9999999999994,
+      "aes_chi2": 261.33333333333286,
+      "difference": -21.333333333333456,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 218.18181818181807,
+      "aes_chi2": 256.9696969696969,
+      "difference": -38.78787878787881,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 218.35294117647038,
+      "aes_chi2": 244.70588235294116,
+      "difference": -26.35294117647078,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 221.64705882352894,
+      "aes_chi2": 265.4117647058822,
+      "difference": -43.76470588235327,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 221.64705882352894,
+      "aes_chi2": 300.70588235294105,
+      "difference": -79.05882352941211,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 218.35294117647038,
+      "aes_chi2": 293.6470588235293,
+      "difference": -75.2941176470589,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 218.18181818181807,
+      "aes_chi2": 313.6969696969702,
+      "difference": -95.51515151515213,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 218.18181818181807,
+      "aes_chi2": 237.57575757575756,
+      "difference": -19.39393939393949,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 221.64705882352894,
+      "aes_chi2": 251.2941176470584,
+      "difference": -29.647058823529477,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 221.64705882352894,
+      "aes_chi2": 228.23529411764682,
+      "difference": -6.5882352941178794,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 226.42424242424272,
+      "aes_chi2": 236.12121212121252,
+      "difference": -9.696969696969802,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s134_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 221.64705882352894,
+      "aes_chi2": 269.176470588235,
+      "difference": -47.52941176470608,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 263.6307692307688,
+      "aes_chi2": 250.338461538461,
+      "difference": 13.292307692307816,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 257.93939393939394,
+      "aes_chi2": 259.3939393939394,
+      "difference": -1.454545454545439,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 266.35294117647027,
+      "aes_chi2": 272.9411764705877,
+      "difference": -6.588235294117453,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 239.99999999999932,
+      "aes_chi2": 264.4705882352934,
+      "difference": -24.470588235294088,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 239.99999999999932,
+      "aes_chi2": 223.0588235294112,
+      "difference": 16.94117647058812,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 263.6307692307688,
+      "aes_chi2": 285.78461538461477,
+      "difference": -22.15384615384596,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 263.6307692307688,
+      "aes_chi2": 232.12307692307655,
+      "difference": 31.507692307692253,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 223.0588235294115,
+      "aes_chi2": 226.8235294117644,
+      "difference": -3.7647058823528994,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 229.33333333333277,
+      "aes_chi2": 261.33333333333286,
+      "difference": -32.000000000000085,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 257.93939393939394,
+      "aes_chi2": 256.9696969696969,
+      "difference": 0.9696969696970541,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 223.0588235294115,
+      "aes_chi2": 244.70588235294116,
+      "difference": -21.647058823529647,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 266.35294117647027,
+      "aes_chi2": 265.4117647058822,
+      "difference": 0.9411764705880614,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 266.35294117647027,
+      "aes_chi2": 300.70588235294105,
+      "difference": -34.35294117647078,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 223.0588235294115,
+      "aes_chi2": 293.6470588235293,
+      "difference": -70.58823529411777,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 257.93939393939394,
+      "aes_chi2": 313.6969696969702,
+      "difference": -55.75757575757626,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 257.93939393939394,
+      "aes_chi2": 237.57575757575756,
+      "difference": 20.363636363636374,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 266.35294117647027,
+      "aes_chi2": 251.2941176470584,
+      "difference": 15.058823529411853,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 266.35294117647027,
+      "aes_chi2": 228.23529411764682,
+      "difference": 38.11764705882345,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 221.5757575757578,
+      "aes_chi2": 236.12121212121252,
+      "difference": -14.545454545454731,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s135_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 266.35294117647027,
+      "aes_chi2": 269.176470588235,
+      "difference": -2.8235294117647527,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 236.55384615384574,
+      "aes_chi2": 250.338461538461,
+      "difference": -13.78461538461525,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 238.54545454545453,
+      "aes_chi2": 259.3939393939394,
+      "difference": -20.848484848484844,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 229.17647058823508,
+      "aes_chi2": 272.9411764705877,
+      "difference": -43.764705882352644,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 256.94117647058766,
+      "aes_chi2": 264.4705882352934,
+      "difference": -7.529411764705742,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 256.94117647058766,
+      "aes_chi2": 223.0588235294112,
+      "difference": 33.882352941176464,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 236.55384615384574,
+      "aes_chi2": 285.78461538461477,
+      "difference": -49.23076923076903,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 236.55384615384574,
+      "aes_chi2": 232.12307692307655,
+      "difference": 4.430769230769187,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 254.11764705882345,
+      "aes_chi2": 226.8235294117644,
+      "difference": 27.29411764705904,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 254.2222222222217,
+      "aes_chi2": 261.33333333333286,
+      "difference": -7.111111111111171,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 238.54545454545453,
+      "aes_chi2": 256.9696969696969,
+      "difference": -18.42424242424235,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 254.11764705882345,
+      "aes_chi2": 244.70588235294116,
+      "difference": 9.411764705882291,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 229.17647058823508,
+      "aes_chi2": 265.4117647058822,
+      "difference": -36.23529411764713,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 229.17647058823508,
+      "aes_chi2": 300.70588235294105,
+      "difference": -71.52941176470597,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 254.11764705882345,
+      "aes_chi2": 293.6470588235293,
+      "difference": -39.52941176470583,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 238.54545454545453,
+      "aes_chi2": 313.6969696969702,
+      "difference": -75.15151515151567,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 238.54545454545453,
+      "aes_chi2": 237.57575757575756,
+      "difference": 0.9696969696969688,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 229.17647058823508,
+      "aes_chi2": 251.2941176470584,
+      "difference": -22.117647058823337,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 229.17647058823508,
+      "aes_chi2": 228.23529411764682,
+      "difference": 0.9411764705882604,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 252.60606060606105,
+      "aes_chi2": 236.12121212121252,
+      "difference": 16.484848484848527,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s136_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 229.17647058823508,
+      "aes_chi2": 269.176470588235,
+      "difference": -39.99999999999994,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 250.33846153846127,
+      "aes_chi2": 250.338461538461,
+      "difference": 2.8421709430404007e-13,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 255.51515151515153,
+      "aes_chi2": 259.3939393939394,
+      "difference": -3.878787878787847,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 254.5882352941174,
+      "aes_chi2": 272.9411764705877,
+      "difference": -18.352941176470324,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 264.4705882352935,
+      "aes_chi2": 264.4705882352934,
+      "difference": 1.1368683772161603e-13,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 264.4705882352935,
+      "aes_chi2": 223.0588235294112,
+      "difference": 41.41176470588232,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 250.33846153846127,
+      "aes_chi2": 285.78461538461477,
+      "difference": -35.44615384615349,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 250.33846153846127,
+      "aes_chi2": 232.12307692307655,
+      "difference": 18.21538461538472,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 252.23529411764684,
+      "aes_chi2": 226.8235294117644,
+      "difference": 25.411764705882433,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 273.77777777777726,
+      "aes_chi2": 261.33333333333286,
+      "difference": 12.4444444444444,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 255.51515151515153,
+      "aes_chi2": 256.9696969696969,
+      "difference": -1.4545454545453538,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 252.23529411764684,
+      "aes_chi2": 244.70588235294116,
+      "difference": 7.529411764705685,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 254.5882352941174,
+      "aes_chi2": 265.4117647058822,
+      "difference": -10.82352941176481,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 254.5882352941174,
+      "aes_chi2": 300.70588235294105,
+      "difference": -46.11764705882365,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 252.23529411764684,
+      "aes_chi2": 293.6470588235293,
+      "difference": -41.41176470588243,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 255.51515151515153,
+      "aes_chi2": 313.6969696969702,
+      "difference": -58.18181818181867,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 255.51515151515153,
+      "aes_chi2": 237.57575757575756,
+      "difference": 17.939393939393966,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 254.5882352941174,
+      "aes_chi2": 251.2941176470584,
+      "difference": 3.2941176470589824,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 254.5882352941174,
+      "aes_chi2": 228.23529411764682,
+      "difference": 26.35294117647058,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 254.5454545454548,
+      "aes_chi2": 236.12121212121252,
+      "difference": 18.424242424242266,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s137_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 254.5882352941174,
+      "aes_chi2": 269.176470588235,
+      "difference": -14.588235294117624,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 249.84615384615344,
+      "aes_chi2": 250.338461538461,
+      "difference": -0.49230769230754845,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 247.7575757575756,
+      "aes_chi2": 259.3939393939394,
+      "difference": -11.636363636363768,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 245.1764705882349,
+      "aes_chi2": 272.9411764705877,
+      "difference": -27.764705882352814,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 239.99999999999955,
+      "aes_chi2": 264.4705882352934,
+      "difference": -24.47058823529386,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 239.99999999999955,
+      "aes_chi2": 223.0588235294112,
+      "difference": 16.941176470588346,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 249.84615384615344,
+      "aes_chi2": 285.78461538461477,
+      "difference": -35.938461538461326,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 249.84615384615344,
+      "aes_chi2": 232.12307692307655,
+      "difference": 17.72307692307689,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 279.52941176470574,
+      "aes_chi2": 226.8235294117644,
+      "difference": 52.70588235294133,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 239.9999999999997,
+      "aes_chi2": 261.33333333333286,
+      "difference": -21.333333333333172,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 247.7575757575756,
+      "aes_chi2": 256.9696969696969,
+      "difference": -9.212121212121275,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 279.52941176470574,
+      "aes_chi2": 244.70588235294116,
+      "difference": 34.82352941176458,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 245.1764705882349,
+      "aes_chi2": 265.4117647058822,
+      "difference": -20.2352941176473,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 245.1764705882349,
+      "aes_chi2": 300.70588235294105,
+      "difference": -55.52941176470614,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 279.52941176470574,
+      "aes_chi2": 293.6470588235293,
+      "difference": -14.117647058823536,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 247.7575757575756,
+      "aes_chi2": 313.6969696969702,
+      "difference": -65.93939393939459,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 247.7575757575756,
+      "aes_chi2": 237.57575757575756,
+      "difference": 10.181818181818045,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 245.1764705882349,
+      "aes_chi2": 251.2941176470584,
+      "difference": -6.117647058823508,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 245.1764705882349,
+      "aes_chi2": 228.23529411764682,
+      "difference": 16.94117647058809,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 283.6363636363642,
+      "aes_chi2": 236.12121212121252,
+      "difference": 47.51515151515167,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s138_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 245.1764705882349,
+      "aes_chi2": 269.176470588235,
+      "difference": -24.000000000000114,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s020_openssl.bin",
+      "kem_chi2": 237.53846153846104,
+      "aes_chi2": 250.338461538461,
+      "difference": -12.799999999999955,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s021_openssl.bin",
+      "kem_chi2": 240.969696969697,
+      "aes_chi2": 259.3939393939394,
+      "difference": -18.42424242424238,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s022_openssl.bin",
+      "kem_chi2": 240.94117647058798,
+      "aes_chi2": 272.9411764705877,
+      "difference": -31.999999999999744,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s023_openssl.bin",
+      "kem_chi2": 209.88235294117584,
+      "aes_chi2": 264.4705882352934,
+      "difference": -54.58823529411757,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s024_openssl.bin",
+      "kem_chi2": 209.88235294117584,
+      "aes_chi2": 223.0588235294112,
+      "difference": -13.176470588235361,
+      "comparison_length": 272
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s025_openssl.bin",
+      "kem_chi2": 237.53846153846104,
+      "aes_chi2": 285.78461538461477,
+      "difference": -48.24615384615373,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s026_openssl.bin",
+      "kem_chi2": 237.53846153846104,
+      "aes_chi2": 232.12307692307655,
+      "difference": 5.4153846153844825,
+      "comparison_length": 1040
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s027_openssl.bin",
+      "kem_chi2": 227.76470588235267,
+      "aes_chi2": 226.8235294117644,
+      "difference": 0.9411764705882604,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s028_openssl.bin",
+      "kem_chi2": 200.88888888888832,
+      "aes_chi2": 261.33333333333286,
+      "difference": -60.44444444444454,
+      "comparison_length": 288
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s029_openssl.bin",
+      "kem_chi2": 240.969696969697,
+      "aes_chi2": 256.9696969696969,
+      "difference": -15.999999999999886,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s030_liboqs.bin",
+      "kem_chi2": 227.76470588235267,
+      "aes_chi2": 244.70588235294116,
+      "difference": -16.941176470588488,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s031_liboqs.bin",
+      "kem_chi2": 240.94117647058798,
+      "aes_chi2": 265.4117647058822,
+      "difference": -24.47058823529423,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s032_liboqs.bin",
+      "kem_chi2": 240.94117647058798,
+      "aes_chi2": 300.70588235294105,
+      "difference": -59.76470588235307,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s033_liboqs.bin",
+      "kem_chi2": 227.76470588235267,
+      "aes_chi2": 293.6470588235293,
+      "difference": -65.8823529411766,
+      "comparison_length": 544
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s034_liboqs.bin",
+      "kem_chi2": 240.969696969697,
+      "aes_chi2": 313.6969696969702,
+      "difference": -72.7272727272732,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s035_liboqs.bin",
+      "kem_chi2": 240.969696969697,
+      "aes_chi2": 237.57575757575756,
+      "difference": 3.3939393939394336,
+      "comparison_length": 1056
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s036_liboqs.bin",
+      "kem_chi2": 240.94117647058798,
+      "aes_chi2": 251.2941176470584,
+      "difference": -10.352941176470438,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s037_liboqs.bin",
+      "kem_chi2": 240.94117647058798,
+      "aes_chi2": 228.23529411764682,
+      "difference": 12.70588235294116,
+      "comparison_length": 1088
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s038_liboqs.bin",
+      "kem_chi2": 231.2727272727278,
+      "aes_chi2": 236.12121212121252,
+      "difference": -4.8484848484847305,
+      "comparison_length": 528
+    },
+    {
+      "kem_file": "ml_kem_768_s139_liboqs.bin",
+      "aes_file": "aes_256_s039_liboqs.bin",
+      "kem_chi2": 240.94117647058798,
+      "aes_chi2": 269.176470588235,
+      "difference": -28.235294117647044,
+      "comparison_length": 1088
+    }
+  ],
+  "by_condition": {
+    "256B": {
+      "openssl": {
+        "mlkem_chi2_mean": 251.6,
+        "mlkem_chi2_std": 26.72992496975794,
+        "aes_chi2_mean": 254.2,
+        "aes_chi2_std": 18.701158609383892,
+        "cohens_d": -0.11271252633869966,
+        "n_mlkem": 10,
+        "n_aes": 10
+      },
+      "liboqs": {
+        "mlkem_chi2_mean": 247.2,
+        "mlkem_chi2_std": 17.132165978390212,
+        "aes_chi2_mean": 248.8,
+        "aes_chi2_std": 22.807406204515623,
+        "cohens_d": -0.07932421585697644,
+        "n_mlkem": 10,
+        "n_aes": 10
+      }
+    },
+    "512B": {
+      "openssl": {
+        "mlkem_chi2_mean": 267.8,
+        "mlkem_chi2_std": 20.44939553575552,
+        "aes_chi2_mean": 8497.0,
+        "aes_chi2_std": 13328.495872461463,
+        "cohens_d": -0.8731542299571076,
+        "n_mlkem": 10,
+        "n_aes": 10
+      },
+      "liboqs": {
+        "mlkem_chi2_mean": 245.5,
+        "mlkem_chi2_std": 18.810458084090705,
+        "aes_chi2_mean": 265.4,
+        "aes_chi2_std": 23.267526249641964,
+        "cohens_d": -0.940600796767004,
+        "n_mlkem": 10,
+        "n_aes": 10
+      }
+    },
+    "1KB": {
+      "openssl": {
+        "mlkem_chi2_mean": 266.5,
+        "mlkem_chi2_std": 24.898683588584447,
+        "aes_chi2_mean": 47690.6,
+        "aes_chi2_std": 65594.74465941104,
+        "cohens_d": -1.0224569196799087,
+        "n_mlkem": 10,
+        "n_aes": 10
+      },
+      "liboqs": {
+        "mlkem_chi2_mean": 243.45,
+        "mlkem_chi2_std": 19.67012681425539,
+        "aes_chi2_mean": 18038.95,
+        "aes_chi2_std": 28656.202194144058,
+        "cohens_d": -0.8782263382228974,
+        "n_mlkem": 10,
+        "n_aes": 10
+      }
+    },
+    "2KB": {
+      "openssl": {
+        "mlkem_chi2_mean": 114879.425,
+        "mlkem_chi2_std": 324.2119944744659,
+        "aes_chi2_mean": 207856.05,
+        "aes_chi2_std": 142794.381142947,
+        "cohens_d": -0.9208238033561651,
+        "n_mlkem": 10,
+        "n_aes": 10
+      },
+      "liboqs": {
+        "mlkem_chi2_mean": 115084.1,
+        "mlkem_chi2_std": 496.1781881990022,
+        "aes_chi2_mean": 110078.65,
+        "aes_chi2_std": 130066.4421481276,
+        "cohens_d": 0.054423905595014144,
+        "n_mlkem": 10,
+        "n_aes": 10
+      }
+    },
+    "4KB": {
+      "openssl": {
+        "mlkem_chi2_mean": 563346.9125,
+        "mlkem_chi2_std": 499.0757222731837,
+        "aes_chi2_mean": 666130.85,
+        "aes_chi2_std": 209644.65857394534,
+        "cohens_d": -0.6933543049106824,
+        "n_mlkem": 10,
+        "n_aes": 10
+      },
+      "liboqs": {
+        "mlkem_chi2_mean": 563679.65,
+        "mlkem_chi2_std": 780.2833237214402,
+        "aes_chi2_mean": 427646.7875,
+        "aes_chi2_std": 314951.67688665976,
+        "cohens_d": 0.6108204616698931,
+        "n_mlkem": 10,
+        "n_aes": 10
+      }
+    }
+  },
+  "summary": {
+    "total_comparisons": 400,
+    "mlkem_chi2_mean": 254.67693185246102,
+    "mlkem_chi2_std": 23.59287239179191,
+    "mlkem_chi2_min": 200.88888888888832,
+    "mlkem_chi2_max": 317.78461538461465,
+    "aes_chi2_mean": 258.6903825586176,
+    "aes_chi2_std": 24.873438300483897,
+    "aes_chi2_min": 223.0588235294112,
+    "aes_chi2_max": 313.6969696969702,
+    "overall_cohens_d": -0.16556038479497975,
+    "mean_difference": -4.013450706156591,
+    "std_difference": 34.13986543757726
+  }
+}

@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\centering
+\caption{McNemar test for Tier-1 vs Tier-3 prediction difference}
+\label{tab:mcnemar}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Discordant (T1$\checkmark$,T3$\times$)} & \textbf{Discordant (T1$\times$,T3$\checkmark$)} & \textbf{$\chi^2$} & \textbf{$p$-value} \\
+\midrule
+Gemma 4 & 6 & 0 & 6.00 & 0.0498 \\
+GPT-OSS & 4 & 0 & 4.00 & 0.1353 \\
+Nemotron & 3 & 0 & 3.00 & 0.2231 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-05-10T12:00:00Z",
+  "reviewers": {
+    "associate_editor": {
+      "recommendation": "Major Revision",
+      "points": [
+        {
+          "id": "AE.1",
+          "severity": "critical",
+          "concern": "Extremely limited dataset size (1 file per algorithm)",
+          "impacts": ["C001", "C003", "C008", "C010", "C012", "C018", "C019"],
+          "solution_stage": "Stage 1",
+          "solution_action": "Expand to 20 samples per cipher (140 files total) with randomized keys, plaintexts, padding, and file sizes",
+          "status": "PLANNED"
+        },
+        {
+          "id": "AE.2",
+          "severity": "critical",
+          "concern": "Possibility of corpus-specific tuning in Tier-4B pipeline",
+          "impacts": ["C002", "C009", "C017"],
+          "solution_stage": "Stage 2-3",
+          "solution_action": "Implement 70/30 held-out split + 5-fold cross-validation for threshold calibration",
+          "status": "PLANNED"
+        },
+        {
+          "id": "AE.3",
+          "severity": "major",
+          "concern": "x2-based distinction should be presented more cautiously",
+          "impacts": ["C006", "C007", "C024"],
+          "solution_stage": "Stage 4",
+          "solution_action": "Expand to 400 pairwise comparisons across sizes/implementations; use effect sizes (Cohen's d)",
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "reviewer_4": {
+      "recommendation": "Major Revision",
+      "points": [
+        {
+          "id": "R4.1",
+          "severity": "major",
+          "concern": "Inconsistency: Tier-1 accuracy 85.7-92.9% in Abstract vs 85-100% in body",
+          "impacts": ["C001", "C005"],
+          "solution_stage": "Stage 5",
+          "solution_action": "Implement single source of truth (results.json) with automated consistency checker",
+          "status": "PLANNED"
+        },
+        {
+          "id": "R4.2",
+          "severity": "critical",
+          "concern": "Expand to 15-20 samples per cipher family",
+          "impacts": ["C008", "C018", "C019"],
+          "solution_stage": "Stage 1",
+          "solution_action": "Generate exactly 20 samples per cipher (140 total)",
+          "status": "PLANNED"
+        },
+        {
+          "id": "R4.3",
+          "severity": "critical",
+          "concern": "No variation in keys, plaintexts, or padding across samples",
+          "impacts": ["C018", "C019"],
+          "solution_stage": "Stage 1",
+          "solution_action": "Randomize keys (CSPRNG), plaintexts (os.urandom), padding (5 modes), and file sizes (5 sizes)",
+          "status": "PLANNED"
+        },
+        {
+          "id": "R4.4",
+          "severity": "critical",
+          "concern": "43% of Tier-1 evaluation missing (12 of 28 queries)",
+          "impacts": ["C010", "C020"],
+          "solution_stage": "Stage 2",
+          "solution_action": "Complete all missing Tier-1 queries; run full benchmark (19 models x 140 files)",
+          "status": "PLANNED"
+        }
+      ]
+    },
+    "reviewer_5": {
+      "recommendation": "Major Revision",
+      "points": [
+        {
+          "id": "R5.1",
+          "severity": "major",
+          "concern": "Preliminary scope: results based on small controlled corpus rather than broad benchmark",
+          "impacts": ["C008", "C018", "C019"],
+          "solution_stage": "Stage 1-3",
+          "solution_action": "Expand to 140 files + add statistical validation (CIs, power analysis)",
+          "status": "PLANNED"
+        },
+        {
+          "id": "R5.2",
+          "severity": "critical",
+          "concern": "Tier-4B thresholds derived from same small set used for evaluation",
+          "impacts": ["C002", "C009", "C017"],
+          "solution_stage": "Stage 2-3",
+          "solution_action": "Separate threshold selection (train set) from evaluation (test set); add validation procedure",
+          "status": "PLANNED"
+        },
+        {
+          "id": "R5.3",
+          "severity": "major",
+          "concern": "x2 generalization: based on very few samples",
+          "impacts": ["C006", "C007", "C024"],
+          "solution_stage": "Stage 4",
+          "solution_action": "400 pairwise comparisons across multiple keys, plaintexts, implementations, and file sizes",
+          "status": "PLANNED"
+        },
+        {
+          "id": "R5.4",
+          "severity": "critical",
+          "concern": "No ablation study showing which components contribute",
+          "impacts": ["C013"],
+          "solution_stage": "Stage 4",
+          "solution_action": "Full ablation study: 10 configurations testing each component individually",
+          "status": "PLANNED"
+        }
+      ]
+    }
+  },
+  "severity_counts": {
+    "critical": 7,
+    "major": 5
+  },
+  "stage_mapping": {
+    "Stage 0": ["R4.1"],
+    "Stage 1": ["AE.1", "R4.2", "R4.3", "R5.1"],
+    "Stage 2-3": ["AE.2", "R4.4", "R5.2"],
+    "Stage 4": ["AE.3", "R5.3", "R5.4"],
+    "Stage 5": ["R4.1"]
+  }
+}

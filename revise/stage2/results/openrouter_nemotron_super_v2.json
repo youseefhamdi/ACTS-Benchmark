@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "total_tests": 14,
+    "completed": 14,
+    "models": [
+      "nvidia/nemotron-3-super-120b-a12b:free"
+    ],
+    "tiers": [
+      "tier3"
+    ],
+    "timestamp": "2026-05-10T11:27:25Z"
+  },
+  "results": [
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/aes_128_s000_openssl.bin",
+      "filename": "aes_128_s000_openssl.bin",
+      "ground_truth": "AES-128",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 288 bytes\n- Shannon entropy: 7.2730 bits/byte\n- Chi-square statistic: 252.44\n- Hex prefix (first 32 bytes): f821801beeef98f64834cb12eeab36ff677438cba61ee59e686e68b0a34811be\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to decide which cipher family matches the given stats: file size 288 bytes,",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 1.76,
+      "timestamp": "2026-05-10T11:26:22Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/aes_128_s010_liboqs.bin",
+      "filename": "aes_128_s010_liboqs.bin",
+      "ground_truth": "AES-128",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 528 bytes\n- Shannon entropy: 7.6416 bits/byte\n- Chi-square statistic: 224.48\n- Hex prefix (first 32 bytes): 8467a77d21e772bac6a986d7f797f1b4763209a027ed1817d5c1a521708b20d2\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": true,
+      "time_seconds": 1.78,
+      "timestamp": "2026-05-10T11:26:24Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/aes_256_s020_openssl.bin",
+      "filename": "aes_256_s020_openssl.bin",
+      "ground_truth": "AES-256",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1040 bytes\n- Shannon entropy: 7.8126 bits/byte\n- Chi-square statistic: 250.34\n- Hex prefix (first 32 bytes): 96c96825db7d482ba4f915779099d2e310337075ae971e8fb78f70f5ae1d5df6\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 1.98,
+      "timestamp": "2026-05-10T11:26:27Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/aes_256_s030_liboqs.bin",
+      "filename": "aes_256_s030_liboqs.bin",
+      "ground_truth": "AES-256",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 544 bytes\n- Shannon entropy: 7.6277 bits/byte\n- Chi-square statistic: 244.71\n- Hex prefix (first 32 bytes): 3d00322fdbc7af00d14bbf9bc079812c953cc09e49c6df6c8dcd756b75c5d812\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to decide which cipher family matches the given stats: file size 544 bytes,",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 6.83,
+      "timestamp": "2026-05-10T11:26:35Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/des_s040_openssl.bin",
+      "filename": "des_s040_openssl.bin",
+      "ground_truth": "DES",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 4112 bytes\n- Shannon entropy: 7.9575 bits/byte\n- Chi-square statistic: 240.87\n- Hex prefix (first 32 bytes): 3b1a1d134ec535ebe7e3b61167ff4c822c1b04a4457e196dbbaa221158df75d1\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 1.41,
+      "timestamp": "2026-05-10T11:26:38Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/des_s050_liboqs.bin",
+      "filename": "des_s050_liboqs.bin",
+      "ground_truth": "DES",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 520 bytes\n- Shannon entropy: 7.5579 bits/byte\n- Chi-square statistic: 279.51\n- Hex prefix (first 32 bytes): f652874f52ebad9516492c0e6628a9af021403e072b8a764956208bc8839111a\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 0.98,
+      "timestamp": "2026-05-10T11:26:40Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/3des_s060_openssl.bin",
+      "filename": "3des_s060_openssl.bin",
+      "ground_truth": "3DES",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 264 bytes\n- Shannon entropy: 7.2657 bits/byte\n- Chi-square statistic: 220.85\n- Hex prefix (first 32 bytes): 7e59ef98ba100af13c600f31d42da676986a4c3d36b5e0ec7ea48c9674a5a277\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 2.15,
+      "timestamp": "2026-05-10T11:26:43Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/3des_s070_liboqs.bin",
+      "filename": "3des_s070_liboqs.bin",
+      "ground_truth": "3DES",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 4112 bytes\n- Shannon entropy: 7.9539 bits/byte\n- Chi-square statistic: 261.42\n- Hex prefix (first 32 bytes): 2a478707eb23ce09b4ecd07e682fe7bab675579579b6b6a70a5aa3857d492037\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to decide which cipher family matches the given stats: file size 4112 bytes",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 2.62,
+      "timestamp": "2026-05-10T11:26:46Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/chacha20_s080_openssl.bin",
+      "filename": "chacha20_s080_openssl.bin",
+      "ground_truth": "ChaCha20",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1040 bytes\n- Shannon entropy: 7.8338 bits/byte\n- Chi-square statistic: 225.23\n- Hex prefix (first 32 bytes): fba5c2b43e08789a994baf599df5d9577c8dce96505f79a26995a884b1677015\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to decide which cipher family matches the given stats. Ciphertext size 104",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 1.04,
+      "timestamp": "2026-05-10T11:26:49Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/chacha20_s090_liboqs.bin",
+      "filename": "chacha20_s090_liboqs.bin",
+      "ground_truth": "ChaCha20",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 4112 bytes\n- Shannon entropy: 7.9554 bits/byte\n- Chi-square statistic: 257.68\n- Hex prefix (first 32 bytes): 2106a87905ee8002ffcc34cb7abadd245bfc0149940147a4f00e69c8b140938c\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 9.81,
+      "timestamp": "2026-05-10T11:26:59Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/rsa_2048_s100_openssl.bin",
+      "filename": "rsa_2048_s100_openssl.bin",
+      "ground_truth": "RSA-2048",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 256 bytes\n- Shannon entropy: 7.1066 bits/byte\n- Chi-square statistic: 286.00\n- Hex prefix (first 32 bytes): 4155414fdf1638a509e9858d58be7c9547ad3659bee206e0a438f9b37ac9407a\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 17.94,
+      "timestamp": "2026-05-10T11:27:18Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/rsa_2048_s110_liboqs.bin",
+      "filename": "rsa_2048_s110_liboqs.bin",
+      "ground_truth": "RSA-2048",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 256 bytes\n- Shannon entropy: 7.1722 bits/byte\n- Chi-square statistic: 258.00\n- Hex prefix (first 32 bytes): 13c8ec3b1f342637e91e9ddc88f64335c6eae3705410150f7fafffe6e8922728\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 0.96,
+      "timestamp": "2026-05-10T11:27:20Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/ml_kem_768_s120_openssl.bin",
+      "filename": "ml_kem_768_s120_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1088 bytes\n- Shannon entropy: 7.8149 bits/byte\n- Chi-square statistic: 268.71\n- Hex prefix (first 32 bytes): 5eecdd43ac3a52d39eac57075d5b0dde075ea260b52a24ab07f6b20d62fa2996\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to decide which cipher family matches the given stats: file size 1088 bytes",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 1.12,
+      "timestamp": "2026-05-10T11:27:22Z"
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "file": "acts_v2_poc/stage1_data/corpus/ml_kem_768_s130_liboqs.bin",
+      "filename": "ml_kem_768_s130_liboqs.bin",
+      "ground_truth": "ML-KEM-768",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1088 bytes\n- Shannon entropy: 7.8102 bits/byte\n- Chi-square statistic: 275.29\n- Hex prefix (first 32 bytes): f6111a8dfb37eb03f1cd4aa98338e0ad655f103a6c9889398a30ab7fcd4df34a\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "We need to output exactly one word from the list: AES-128, AES-2",
+      "predicted": "AES-128",
+      "correct": false,
+      "time_seconds": 0.98,
+      "timestamp": "2026-05-10T11:27:24Z"
+    }
+  ]
+}

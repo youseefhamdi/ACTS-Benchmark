@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Multi-model cipher identification accuracy across metadata tiers (n=7 per model per tier)}
+\label{tab:real_multimodel}
+\begin{tabular}{lccc@{\hspace{1em}}c}
+\toprule
+\textbf{Model} & \textbf{Tier-1 (Meta)} & \textbf{Tier-2 (File)} & \textbf{Tier-3 (Blind)} & \textbf{Gap} \\
+\midrule
+Gemma 4 (31B) & 7/7 (100.0%) & 6/7 (85.7%) & 1/7 (14.3%) & 85.7% \\
+GPT-OSS (120B) & 7/7 (100.0%) & 6/7 (85.7%) & 3/7 (42.9%) & 57.1% \\
+Nemotron Super & 7/7 (100.0%) & 7/7 (100.0%) & 4/7 (57.1%) & 42.9% \\
+\midrule
+\textbf{Average} & 100.0% & 90.5% & 38.1% & 61.9% \\
+\bottomrule
+\end{tabular}
+\end{table}

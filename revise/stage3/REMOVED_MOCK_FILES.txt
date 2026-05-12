@@ -1,0 +1,3 @@
+Removed mock/simulated files:
+- stage3_statistics/reports/stats_report.json
+- stage4_ablation/results/ablation_results.json

@@ -1,0 +1,232 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-05-10T12:00:00Z",
+  "manuscript": "ACTS: A Multi-Tier Benchmark for Evaluating LLM Cipher Identification",
+  "total_claims": 24,
+  "claims": [
+    {
+      "id": "C001",
+      "location": "Abstract",
+      "text": "Tier-1 accuracy is mentioned as 85.7-92.9%",
+      "type": "accuracy_metric",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute from 140-file corpus",
+      "reviewer_flag": "R4.1"
+    },
+    {
+      "id": "C002",
+      "location": "Abstract",
+      "text": "92.9% blind accuracy via CoPaw pipeline",
+      "type": "accuracy_metric",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute on test set with locked thresholds",
+      "reviewer_flag": "R5.2"
+    },
+    {
+      "id": "C003",
+      "location": "Abstract",
+      "text": "66 percentage point metadata gap",
+      "type": "effect_size",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute with confidence intervals",
+      "reviewer_flag": "AE.1"
+    },
+    {
+      "id": "C004",
+      "location": "Abstract",
+      "text": "13% of blind models achieve 0%",
+      "type": "descriptive_statistic",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute from 140-file corpus",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C005",
+      "location": "Body",
+      "text": "Tier-1 accuracy is denoted as 85 to 100%",
+      "type": "accuracy_metric",
+      "evidence_status": "INCONSISTENT_WITH_C001",
+      "action": "Fix inconsistency; use single source of truth",
+      "reviewer_flag": "R4.1"
+    },
+    {
+      "id": "C006",
+      "location": "Section 4.2",
+      "text": "x2 = 260.18 distinguishes ML-KEM-768 from AES-256",
+      "type": "statistical_test",
+      "evidence_status": "NEEDS_EXPANSION",
+      "action": "Validate on 400 pairwise comparisons",
+      "reviewer_flag": "AE.3, R5.3"
+    },
+    {
+      "id": "C007",
+      "location": "Section 4.2",
+      "text": "x2 = 240.98 for AES-256",
+      "type": "statistical_test",
+      "evidence_status": "NEEDS_EXPANSION",
+      "action": "Validate on 400 pairwise comparisons",
+      "reviewer_flag": "AE.3, R5.3"
+    },
+    {
+      "id": "C008",
+      "location": "Section 3",
+      "text": "Evaluation uses 7 ciphertext files",
+      "type": "dataset_description",
+      "evidence_status": "OUTDATED",
+      "action": "Update to 140 files with full randomization",
+      "reviewer_flag": "AE.1, R4.2, R5.1"
+    },
+    {
+      "id": "C009",
+      "location": "Section 3",
+      "text": "Tier-4B thresholds calibrated",
+      "type": "methodology",
+      "evidence_status": "NEEDS_CLARIFICATION",
+      "action": "Document held-out split protocol",
+      "reviewer_flag": "AE.2, R5.2"
+    },
+    {
+      "id": "C010",
+      "location": "Results Table",
+      "text": "19 models evaluated across 7 cipher families",
+      "type": "experimental_design",
+      "evidence_status": "PARTIAL",
+      "action": "Complete missing 43% of Tier-1",
+      "reviewer_flag": "R4.4"
+    },
+    {
+      "id": "C011",
+      "location": "Results Table",
+      "text": "100% of non-refusal blind predictions are AES-family",
+      "type": "observational_claim",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Verify on 140-file corpus",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C012",
+      "location": "Results Table",
+      "text": "Mistral-Large-3 and Nemotron-3-Nano achieve 21.4% blind accuracy",
+      "type": "accuracy_metric",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute with CIs on 140 files",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C013",
+      "location": "Section 4.3",
+      "text": "CoPaw pipeline combines entropy, x2, block-alignment analysis",
+      "type": "methodology",
+      "evidence_status": "NEEDS_ABLATION",
+      "action": "Add ablation study showing per-component contribution",
+      "reviewer_flag": "R5.4"
+    },
+    {
+      "id": "C014",
+      "location": "Cover Letter",
+      "text": "No specific funding was received",
+      "type": "compliance_statement",
+      "evidence_status": "VALID",
+      "action": "Keep as-is",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C015",
+      "location": "Abstract",
+      "text": "100% AES hallucination bias in blind mode",
+      "type": "observational_claim",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Verify on expanded corpus",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C016",
+      "location": "Results",
+      "text": "Scale-accuracy decorrelation",
+      "type": "observational_claim",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute with additional models",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C017",
+      "location": "Results",
+      "text": "Tool-augmentation recovers 92.9% blind accuracy",
+      "type": "accuracy_metric",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Recompute with held-out validation",
+      "reviewer_flag": "AE.2"
+    },
+    {
+      "id": "C018",
+      "location": "Methodology",
+      "text": "Fixed plaintext 'ACTS Benchmark Test' used",
+      "type": "dataset_description",
+      "evidence_status": "OUTDATED",
+      "action": "Document randomized plaintext protocol",
+      "reviewer_flag": "R4.3, R5.1"
+    },
+    {
+      "id": "C019",
+      "location": "Methodology",
+      "text": "Fixed key used per cipher",
+      "type": "dataset_description",
+      "evidence_status": "OUTDATED",
+      "action": "Document randomized key protocol",
+      "reviewer_flag": "R4.3, R5.1"
+    },
+    {
+      "id": "C020",
+      "location": "Section 4",
+      "text": "12 of 28 Tier-1 queries completed",
+      "type": "completeness_metric",
+      "evidence_status": "INCOMPLETE",
+      "action": "Run remaining 12 queries",
+      "reviewer_flag": "R4.4"
+    },
+    {
+      "id": "C021",
+      "location": "Cover Letter",
+      "text": "19 AI systems evaluated",
+      "type": "experimental_design",
+      "evidence_status": "NEEDS_VERIFICATION",
+      "action": "Verify all 19 models have complete results",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C022",
+      "location": "Abstract",
+      "text": "Five concrete findings established",
+      "type": "summary_claim",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Update findings with new statistics",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C023",
+      "location": "Section 3",
+      "text": "OpenSSL and liboqs used for generation",
+      "type": "implementation_detail",
+      "evidence_status": "NEEDS_UPDATE",
+      "action": "Document multi-implementation protocol",
+      "reviewer_flag": null
+    },
+    {
+      "id": "C024",
+      "location": "Results",
+      "text": "PQC fingerprinting at 1 KB scale",
+      "type": "technical_claim",
+      "evidence_status": "NEEDS_EXPANSION",
+      "action": "Test across multiple file sizes",
+      "reviewer_flag": "R5.3"
+    }
+  ],
+  "statistics": {
+    "needs_update": 17,
+    "valid": 1,
+    "outdated": 3,
+    "inconsistent": 1,
+    "incomplete": 1,
+    "partial": 1
+  }
+}

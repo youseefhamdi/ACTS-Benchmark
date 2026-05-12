@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "total_tests": 7,
+    "completed": 7,
+    "models": [
+      "gpt-oss:120b-cloud"
+    ],
+    "tiers": [
+      "tier3"
+    ],
+    "timestamp": "2026-05-10T09:10:25Z"
+  },
+  "results": [
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_aes.bin",
+      "filename": "encrypted_aes.bin",
+      "ground_truth": "AES-128",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1040 bytes\n- Shannon entropy: 7.8126 bits/byte\n- Chi-square statistic: 250.34\n- Hex prefix (first 32 bytes): 96c96825db7d482ba4f915779099d2e310337075ae971e8fb78f70f5ae1d5df6\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 1.7,
+      "timestamp": "2026-05-10T09:10:15Z"
+    },
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_aes256.bin",
+      "filename": "encrypted_aes256.bin",
+      "ground_truth": "AES-256",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1040 bytes\n- Shannon entropy: 7.8126 bits/byte\n- Chi-square statistic: 250.34\n- Hex prefix (first 32 bytes): 96c96825db7d482ba4f915779099d2e310337075ae971e8fb78f70f5ae1d5df6\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 0.91,
+      "timestamp": "2026-05-10T09:10:17Z"
+    },
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_des.bin",
+      "filename": "encrypted_des.bin",
+      "ground_truth": "DES",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 4112 bytes\n- Shannon entropy: 7.9575 bits/byte\n- Chi-square statistic: 240.87\n- Hex prefix (first 32 bytes): 3b1a1d134ec535ebe7e3b61167ff4c822c1b04a4457e196dbbaa221158df75d1\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 0.86,
+      "timestamp": "2026-05-10T09:10:18Z"
+    },
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_3des.bin",
+      "filename": "encrypted_3des.bin",
+      "ground_truth": "3DES",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 264 bytes\n- Shannon entropy: 7.2657 bits/byte\n- Chi-square statistic: 220.85\n- Hex prefix (first 32 bytes): 7e59ef98ba100af13c600f31d42da676986a4c3d36b5e0ec7ea48c9674a5a277\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 2.06,
+      "timestamp": "2026-05-10T09:10:21Z"
+    },
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_chacha20.bin",
+      "filename": "encrypted_chacha20.bin",
+      "ground_truth": "ChaCha20",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1040 bytes\n- Shannon entropy: 7.8338 bits/byte\n- Chi-square statistic: 225.23\n- Hex prefix (first 32 bytes): fba5c2b43e08789a994baf599df5d9577c8dce96505f79a26995a884b1677015\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 0.92,
+      "timestamp": "2026-05-10T09:10:22Z"
+    },
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_rsa.bin",
+      "filename": "encrypted_rsa.bin",
+      "ground_truth": "RSA-2048",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 256 bytes\n- Shannon entropy: 7.1066 bits/byte\n- Chi-square statistic: 286.00\n- Hex prefix (first 32 bytes): 4155414fdf1638a509e9858d58be7c9547ad3659bee206e0a438f9b37ac9407a\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 0.92,
+      "timestamp": "2026-05-10T09:10:23Z"
+    },
+    {
+      "model": "gpt-oss:120b-cloud",
+      "file": "acts_v2_poc/stage1_data/test_samples/encrypted_ml.bin",
+      "filename": "encrypted_ml.bin",
+      "ground_truth": "ML-KEM-768",
+      "tier": "tier3",
+      "prompt": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: 1088 bytes\n- Shannon entropy: 7.8149 bits/byte\n- Chi-square statistic: 268.71\n- Hex prefix (first 32 bytes): 5eecdd43ac3a52d39eac57075d5b0dde075ea260b52a24ab07f6b20d62fa2996\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "raw_response": "",
+      "predicted": "UNKNOWN",
+      "correct": false,
+      "time_seconds": 0.8,
+      "timestamp": "2026-05-10T09:10:25Z"
+    }
+  ]
+}
