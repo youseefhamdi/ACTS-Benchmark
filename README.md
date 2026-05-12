@@ -1,4 +1,4 @@
-# ACTS v2 — LLM Cipher Identification Benchmark
+# ACTS — LLM Cipher Identification Benchmark
 ## Reproducibility Package for ESWA-D-26-11044R1
 
 **This package contains all data, code, and results for the revised ESWA submission.**
