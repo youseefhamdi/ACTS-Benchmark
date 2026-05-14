@@ -1,0 +1,1010 @@
+{
+  "model": "gpt-oss:120b-cloud",
+  "sample_size": 100,
+  "live_accuracy": 9.0,
+  "heuristic_accuracy": 55.0,
+  "diff_pp": -46.0,
+  "timestamp": "2026-05-14 00:10:16",
+  "results": [
+    {
+      "file": "ML-KEM-768_0239_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 3.0
+    },
+    {
+      "file": "3DES_0913_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 1032,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 4.1
+    },
+    {
+      "file": "3DES_0205_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 1032,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.6
+    },
+    {
+      "file": "RSA-2048_0075_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "RSA-2048",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 5.1
+    },
+    {
+      "file": "AES-256_0254_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 528,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "AES-256_0007_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 784,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 5.5
+    },
+    {
+      "file": "AES-128_0829_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 528,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "AES-128_0144_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 1040,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "RSA-2048_0034_openssl.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "3DES_0840_openssl.bin",
+      "ground_truth": "3DES",
+      "size": 264,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "ML-KEM-768_0544_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "RSA-2048_0068_openssl.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 4.1
+    },
+    {
+      "file": "DES_0468_pycryptodome.bin",
+      "ground_truth": "DES",
+      "size": 8200,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.5
+    },
+    {
+      "file": "3DES_0713_openssl.bin",
+      "ground_truth": "3DES",
+      "size": 520,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "DES_0838_pycryptodome.bin",
+      "ground_truth": "DES",
+      "size": 4104,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.9
+    },
+    {
+      "file": "ChaCha20_0457_pycryptodome.bin",
+      "ground_truth": "ChaCha20",
+      "size": 8192,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.0
+    },
+    {
+      "file": "3DES_0261_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 776,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "3DES_0245_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 1032,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "3DES_0768_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 1032,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 5.3
+    },
+    {
+      "file": "AES-128_0792_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 1040,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "AES-128_0906_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 8208,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "DES_0140_openssl.bin",
+      "ground_truth": "DES",
+      "size": 2056,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.5
+    },
+    {
+      "file": "DES_0932_openssl.bin",
+      "ground_truth": "DES",
+      "size": 776,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "3DES_0218_openssl.bin",
+      "ground_truth": "3DES",
+      "size": 1032,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.0
+    },
+    {
+      "file": "DES_0598_pycryptodome.bin",
+      "ground_truth": "DES",
+      "size": 776,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.9
+    },
+    {
+      "file": "AES-128_0629_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 784,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 4.2
+    },
+    {
+      "file": "ML-KEM-768_0866_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "ML-KEM-768_0324_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 4.3
+    },
+    {
+      "file": "ML-KEM-768_0746_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 2.3
+    },
+    {
+      "file": "DES_0465_openssl.bin",
+      "ground_truth": "DES",
+      "size": 520,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 5.1
+    },
+    {
+      "file": "ChaCha20_0437_openssl.bin",
+      "ground_truth": "ChaCha20",
+      "size": 4096,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.8
+    },
+    {
+      "file": "AES-128_0806_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 8208,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.5
+    },
+    {
+      "file": "ChaCha20_0680_openssl.bin",
+      "ground_truth": "ChaCha20",
+      "size": 128,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "DES_0828_pycryptodome.bin",
+      "ground_truth": "DES",
+      "size": 264,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "AES-256_0279_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 4112,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 6.3
+    },
+    {
+      "file": "RSA-2048_0631_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 5.1
+    },
+    {
+      "file": "3DES_0054_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 776,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 5.4
+    },
+    {
+      "file": "RSA-2048_0217_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.0
+    },
+    {
+      "file": "RSA-2048_0602_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.9
+    },
+    {
+      "file": "AES-128_0308_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 272,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 4.1
+    },
+    {
+      "file": "ML-KEM-768_0720_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 5.1
+    },
+    {
+      "file": "ChaCha20_0463_openssl.bin",
+      "ground_truth": "ChaCha20",
+      "size": 128,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.8
+    },
+    {
+      "file": "AES-256_0788_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 528,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "AES-256_0277_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 4112,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 4.5
+    },
+    {
+      "file": "AES-128_0274_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 784,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.8
+    },
+    {
+      "file": "AES-128_0764_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 2064,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.8
+    },
+    {
+      "file": "RSA-2048_0255_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "AES-256_0758_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 784,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.9
+    },
+    {
+      "file": "3DES_0838_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 8200,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "3DES_0760_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 8200,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "ChaCha20_0113_pycryptodome.bin",
+      "ground_truth": "ChaCha20",
+      "size": 768,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "3DES_0793_openssl.bin",
+      "ground_truth": "3DES",
+      "size": 2056,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.5
+    },
+    {
+      "file": "AES-256_0941_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 272,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 6.9
+    },
+    {
+      "file": "RSA-2048_0943_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 4.1
+    },
+    {
+      "file": "AES-256_0818_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 4112,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 5.6
+    },
+    {
+      "file": "DES_0946_openssl.bin",
+      "ground_truth": "DES",
+      "size": 136,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "AES-256_0167_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 2064,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "RSA-2048_0612_openssl.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "3DES_0356_openssl.bin",
+      "ground_truth": "3DES",
+      "size": 4104,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.9
+    },
+    {
+      "file": "ML-KEM-768_0978_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "ChaCha20_0764_pycryptodome.bin",
+      "ground_truth": "ChaCha20",
+      "size": 4096,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "DES_0393_pycryptodome.bin",
+      "ground_truth": "DES",
+      "size": 264,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 5.5
+    },
+    {
+      "file": "AES-128_0023_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 144,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 4.8
+    },
+    {
+      "file": "ChaCha20_0101_pycryptodome.bin",
+      "ground_truth": "ChaCha20",
+      "size": 512,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 6.8
+    },
+    {
+      "file": "3DES_0646_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 8200,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "DES_0523_openssl.bin",
+      "ground_truth": "DES",
+      "size": 136,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 5.1
+    },
+    {
+      "file": "AES-256_0402_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 2064,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 5.3
+    },
+    {
+      "file": "RSA-2048_0795_openssl.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.6
+    },
+    {
+      "file": "ML-KEM-768_0150_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 2.6
+    },
+    {
+      "file": "ML-KEM-768_0067_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "AES-256_0963_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 528,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 4.1
+    },
+    {
+      "file": "DES_0730_openssl.bin",
+      "ground_truth": "DES",
+      "size": 264,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.8
+    },
+    {
+      "file": "AES-128_0576_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 8208,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.5
+    },
+    {
+      "file": "ML-KEM-768_0772_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "3DES_0570_openssl.bin",
+      "ground_truth": "3DES",
+      "size": 1032,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.8
+    },
+    {
+      "file": "3DES_0376_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 136,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "ML-KEM-768_0418_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 2.3
+    },
+    {
+      "file": "AES-128_0867_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 528,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.6
+    },
+    {
+      "file": "RSA-2048_0333_pycryptodome.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "AES-256_0371_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 528,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.8
+    },
+    {
+      "file": "3DES_0654_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 8200,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.9
+    },
+    {
+      "file": "AES-128_0908_openssl.bin",
+      "ground_truth": "AES-128",
+      "size": 272,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "3DES_0828_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 264,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.7
+    },
+    {
+      "file": "ChaCha20_0114_openssl.bin",
+      "ground_truth": "ChaCha20",
+      "size": 512,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "AES-256_0278_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 784,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "ChaCha20_0715_pycryptodome.bin",
+      "ground_truth": "ChaCha20",
+      "size": 2048,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 2.9
+    },
+    {
+      "file": "ML-KEM-768_0208_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.7
+    },
+    {
+      "file": "RSA-2048_0834_openssl.bin",
+      "ground_truth": "RSA-2048",
+      "size": 256,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "RSA-2048",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.1
+    },
+    {
+      "file": "AES-256_0989_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 144,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.2
+    },
+    {
+      "file": "AES-128_0333_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 1040,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.6
+    },
+    {
+      "file": "ChaCha20_0033_pycryptodome.bin",
+      "ground_truth": "ChaCha20",
+      "size": 4096,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.0
+    },
+    {
+      "file": "AES-256_0911_pycryptodome.bin",
+      "ground_truth": "AES-256",
+      "size": 784,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 3.3
+    },
+    {
+      "file": "AES-128_0717_pycryptodome.bin",
+      "ground_truth": "AES-128",
+      "size": 2064,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.5
+    },
+    {
+      "file": "ML-KEM-768_0491_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.4
+    },
+    {
+      "file": "AES-256_0188_openssl.bin",
+      "ground_truth": "AES-256",
+      "size": 1040,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "AES-128",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 5.1
+    },
+    {
+      "file": "ML-KEM-768_0750_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 3.8
+    },
+    {
+      "file": "ML-KEM-768_0600_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 2.8
+    },
+    {
+      "file": "ML-KEM-768_0309_openssl.bin",
+      "ground_truth": "ML-KEM-768",
+      "size": 1088,
+      "live_answer": "ML-KEM-768",
+      "heuristic_answer": "ML-KEM-768",
+      "live_correct": true,
+      "heuristic_correct": true,
+      "latency_sec": 2.3
+    },
+    {
+      "file": "3DES_0585_pycryptodome.bin",
+      "ground_truth": "3DES",
+      "size": 2056,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": false,
+      "latency_sec": 4.8
+    },
+    {
+      "file": "DES_0991_openssl.bin",
+      "ground_truth": "DES",
+      "size": 2056,
+      "live_answer": "UNKNOWN",
+      "heuristic_answer": "DES",
+      "live_correct": false,
+      "heuristic_correct": true,
+      "latency_sec": 2.7
+    }
+  ]
+}

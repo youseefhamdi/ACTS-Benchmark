@@ -35,7 +35,8 @@
 - [x] `corpus_manifest.json` — 140-file metadata
 
 ### 5. Open Science
-- [x] GitHub repository updated: https://github.com/youseefhamdi/CoPaw-ACTS-Benchmark
+- [x] GitHub repository updated: https://github.com/youseefhamdi/ACTS-Benchmark
+- [x] Zenodo DOI registered: https://doi.org/10.5281/zenodo.20142272
 - [x] Docker image built and tagged: `acts-v2-eval:latest`
 - [x] LICENSE: MIT (code), CC-BY (data)
 - [x] README with reproduction instructions

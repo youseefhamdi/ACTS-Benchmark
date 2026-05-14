@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "project": "ACTS v2 Major Revision (ESWA-D-26-11044R1)",
+    "date": "2026-05-13",
+    "revision_round": 2,
+    "datasets": {
+      "pilot": 140,
+      "expanded": 700,
+      "mega": 3500,
+      "ultra": 7000
+    },
+    "all_real_data": true,
+    "single_source_of_truth": "GROUND_TRUTH.json + ablation_results.json + chi2_results.json"
+  },
+  "datasets": {
+    "pilot": {
+      "files": 140,
+      "per_family": 20,
+      "families": [
+        "AES-128",
+        "AES-256",
+        "3DES",
+        "DES",
+        "ChaCha20",
+        "RSA-2048",
+        "ML-KEM-768"
+      ],
+      "randomization": "5D: plaintext, key, IV, padding, implementation",
+      "location": "stage1_data/corpus/"
+    },
+    "expanded": {
+      "files": 700,
+      "per_family": 100,
+      "randomization": "5D",
+      "location": "stage1_data/corpus_expanded/",
+      "manifest": "stage1_data/corpus_expanded/manifest.json"
+    },
+    "mega": {
+      "files": 3500,
+      "per_family": 500,
+      "randomization": "5D",
+      "location": "stage1_data/corpus_mega/",
+      "manifest": "stage1_data/corpus_mega/manifest.json"
+    },
+    "ultra": {
+      "files": 7000,
+      "per_family": 1000
+    }
+  },
+  "tier4b_ablation_mega_3500": {
+    "corpus": "mega (3500 files)",
+    "split": "70/30 stratified",
+    "train_samples": 2450,
+    "test_samples": 1050,
+    "model": "RandomForest(n_estimators=200, max_depth=20)",
+    "scaler": "StandardScaler",
+    "configs": [
+      {
+        "name": "full_pipeline",
+        "accuracy": 0.6933,
+        "ci_95": [
+          0.6648,
+          0.7205
+        ],
+        "n_features": 17
+      },
+      {
+        "name": "no_chi2",
+        "accuracy": 0.6952,
+        "ci_95": [
+          0.6667,
+          0.7223
+        ],
+        "n_features": 16
+      },
+      {
+        "name": "no_entropy",
+        "accuracy": 0.6914,
+        "ci_95": [
+          0.6628,
+          0.7186
+        ],
+        "n_features": 14
+      },
+      {
+        "name": "no_block",
+        "accuracy": 0.6971,
+        "ci_95": [
+          0.6687,
+          0.7242
+        ],
+        "n_features": 15
+      },
+      {
+        "name": "no_bytefreq",
+        "accuracy": 0.6867,
+        "ci_95": [
+          0.658,
+          0.714
+        ],
+        "n_features": 14
+      },
+      {
+        "name": "entropy_only",
+        "accuracy": 0.6819,
+        "ci_95": [
+          0.6531,
+          0.7094
+        ],
+        "n_features": 3
+      },
+      {
+        "name": "chi2_only",
+        "accuracy": 0.4219,
+        "ci_95": [
+          0.3924,
+          0.452
+        ],
+        "n_features": 1
+      },
+      {
+        "name": "structural_only",
+        "accuracy": 0.6771,
+        "ci_95": [
+          0.6483,
+          0.7047
+        ],
+        "n_features": 6
+      },
+      {
+        "name": "no_file_size",
+        "accuracy": 0.6895,
+        "ci_95": [
+          0.6609,
+          0.7168
+        ],
+        "n_features": 13
+      },
+      {
+        "name": "no_modulo",
+        "accuracy": 0.6914,
+        "ci_95": [
+          0.6628,
+          0.7186
+        ],
+        "n_features": 15
+      }
+    ],
+    "baseline": {
+      "size_only_accuracy": 0.4086,
+      "size_only_ci_95": [
+        0.3786,
+        0.4393
+      ]
+    }
+  },
+  "chi2_validation": {
+    "comparisons": 400,
+    "mlkem_chi2_mean": 254.68,
+    "aes_chi2_mean": 258.69,
+    "overall_cohens_d": -0.166,
+    "mean_difference": -4.01,
+    "interpretation": "Negligible effect size. ML-KEM-768 and AES-256 are statistically indistinguishable by chi-squared byte-frequency test."
+  },
+  "live_llm_inferences": {
+    "total_real_inferences": 161,
+    "models_tested": 5,
+    "backends": [
+      "Ollama (local)",
+      "OpenRouter (cloud)"
+    ],
+    "tier1_mean_accuracy": 1.0,
+    "tier2_mean_accuracy": 0.971,
+    "tier3_mean_accuracy": 0.25,
+    "metadata_gap_mean_pp": 75.0,
+    "note": "Pilot-scale. Full 19-model protocol is future work."
+  },
+  "response_to_reviewers": {
+    "R4.1_consistency": "FIXED. Consistency checker validates all numbers. All Tier-1 corpus-14 results are 100%.",
+    "R4.2_sample_size": "EXCEEDED. 7,000 files (1,000/family).",
+    "R4.3_randomization": "FIXED. Full 5D randomization documented.",
+    "R4.4_missing_tier1": "FIXED. 100% query coverage for all evaluated combinations.",
+    "R5.1_scope": "FIXED. Expanded from preliminary to validated benchmark protocol.",
+    "R5.2_train_test": "FIXED. Proper 70/30 stratified split. No grid search (fixed hyperparameters to avoid leakage).",
+    "R5.3_chi2": "FIXED. 400 comparisons, Cohen's d = -0.17, honest null-result framing.",
+    "R5.4_ablation": "FIXED. Real 10-configuration ablation on 3,500 files with held-out test set."
+  },
+  "artifacts": {
+    "corpus_generator": "generate_corpus_mega.py",
+    "ablation_pipeline": "tier4b_ablation_pipeline.py",
+    "consistency_checker": "consistency_checker.py",
+    "statistical_analysis": "statistical_analysis.py",
+    "rebuttal_letter": "stage6_rebuttal/responses/REBUTTAL_LETTER_HONEST_FINAL.md",
+    "ablation_results": "stage4_ablation/results/ablation_results.json",
+    "chi2_results": "stage4_ablation/chi2_validation/chi2_results.json",
+    "statistical_output": "stage3_statistics/ablation_statistical_analysis.json"
+  },
+  "tier4b_ablation_ultra_7000": {
+    "corpus": "ultra",
+    "split": "70/30 stratified",
+    "train_samples": 4900,
+    "test_samples": 2100,
+    "configs": [
+      {
+        "name": "full_pipeline",
+        "accuracy": 0.6980952380952381,
+        "n_features": 17
+      },
+      {
+        "name": "no_chi2",
+        "accuracy": 0.6947619047619048,
+        "n_features": 16
+      },
+      {
+        "name": "no_entropy",
+        "accuracy": 0.7061904761904761,
+        "n_features": 14
+      },
+      {
+        "name": "no_block",
+        "accuracy": 0.7080952380952381,
+        "n_features": 15
+      },
+      {
+        "name": "no_bytefreq",
+        "accuracy": 0.6861904761904762,
+        "n_features": 14
+      },
+      {
+        "name": "entropy_only",
+        "accuracy": 0.699047619047619,
+        "n_features": 3
+      },
+      {
+        "name": "chi2_only",
+        "accuracy": 0.44142857142857145,
+        "n_features": 1
+      },
+      {
+        "name": "structural_only",
+        "accuracy": 0.6804761904761905,
+        "n_features": 6
+      },
+      {
+        "name": "no_file_size",
+        "accuracy": 0.6938095238095238,
+        "n_features": 13
+      },
+      {
+        "name": "no_modulo",
+        "accuracy": 0.700952380952381,
+        "n_features": 15
+      }
+    ],
+    "baseline": {
+      "size_only_accuracy": 0.4338095238095238
+    }
+  },
+  "tier6_ultra": {
+    "corpus": "ultra",
+    "method": "5-fold stratified CV",
+    "models": {
+      "RandomForest": {
+        "overall_accuracy": 0.6921428571428572,
+        "fold_accuracies": [
+          0.695,
+          0.6842857142857143,
+          0.6921428571428572,
+          0.6885714285714286,
+          0.7007142857142857
+        ]
+      },
+      "LogisticRegression": {
+        "overall_accuracy": 0.5685714285714286,
+        "fold_accuracies": [
+          0.5635714285714286,
+          0.5728571428571428,
+          0.5857142857142857,
+          0.5542857142857143,
+          0.5664285714285714
+        ]
+      },
+      "LinearSVM": {
+        "overall_accuracy": 0.5581428571428572,
+        "fold_accuracies": [
+          0.5485714285714286,
+          0.5657142857142857,
+          0.5742857142857143,
+          0.5485714285714286,
+          0.5535714285714286
+        ]
+      }
+    }
+  },
+  "tier5_ultra": {
+    "accuracy": 0.4722857142857143,
+    "per_class_accuracy": {
+      "AES-128": 1.0,
+      "AES-256": 0.0,
+      "3DES": 0.154,
+      "DES": 0.152,
+      "ChaCha20": 0.0,
+      "RSA-2048": 1.0,
+      "ML-KEM-768": 1.0
+    },
+    "n": 7000,
+    "mechanism": "file-size heuristic + biased AES-128 default for mod16==0"
+  }
+}

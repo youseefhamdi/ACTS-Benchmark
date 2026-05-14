@@ -1,0 +1,970 @@
+{
+  "metadata": {
+    "corpus_dir": "stage1_data/corpus_mega",
+    "manifest": "stage1_data/corpus_mega/manifest.json",
+    "total_samples": 3500,
+    "train_samples": 2450,
+    "test_samples": 1050,
+    "test_size": 0.3,
+    "random_state": 42,
+    "scaler": "StandardScaler",
+    "model": "RandomForestClassifier(n_estimators=200, max_depth=20)"
+  },
+  "configs": [
+    {
+      "config_name": "full_pipeline",
+      "features_used": [
+        "file_size",
+        "entropy",
+        "chi2",
+        "bigram_entropy",
+        "trigram_entropy",
+        "block_std_8",
+        "block_std_16",
+        "runs",
+        "serial_corr",
+        "max_byte_freq",
+        "zero_ratio",
+        "ff_ratio",
+        "mod8",
+        "mod16",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 17,
+      "test_accuracy": 0.6933333333333334,
+      "per_class_accuracy": {
+        "AES-128": 0.5133333333333333,
+        "AES-256": 0.4533333333333333,
+        "3DES": 0.5333333333333333,
+        "DES": 0.49333333333333335,
+        "ChaCha20": 0.86,
+        "RSA-2048": 1.0,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          77,
+          73,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          82,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          70,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          76,
+          74,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": {
+        "file_size": 0.07269078028765442,
+        "entropy": 0.07348472050805537,
+        "chi2": 0.04384744645384882,
+        "bigram_entropy": 0.08671204091104497,
+        "trigram_entropy": 0.07674759623802992,
+        "block_std_8": 0.04304085126655599,
+        "block_std_16": 0.04796704240916947,
+        "runs": 0.09537768828873679,
+        "serial_corr": 0.05078850930555518,
+        "max_byte_freq": 0.038422652722495135,
+        "zero_ratio": 0.03419800892871004,
+        "ff_ratio": 0.030405950722518154,
+        "mod8": 0.0,
+        "mod16": 0.14406003522304336,
+        "is_256b": 0.050512933914956,
+        "is_1088b": 0.0792743459417114,
+        "size_1000_1200": 0.03246939687791503
+      }
+    },
+    {
+      "config_name": "no_chi2",
+      "features_used": [
+        "file_size",
+        "entropy",
+        "bigram_entropy",
+        "trigram_entropy",
+        "block_std_8",
+        "block_std_16",
+        "runs",
+        "serial_corr",
+        "max_byte_freq",
+        "zero_ratio",
+        "ff_ratio",
+        "mod8",
+        "mod16",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 16,
+      "test_accuracy": 0.6952380952380952,
+      "per_class_accuracy": {
+        "AES-128": 0.49333333333333335,
+        "AES-256": 0.47333333333333333,
+        "3DES": 0.5333333333333333,
+        "DES": 0.5133333333333333,
+        "ChaCha20": 0.86,
+        "RSA-2048": 0.9933333333333333,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          74,
+          76,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          79,
+          71,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          80,
+          70,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          77,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          149,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "no_entropy",
+      "features_used": [
+        "file_size",
+        "chi2",
+        "block_std_8",
+        "block_std_16",
+        "runs",
+        "serial_corr",
+        "max_byte_freq",
+        "zero_ratio",
+        "ff_ratio",
+        "mod8",
+        "mod16",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 14,
+      "test_accuracy": 0.6914285714285714,
+      "per_class_accuracy": {
+        "AES-128": 0.5466666666666666,
+        "AES-256": 0.48,
+        "3DES": 0.4866666666666667,
+        "DES": 0.47333333333333333,
+        "ChaCha20": 0.86,
+        "RSA-2048": 0.9933333333333333,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          82,
+          68,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          78,
+          72,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          73,
+          77,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          79,
+          71,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          149,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "no_block",
+      "features_used": [
+        "file_size",
+        "entropy",
+        "chi2",
+        "bigram_entropy",
+        "trigram_entropy",
+        "runs",
+        "serial_corr",
+        "max_byte_freq",
+        "zero_ratio",
+        "ff_ratio",
+        "mod8",
+        "mod16",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 15,
+      "test_accuracy": 0.6971428571428572,
+      "per_class_accuracy": {
+        "AES-128": 0.47333333333333333,
+        "AES-256": 0.44666666666666666,
+        "3DES": 0.5733333333333334,
+        "DES": 0.5333333333333333,
+        "ChaCha20": 0.86,
+        "RSA-2048": 0.9933333333333333,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          71,
+          79,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          83,
+          67,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          86,
+          64,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          70,
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          149,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "no_bytefreq",
+      "features_used": [
+        "file_size",
+        "entropy",
+        "chi2",
+        "bigram_entropy",
+        "trigram_entropy",
+        "block_std_8",
+        "block_std_16",
+        "runs",
+        "serial_corr",
+        "mod8",
+        "mod16",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 14,
+      "test_accuracy": 0.6866666666666666,
+      "per_class_accuracy": {
+        "AES-128": 0.4866666666666667,
+        "AES-256": 0.4266666666666667,
+        "3DES": 0.49333333333333335,
+        "DES": 0.54,
+        "ChaCha20": 0.86,
+        "RSA-2048": 1.0,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          73,
+          77,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          86,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          76,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          69,
+          81,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "entropy_only",
+      "features_used": [
+        "entropy",
+        "bigram_entropy",
+        "trigram_entropy"
+      ],
+      "n_features": 3,
+      "test_accuracy": 0.6819047619047619,
+      "per_class_accuracy": {
+        "AES-128": 0.48,
+        "AES-256": 0.5266666666666666,
+        "3DES": 0.5466666666666666,
+        "DES": 0.42,
+        "ChaCha20": 0.86,
+        "RSA-2048": 0.94,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          72,
+          78,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          70,
+          79,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          82,
+          66,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          86,
+          63,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          9,
+          141,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "chi2_only",
+      "features_used": [
+        "chi2"
+      ],
+      "n_features": 1,
+      "test_accuracy": 0.4219047619047619,
+      "per_class_accuracy": {
+        "AES-128": 0.20666666666666667,
+        "AES-256": 0.3,
+        "3DES": 0.3,
+        "DES": 0.28,
+        "ChaCha20": 0.31333333333333335,
+        "RSA-2048": 0.8533333333333334,
+        "ML-KEM-768": 0.7
+      },
+      "confusion_matrix": [
+        [
+          31,
+          50,
+          18,
+          19,
+          6,
+          9,
+          17
+        ],
+        [
+          47,
+          45,
+          12,
+          16,
+          9,
+          3,
+          18
+        ],
+        [
+          19,
+          12,
+          45,
+          44,
+          5,
+          11,
+          14
+        ],
+        [
+          18,
+          15,
+          44,
+          42,
+          10,
+          4,
+          17
+        ],
+        [
+          14,
+          18,
+          11,
+          7,
+          47,
+          48,
+          5
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          21,
+          128,
+          0
+        ],
+        [
+          11,
+          9,
+          4,
+          15,
+          1,
+          5,
+          105
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "structural_only",
+      "features_used": [
+        "file_size",
+        "mod8",
+        "mod16",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 6,
+      "test_accuracy": 0.6771428571428572,
+      "per_class_accuracy": {
+        "AES-128": 0.62,
+        "AES-256": 0.36,
+        "3DES": 0.49333333333333335,
+        "DES": 0.4066666666666667,
+        "ChaCha20": 0.86,
+        "RSA-2048": 1.0,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          93,
+          57,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          96,
+          54,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          76,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          89,
+          61,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "no_file_size",
+      "features_used": [
+        "entropy",
+        "chi2",
+        "bigram_entropy",
+        "trigram_entropy",
+        "block_std_8",
+        "block_std_16",
+        "runs",
+        "serial_corr",
+        "max_byte_freq",
+        "zero_ratio",
+        "ff_ratio",
+        "mod8",
+        "mod16"
+      ],
+      "n_features": 13,
+      "test_accuracy": 0.6895238095238095,
+      "per_class_accuracy": {
+        "AES-128": 0.5066666666666667,
+        "AES-256": 0.46,
+        "3DES": 0.49333333333333335,
+        "DES": 0.5066666666666667,
+        "ChaCha20": 0.86,
+        "RSA-2048": 1.0,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          76,
+          73,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          81,
+          69,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          76,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          76,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    },
+    {
+      "config_name": "no_modulo",
+      "features_used": [
+        "file_size",
+        "entropy",
+        "chi2",
+        "bigram_entropy",
+        "trigram_entropy",
+        "block_std_8",
+        "block_std_16",
+        "runs",
+        "serial_corr",
+        "max_byte_freq",
+        "zero_ratio",
+        "ff_ratio",
+        "is_256b",
+        "is_1088b",
+        "size_1000_1200"
+      ],
+      "n_features": 15,
+      "test_accuracy": 0.6914285714285714,
+      "per_class_accuracy": {
+        "AES-128": 0.5133333333333333,
+        "AES-256": 0.43333333333333335,
+        "3DES": 0.5133333333333333,
+        "DES": 0.52,
+        "ChaCha20": 0.86,
+        "RSA-2048": 1.0,
+        "ML-KEM-768": 1.0
+      },
+      "confusion_matrix": [
+        [
+          77,
+          73,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          85,
+          65,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          77,
+          73,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          72,
+          78,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          129,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          150
+        ]
+      ],
+      "feature_importances": null
+    }
+  ],
+  "baseline": {
+    "size_only_accuracy": 0.4085714285714286
+  }
+}

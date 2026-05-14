@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "project": "ACTS v2 Major Revision (ESWA-D-26-11044R1)",
+    "date": "2026-05-13T12:46:22.206582+00:00",
+    "corpus": "ultra",
+    "total_samples": 7000
+  },
+  "tier4b_ablation_full_pipeline": {
+    "test_accuracy": 0.6980952380952381,
+    "per_class_accuracy": {
+      "AES-128": 0.51,
+      "AES-256": 0.5033333333333333,
+      "3DES": 0.5233333333333333,
+      "DES": 0.45,
+      "ChaCha20": 0.9033333333333333,
+      "RSA-2048": 0.9966666666666667,
+      "ML-KEM-768": 1.0
+    }
+  },
+  "tier6_best_model": {
+    "name": "RandomForest",
+    "accuracy": 0.6921428571428572
+  },
+  "tier5_deterministic": {
+    "accuracy": 0.4722857142857143,
+    "per_class": {
+      "AES-128": 1.0,
+      "AES-256": 0.0,
+      "3DES": 0.154,
+      "DES": 0.152,
+      "ChaCha20": 0.0,
+      "RSA-2048": 1.0,
+      "ML-KEM-768": 1.0
+    }
+  }
+}

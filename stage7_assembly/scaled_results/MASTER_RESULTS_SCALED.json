@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "project": "ACTS v2 Major Revision (ESWA-D-26-11044R1)",
+    "date": "2026-05-13T12:46:22.203380+00:00",
+    "corpus_label": "ultra",
+    "total_samples": 7000,
+    "single_source_of_truth": true
+  },
+  "datasets": {
+    "ultra": {
+      "files": 7000,
+      "per_family": 1000
+    }
+  },
+  "tier4b_ablation": {
+    "corpus": "ultra",
+    "split": "70/30 stratified",
+    "train_samples": 4900,
+    "test_samples": 2100,
+    "configs": [
+      {
+        "name": "full_pipeline",
+        "accuracy": 0.6980952380952381,
+        "n_features": 17
+      },
+      {
+        "name": "no_chi2",
+        "accuracy": 0.6947619047619048,
+        "n_features": 16
+      },
+      {
+        "name": "no_entropy",
+        "accuracy": 0.7061904761904761,
+        "n_features": 14
+      },
+      {
+        "name": "no_block",
+        "accuracy": 0.7080952380952381,
+        "n_features": 15
+      },
+      {
+        "name": "no_bytefreq",
+        "accuracy": 0.6861904761904762,
+        "n_features": 14
+      },
+      {
+        "name": "entropy_only",
+        "accuracy": 0.699047619047619,
+        "n_features": 3
+      },
+      {
+        "name": "chi2_only",
+        "accuracy": 0.44142857142857145,
+        "n_features": 1
+      },
+      {
+        "name": "structural_only",
+        "accuracy": 0.6804761904761905,
+        "n_features": 6
+      },
+      {
+        "name": "no_file_size",
+        "accuracy": 0.6938095238095238,
+        "n_features": 13
+      },
+      {
+        "name": "no_modulo",
+        "accuracy": 0.700952380952381,
+        "n_features": 15
+      }
+    ],
+    "baseline": {
+      "size_only_accuracy": 0.4338095238095238
+    }
+  },
+  "tier6_classical_ml": {
+    "corpus": "ultra",
+    "method": "5-fold stratified CV",
+    "models": {
+      "RandomForest": {
+        "overall_accuracy": 0.6921428571428572,
+        "fold_accuracies": [
+          0.695,
+          0.6842857142857143,
+          0.6921428571428572,
+          0.6885714285714286,
+          0.7007142857142857
+        ]
+      },
+      "LogisticRegression": {
+        "overall_accuracy": 0.5685714285714286,
+        "fold_accuracies": [
+          0.5635714285714286,
+          0.5728571428571428,
+          0.5857142857142857,
+          0.5542857142857143,
+          0.5664285714285714
+        ]
+      },
+      "LinearSVM": {
+        "overall_accuracy": 0.5581428571428572,
+        "fold_accuracies": [
+          0.5485714285714286,
+          0.5657142857142857,
+          0.5742857142857143,
+          0.5485714285714286,
+          0.5535714285714286
+        ]
+      }
+    }
+  },
+  "tier5_deterministic": {
+    "accuracy": 0.4722857142857143,
+    "per_class_accuracy": {
+      "AES-128": 1.0,
+      "AES-256": 0.0,
+      "3DES": 0.154,
+      "DES": 0.152,
+      "ChaCha20": 0.0,
+      "RSA-2048": 1.0,
+      "ML-KEM-768": 1.0
+    },
+    "n": 7000,
+    "mechanism": "file-size heuristic + biased AES-128 default for mod16==0"
+  }
+}
