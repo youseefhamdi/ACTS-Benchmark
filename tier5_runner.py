@@ -219,9 +219,22 @@ def run_tier5_benchmark(args) -> Dict:
         # Try to normalize predicted cipher
         response_lower = inference["raw_response"].lower()
         predicted = None
-        for c in ["aes-128", "aes128", "aes-256", "aes256", "3des", "des", "chacha20", "rsa-2048", "rsa2048", "ml-kem-768", "mlkem768"]:
-            if c in response_lower:
-                predicted = c.replace("-", "").replace("aes128", "aes128").replace("aes256", "aes256")
+        # Check longer/more specific strings first to avoid substring false matches
+        # 3des variants must come BEFORE "des"; "triple des" must come before "des" too
+        CIPHER_MATCH = [
+            ("aes-128", "aes128"), ("aes128", "aes128"),
+            ("aes-256", "aes256"), ("aes256", "aes256"),
+            ("aes", "aes128"),
+            ("3des", "3des"), ("tripledes", "3des"), ("3-des", "3des"),
+            ("triple des", "3des"), ("triple-des", "3des"),
+            ("des", "des"),
+            ("chacha20", "chacha20"),
+            ("rsa-2048", "rsa2048"), ("rsa2048", "rsa2048"),
+            ("ml-kem-768", "mlkem768"), ("mlkem768", "mlkem768"),
+        ]
+        for pattern, canonical in CIPHER_MATCH:
+            if pattern in response_lower:
+                predicted = canonical
                 break
         
         parsed["predicted"] = predicted or "unknown"

@@ -1,0 +1,6 @@
+[gemma4] checkpoint=12
+  429 wait 25s (attempt 1/5)
+  429 wait 45s (attempt 2/5)
+  429 wait 85s (attempt 3/5)
+  429 wait 165s (attempt 4/5)
+  429 wait 300s (attempt 5/5)

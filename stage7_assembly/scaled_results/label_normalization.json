@@ -1,0 +1,41 @@
+{
+  "fixes": [
+    {
+      "original": "3DES",
+      "normalized": "3des"
+    },
+    {
+      "original": "AES-128",
+      "normalized": "aes-128"
+    },
+    {
+      "original": "AES-256",
+      "normalized": "aes-256"
+    },
+    {
+      "original": "ChaCha20",
+      "normalized": "chacha20"
+    },
+    {
+      "original": "DES",
+      "normalized": "des"
+    },
+    {
+      "original": "ML-KEM-768",
+      "normalized": "ml-kem-768"
+    },
+    {
+      "original": "RSA-2048",
+      "normalized": "rsa-2048"
+    }
+  ],
+  "canonical_labels": [
+    "3des",
+    "aes-128",
+    "aes-256",
+    "chacha20",
+    "des",
+    "ml-kem-768",
+    "rsa-2048"
+  ]
+}

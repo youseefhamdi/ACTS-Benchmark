@@ -1,0 +1,369 @@
+{
+  "tier1": {
+    "3des": {
+      "3des": 99,
+      "unknown": 1
+    },
+    "aes-128": {
+      "aes-128": 83,
+      "unknown": 17
+    },
+    "aes-256": {
+      "aes-256": 80,
+      "unknown": 20
+    },
+    "chacha20": {
+      "chacha20": 80,
+      "unknown": 20
+    },
+    "des": {
+      "des": 80,
+      "unknown": 20
+    },
+    "ml-kem-768": {
+      "ml-kem-768": 80,
+      "unknown": 20
+    },
+    "rsa-2048": {
+      "rsa-2048": 80,
+      "unknown": 20
+    }
+  },
+  "tier2": {
+    "3des": {
+      "3des": 80,
+      "unknown": 20
+    },
+    "aes-128": {
+      "aes-128": 80,
+      "unknown": 20
+    },
+    "aes-256": {
+      "aes-256": 80,
+      "unknown": 20
+    },
+    "chacha20": {
+      "chacha20": 83,
+      "unknown": 17
+    },
+    "des": {
+      "des": 80,
+      "unknown": 20
+    },
+    "ml-kem-768": {
+      "ml-kem-768": 80,
+      "unknown": 20
+    },
+    "rsa-2048": {
+      "rsa-2048": 80,
+      "unknown": 20
+    }
+  },
+  "tier3": {
+    "3des": {
+      "aes-256": 28,
+      "chacha20": 93,
+      "3des": 21,
+      "des": 15,
+      "ml-kem-768": 1,
+      "rsa-2048": 1,
+      "aes-128": 1,
+      "unknown": 40
+    },
+    "aes-128": {
+      "chacha20": 64,
+      "aes-256": 75,
+      "aes-128": 21,
+      "unknown": 40
+    },
+    "aes-256": {
+      "chacha20": 68,
+      "aes-256": 67,
+      "aes-128": 25,
+      "unknown": 40
+    },
+    "chacha20": {
+      "chacha20": 81,
+      "ml-kem-768": 2,
+      "aes-256": 51,
+      "rsa-2048": 22,
+      "aes-128": 4,
+      "unknown": 40
+    },
+    "des": {
+      "chacha20": 92,
+      "aes-256": 33,
+      "3des": 24,
+      "rsa-2048": 1,
+      "des": 9,
+      "aes-128": 1,
+      "unknown": 40
+    },
+    "ml-kem-768": {
+      "chacha20": 52,
+      "aes-256": 40,
+      "ml-kem-768": 51,
+      "aes-128": 1,
+      "unknown": 56
+    },
+    "rsa-2048": {
+      "chacha20": 39,
+      "aes-256": 4,
+      "rsa-2048": 78,
+      "unknown": 79
+    }
+  },
+  "tier3_gemma4:31b-cloud": {
+    "3des": {
+      "aes-256": 4,
+      "chacha20": 36
+    },
+    "aes-128": {
+      "chacha20": 35,
+      "aes-256": 5
+    },
+    "aes-256": {
+      "chacha20": 38,
+      "aes-256": 2
+    },
+    "chacha20": {
+      "chacha20": 37,
+      "ml-kem-768": 1,
+      "aes-256": 2
+    },
+    "des": {
+      "chacha20": 36,
+      "aes-256": 4
+    },
+    "ml-kem-768": {
+      "chacha20": 34,
+      "aes-256": 6
+    },
+    "rsa-2048": {
+      "chacha20": 38,
+      "aes-256": 2
+    }
+  },
+  "tier3_google/gemma-4-31b-it:free": {
+    "3des": {
+      "unknown": 40
+    },
+    "aes-128": {
+      "unknown": 40
+    },
+    "aes-256": {
+      "unknown": 40
+    },
+    "chacha20": {
+      "unknown": 40
+    },
+    "des": {
+      "unknown": 40
+    },
+    "ml-kem-768": {
+      "unknown": 40
+    },
+    "rsa-2048": {
+      "unknown": 40
+    }
+  },
+  "tier3_gpt-oss:120b-cloud": {
+    "3des": {
+      "3des": 13,
+      "chacha20": 22,
+      "des": 2,
+      "ml-kem-768": 1,
+      "aes-256": 2
+    },
+    "aes-128": {
+      "aes-256": 34,
+      "aes-128": 5,
+      "chacha20": 1
+    },
+    "aes-256": {
+      "aes-256": 32,
+      "aes-128": 7,
+      "chacha20": 1
+    },
+    "chacha20": {
+      "rsa-2048": 10,
+      "aes-256": 23,
+      "chacha20": 6,
+      "aes-128": 1
+    },
+    "des": {
+      "chacha20": 29,
+      "3des": 9,
+      "rsa-2048": 1,
+      "aes-256": 1
+    },
+    "ml-kem-768": {
+      "aes-256": 22,
+      "chacha20": 3,
+      "ml-kem-768": 14,
+      "aes-128": 1
+    },
+    "rsa-2048": {
+      "rsa-2048": 39,
+      "aes-256": 1
+    }
+  },
+  "tier3_nemotron-3-super:cloud": {
+    "3des": {
+      "chacha20": 14,
+      "des": 13,
+      "3des": 8,
+      "rsa-2048": 1,
+      "aes-128": 1,
+      "aes-256": 3
+    },
+    "aes-128": {
+      "aes-256": 21,
+      "aes-128": 16,
+      "chacha20": 3
+    },
+    "aes-256": {
+      "aes-256": 20,
+      "aes-128": 18,
+      "chacha20": 2
+    },
+    "chacha20": {
+      "rsa-2048": 12,
+      "aes-256": 16,
+      "chacha20": 8,
+      "aes-128": 3,
+      "ml-kem-768": 1
+    },
+    "des": {
+      "des": 9,
+      "3des": 15,
+      "aes-256": 8,
+      "chacha20": 7,
+      "aes-128": 1
+    },
+    "ml-kem-768": {
+      "ml-kem-768": 37,
+      "aes-256": 3
+    },
+    "rsa-2048": {
+      "rsa-2048": 39,
+      "aes-256": 1
+    }
+  },
+  "tier3_openrouter/owl-alpha": {
+    "3des": {
+      "aes-256": 19,
+      "chacha20": 21
+    },
+    "aes-128": {
+      "aes-256": 15,
+      "chacha20": 25
+    },
+    "aes-256": {
+      "chacha20": 27,
+      "aes-256": 13
+    },
+    "chacha20": {
+      "chacha20": 30,
+      "aes-256": 10
+    },
+    "des": {
+      "chacha20": 20,
+      "aes-256": 20
+    },
+    "ml-kem-768": {
+      "chacha20": 15,
+      "aes-256": 9,
+      "unknown": 16
+    },
+    "rsa-2048": {
+      "unknown": 39,
+      "chacha20": 1
+    }
+  },
+  "tier4a": {
+    "3des": {
+      "3des": 65,
+      "des": 3,
+      "chacha20": 3
+    },
+    "aes-128": {
+      "aes-128": 59,
+      "aes-256": 1
+    },
+    "aes-256": {
+      "aes-128": 62,
+      "chacha20": 2
+    },
+    "chacha20": {
+      "rsa-2048": 15,
+      "aes-128": 30,
+      "aes-256": 3,
+      "chacha20": 12
+    },
+    "des": {
+      "3des": 47,
+      "des": 1,
+      "unknown": 12
+    },
+    "ml-kem-768": {
+      "ml-kem-768": 60
+    },
+    "rsa-2048": {
+      "rsa-2048": 60
+    }
+  },
+  "tier5": {
+    "3des": {
+      "3des": 66,
+      "des": 4,
+      "chacha20": 8,
+      "aes-128": 1,
+      "unknown": 21
+    },
+    "aes-128": {
+      "aes-128": 45,
+      "rsa-2048": 1,
+      "3des": 3,
+      "ml-kem-768": 1,
+      "des": 3,
+      "chacha20": 1,
+      "unknown": 46
+    },
+    "aes-256": {
+      "aes-128": 37,
+      "3des": 1,
+      "des": 1,
+      "chacha20": 1,
+      "unknown": 60
+    },
+    "chacha20": {
+      "rsa-2048": 11,
+      "aes-128": 21,
+      "aes-256": 1,
+      "3des": 2,
+      "chacha20": 5,
+      "unknown": 60
+    },
+    "des": {
+      "3des": 38,
+      "des": 2,
+      "unknown": 60
+    },
+    "ml-kem-768": {
+      "ml-kem-768": 34,
+      "des": 3,
+      "chacha20": 2,
+      "3des": 1,
+      "unknown": 60
+    },
+    "rsa-2048": {
+      "rsa-2048": 33,
+      "chacha20": 3,
+      "3des": 2,
+      "des": 1,
+      "aes-128": 1,
+      "unknown": 60
+    }
+  }
+}

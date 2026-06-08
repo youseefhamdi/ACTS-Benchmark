@@ -1,0 +1,9 @@
+
+🚀 tier5: 140 files × 5 backends = 700 calls
+📋 Checkpoint: 0 results already in tier5_live_full.jsonl
+  ✅ [gemma4:31b-cloud] tier5 3DES_0251_openssl.bin: GT=3DES PRED=3DES (5.7s)
+  ✅ [gemma4:31b-cloud] tier5 3DES_0776_openssl.bin: GT=3DES PRED=3DES (7.6s)
+  ✅ [gemma4:31b-cloud] tier5 3DES_0102_openssl.bin: GT=3DES PRED=3DES (8.2s)
+  ✅ [gemma4:31b-cloud] tier5 3DES_0333_openssl.bin: GT=3DES PRED=3DES (6.0s)
+  ✅ [gemma4:31b-cloud] tier5 3DES_0116_openssl.bin: GT=3DES PRED=3DES (10.1s)
+  ✅ [gemma4:31b-cloud] tier5 3DES_0418_openssl.bin: GT=3DES PRED=3DES (6.3s)

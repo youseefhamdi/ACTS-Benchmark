@@ -1,0 +1,10 @@
+[2026-06-02 06:14:46] === Monitor check ===
+[2026-06-02 06:14:46] minimax-m3 (1010031): 1010031       04:02, shard=17 records
+[2026-06-02 06:14:46] owl-alpha T4A+T5 (1010406): 1010406       03:51, shard=39 records
+[2026-06-02 06:14:46] Coverage: 18/25 cells complete
+[2026-06-02 06:14:46]   gemma4:31b-cloud                          OK     OK     OK     OK     OK   
+[2026-06-02 06:14:46]   gpt-oss:120b-cloud                        OK     OK     OK     OK     OK   
+[2026-06-02 06:14:46]   nemotron-3-super:cloud                    OK     OK     OK     OK     OK   
+[2026-06-02 06:14:46]   minimax-m3:cloud                           17     0      0      0      0   
+[2026-06-02 06:14:46]   openrouter/owl-alpha                      OK     OK     OK      41     0   
+[2026-06-02 06:14:46] Still running — check again later

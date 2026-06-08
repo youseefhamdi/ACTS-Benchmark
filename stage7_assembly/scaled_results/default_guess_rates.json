@@ -1,0 +1,329 @@
+{
+  "tier1": {
+    "gemma4:31b-cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    },
+    "google/gemma-4-31b-it:free": {
+      "modal_prediction": "unknown",
+      "modal_count": 118,
+      "total": 140,
+      "modal_share": 84.3,
+      "distribution": {
+        "unknown": 84.3,
+        "3des": 13.6,
+        "aes-128": 2.1
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    },
+    "openrouter/owl-alpha": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    }
+  },
+  "tier2": {
+    "gemma4:31b-cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    },
+    "google/gemma-4-31b-it:free": {
+      "modal_prediction": "unknown",
+      "modal_count": 137,
+      "total": 140,
+      "modal_share": 97.9,
+      "distribution": {
+        "unknown": 97.9,
+        "chacha20": 2.1
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    },
+    "openrouter/owl-alpha": {
+      "modal_prediction": "3des",
+      "modal_count": 20,
+      "total": 140,
+      "modal_share": 14.3,
+      "distribution": {
+        "3des": 14.3,
+        "aes-128": 14.3,
+        "aes-256": 14.3,
+        "chacha20": 14.3,
+        "des": 14.3,
+        "ml-kem-768": 14.3,
+        "rsa-2048": 14.3
+      }
+    }
+  },
+  "tier3": {
+    "gemma4:31b-cloud": {
+      "modal_prediction": "chacha20",
+      "modal_count": 254,
+      "total": 280,
+      "modal_share": 90.7,
+      "distribution": {
+        "chacha20": 90.7,
+        "aes-256": 8.9,
+        "ml-kem-768": 0.4
+      }
+    },
+    "google/gemma-4-31b-it:free": {
+      "modal_prediction": "unknown",
+      "modal_count": 280,
+      "total": 280,
+      "modal_share": 100.0,
+      "distribution": {
+        "unknown": 100.0
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "modal_prediction": "aes-256",
+      "modal_count": 115,
+      "total": 280,
+      "modal_share": 41.1,
+      "distribution": {
+        "aes-256": 41.1,
+        "chacha20": 22.1,
+        "rsa-2048": 17.9,
+        "3des": 7.9,
+        "ml-kem-768": 5.4,
+        "aes-128": 5.0,
+        "des": 0.7
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "modal_prediction": "aes-256",
+      "modal_count": 72,
+      "total": 280,
+      "modal_share": 25.7,
+      "distribution": {
+        "aes-256": 25.7,
+        "rsa-2048": 18.6,
+        "aes-128": 13.9,
+        "ml-kem-768": 13.6,
+        "chacha20": 12.1,
+        "3des": 8.2,
+        "des": 7.9
+      }
+    },
+    "openrouter/owl-alpha": {
+      "modal_prediction": "chacha20",
+      "modal_count": 139,
+      "total": 280,
+      "modal_share": 49.6,
+      "distribution": {
+        "chacha20": 49.6,
+        "aes-256": 30.7,
+        "unknown": 19.6
+      }
+    }
+  },
+  "tier4a": {
+    "gemma4:31b-cloud": {
+      "modal_prediction": "aes-128",
+      "modal_count": 53,
+      "total": 140,
+      "modal_share": 37.9,
+      "distribution": {
+        "aes-128": 37.9,
+        "3des": 28.6,
+        "rsa-2048": 17.9,
+        "ml-kem-768": 14.3,
+        "aes-256": 1.4
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "modal_prediction": "aes-128",
+      "modal_count": 48,
+      "total": 140,
+      "modal_share": 34.3,
+      "distribution": {
+        "aes-128": 34.3,
+        "3des": 25.7,
+        "rsa-2048": 17.9,
+        "ml-kem-768": 14.3,
+        "chacha20": 5.0,
+        "des": 2.1,
+        "aes-256": 0.7
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "modal_prediction": "aes-128",
+      "modal_count": 50,
+      "total": 144,
+      "modal_share": 34.7,
+      "distribution": {
+        "aes-128": 34.7,
+        "3des": 18.1,
+        "rsa-2048": 17.4,
+        "ml-kem-768": 13.9,
+        "unknown": 8.3,
+        "chacha20": 6.2,
+        "des": 0.7,
+        "aes-256": 0.7
+      }
+    },
+    "openrouter/owl-alpha": {
+      "modal_prediction": "3des",
+      "modal_count": 10,
+      "total": 11,
+      "modal_share": 90.9,
+      "distribution": {
+        "3des": 90.9,
+        "chacha20": 9.1
+      }
+    }
+  },
+  "tier5": {
+    "gemma4:31b-cloud": {
+      "modal_prediction": "aes-128",
+      "modal_count": 53,
+      "total": 140,
+      "modal_share": 37.9,
+      "distribution": {
+        "aes-128": 37.9,
+        "3des": 28.6,
+        "rsa-2048": 18.6,
+        "ml-kem-768": 14.3,
+        "aes-256": 0.7
+      }
+    },
+    "google/gemma-4-31b-it:free": {
+      "modal_prediction": "unknown",
+      "modal_count": 140,
+      "total": 140,
+      "modal_share": 100.0,
+      "distribution": {
+        "unknown": 100.0
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "modal_prediction": "3des",
+      "modal_count": 44,
+      "total": 140,
+      "modal_share": 31.4,
+      "distribution": {
+        "3des": 31.4,
+        "aes-128": 27.9,
+        "rsa-2048": 13.6,
+        "ml-kem-768": 10.7,
+        "des": 8.6,
+        "chacha20": 7.9
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "modal_prediction": "unknown",
+      "modal_count": 106,
+      "total": 140,
+      "modal_share": 75.7,
+      "distribution": {
+        "unknown": 75.7,
+        "3des": 11.4,
+        "aes-128": 8.6,
+        "chacha20": 2.9,
+        "des": 1.4
+      }
+    },
+    "openrouter/owl-alpha": {
+      "modal_prediction": "unknown",
+      "modal_count": 121,
+      "total": 140,
+      "modal_share": 86.4,
+      "distribution": {
+        "unknown": 86.4,
+        "3des": 9.3,
+        "chacha20": 3.6,
+        "aes-128": 0.7
+      }
+    }
+  }
+}

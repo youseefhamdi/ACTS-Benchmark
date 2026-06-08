@@ -1,0 +1,5 @@
+[nemotron] checkpoint=0
+  429 wait 40s (attempt 1/5)
+  429 wait 70s (attempt 2/5)
+  429 wait 130s (attempt 3/5)
+  429 wait 250s (attempt 4/5)

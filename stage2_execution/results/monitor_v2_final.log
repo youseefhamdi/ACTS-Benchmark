@@ -1,0 +1,141 @@
+
+[20:35:47] === Progress check ===
+PID 335809: 335809       35:21
+main: 377 total, 377 good
+t4a: 0 total, 0 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=49/140
+[20:35:47] === Done ===
+
+[20:42:14] === Progress check ===
+PID 335809: 335809       41:47
+main: 432 total, 432 good
+t4a: 0 total, 0 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=76/140
+[20:42:14] === Done ===
+
+[20:44:02] === Progress check ===
+PID 335809: 335809       43:35
+main: 462 total, 462 good
+t4a: 0 total, 0 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=91/140
+[20:44:02] === Done ===
+
+[20:46:17] === Progress check ===
+PID 335809: 335809       45:51
+main: 488 total, 488 good
+t4a: 0 total, 0 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=104/140
+[20:46:17] === Done ===
+
+[20:54:57] === Progress check ===
+PID 335809: 335809       54:31
+main: 560 total, 560 good
+t4a: 48 total, 48 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+[20:54:57] === Done ===
+
+[21:06:22] === Progress check ===
+PID 335809: 335809    01:05:56
+main: 560 total, 560 good
+t4a: 85 total, 81 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+[21:06:22] === Done ===
+
+[21:17:21] === Progress check ===
+PID 335809: 335809    01:16:54
+main: 560 total, 560 good
+t4a: 89 total, 81 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+[21:17:21] === Done ===
+
+[21:28:09] === Progress check ===
+PID 335809: 335809    01:27:43
+main: 560 total, 560 good
+t4a: 94 total, 81 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+[21:28:09] === Done ===
+
+[21:39:32] === Progress check ===
+PID 335809: 335809    01:39:06
+main: 560 total, 560 good
+t4a: 99 total, 81 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+[21:39:32] === Done ===
+
+[22:17:39] === Progress check ===
+PID 335809: 335809    02:17:13
+main: 560 total, 560 good
+t4a: 115 total, 81 good
+t5: 0 total, 0 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+[22:17:39] === Done ===
+
+[23:29:29] === Progress check ===
+PID 335809: 335809    03:29:03
+main: 679 total, 679 good
+t4a: 140 total, 88 good
+t5: 140 total, 140 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+  gpt-oss:120b-cloud                      : tier1=119/140
+[23:29:29] === Done ===
+
+[01:41:07] === Progress check ===
+PID 335809: 335809    05:40:40
+main: 1466 total, 1443 good
+t4a: 280 total, 228 good
+t5: 280 total, 280 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+  gpt-oss:120b-cloud                      : tier1=140/140, tier2=139/140, tier3=140/140
+  nemotron-3-super:cloud                  : tier1=140/140, tier2=140/140, tier3=23/140
+[01:41:07] === Done ===
+
+[02:19:20] === Progress check ===
+PID 335809: 335809    06:18:53
+main: 1482 total, 1443 good
+t4a: 280 total, 228 good
+t5: 280 total, 280 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+  gpt-oss:120b-cloud                      : tier1=140/140, tier2=139/140, tier3=140/140
+  nemotron-3-super:cloud                  : tier1=140/140, tier2=140/140, tier3=23/140
+[02:19:20] === Done ===
+
+[02:30:53] === Progress check ===
+PID 335809: 335809    06:30:27
+main: 1486 total, 1443 good
+t4a: 280 total, 228 good
+t5: 280 total, 280 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+  gpt-oss:120b-cloud                      : tier1=140/140, tier2=139/140, tier3=140/140
+  nemotron-3-super:cloud                  : tier1=140/140, tier2=140/140, tier3=23/140
+[02:30:53] === Done ===
+
+[05:42:35] === Progress check ===
+PID 335809: 335809    09:42:08
+main: 2152 total, 2070 good
+t4a: 472 total, 420 good
+t5: 420 total, 420 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+  gpt-oss:120b-cloud                      : tier1=140/140, tier2=140/140, tier3=140/140
+  nemotron-3-super:cloud                  : tier1=140/140, tier2=140/140, tier3=140/140
+  openrouter/owl-alpha                    : tier1=140/140, tier2=140/140, tier3=79/140
+[05:42:35] === Done ===
+
+[06:22:00] === Progress check ===
+PID 335809: 335809    10:21:33
+main: 2416 total, 2334 good
+t4a: 485 total, 427 good
+t5: 420 total, 420 good
+  gemma4:31b-cloud                        : tier1=140/140, tier2=140/140, tier3=140/140
+  gpt-oss:120b-cloud                      : tier1=140/140, tier2=140/140, tier3=140/140
+  nemotron-3-super:cloud                  : tier1=140/140, tier2=140/140, tier3=140/140
+  openrouter/owl-alpha                    : tier1=140/140, tier2=140/140, tier3=140/140
+[06:22:00] === Done ===

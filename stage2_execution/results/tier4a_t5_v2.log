@@ -1,0 +1,2586 @@
+
+🚀 tier4a: 140 files × 3 backends = 420 calls
+📋 Checkpoint: 25 results already in tier4a_full_v2.jsonl
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0001_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0002_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0003_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.4s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (khangalal88) ha
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 401: Unauthorized | {"error": "unauthorized"}
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (26.1s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (5.8s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (9.7s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-128 (11.0s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (27.1s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0018_openssl.bin: GT=AES-256 PRED=AES-128 (9.8s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=AES-128 (6.8s)
+  ❌ [gemma4:31b-cloud] tier4a AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=AES-128 (5.8s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=3DES (6.3s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (18.3s)
+  ✅ [gemma4:31b-cloud] tier4a ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (9.6s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (22.5s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=AES-128 (4.4s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (4.8s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (5.3s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (8.7s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (10.7s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (9.1s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=RSA-2048 (8.5s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=AES-128 (4.1s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (16.4s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=AES-128 (15.3s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (30.2s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=AES-128 (9.7s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=AES-128 (10.7s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (14.4s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=AES-128 (3.0s)
+  ❌ [gemma4:31b-cloud] tier4a ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-128 (7.5s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0001_pycryptodome.bin: GT=DES PRED=3DES (3.7s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0002_openssl.bin: GT=DES PRED=3DES (18.9s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0003_openssl.bin: GT=DES PRED=3DES (9.1s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0004_openssl.bin: GT=DES PRED=3DES (3.8s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0005_pycryptodome.bin: GT=DES PRED=3DES (9.8s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0006_openssl.bin: GT=DES PRED=3DES (3.4s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0007_openssl.bin: GT=DES PRED=3DES (5.6s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0008_pycryptodome.bin: GT=DES PRED=3DES (5.2s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0009_pycryptodome.bin: GT=DES PRED=3DES (3.5s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0010_openssl.bin: GT=DES PRED=3DES (3.7s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0011_openssl.bin: GT=DES PRED=3DES (3.3s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0012_pycryptodome.bin: GT=DES PRED=3DES (14.0s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0013_pycryptodome.bin: GT=DES PRED=3DES (15.7s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0014_pycryptodome.bin: GT=DES PRED=3DES (9.8s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0015_openssl.bin: GT=DES PRED=3DES (3.9s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0016_pycryptodome.bin: GT=DES PRED=3DES (3.6s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0017_openssl.bin: GT=DES PRED=3DES (3.8s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0018_pycryptodome.bin: GT=DES PRED=3DES (5.6s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0019_openssl.bin: GT=DES PRED=3DES (18.6s)
+  ❌ [gemma4:31b-cloud] tier4a DES_0020_pycryptodome.bin: GT=DES PRED=3DES (3.8s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (8.3s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.5s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.1s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.5s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.5s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.7s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (9.0s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (7.6s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.1s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.8s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (2.8s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (10.0s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.8s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.6s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (2.8s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (6.4s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.8s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.5s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.7s)
+  ✅ [gemma4:31b-cloud] tier4a ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (2.8s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (4.2s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (3.4s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (3.1s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (2.7s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (3.0s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (4.9s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (3.4s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (13.7s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (18.6s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (16.0s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (8.4s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (4.4s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (4.9s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.4s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (9.4s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (5.3s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (20.8s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.2s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (14.2s)
+  ✅ [gemma4:31b-cloud] tier4a RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a 3DES_0001_openssl.bin: GT=3DES PRED=DES (17.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a 3DES_0002_openssl.bin: GT=3DES PRED=DES (16.8s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0003_pycryptodome.bin: GT=3DES PRED=3DES (7.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0004_pycryptodome.bin: GT=3DES PRED=3DES (8.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0005_openssl.bin: GT=3DES PRED=3DES (14.3s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0006_pycryptodome.bin: GT=3DES PRED=3DES (13.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0007_openssl.bin: GT=3DES PRED=3DES (7.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (17.3s)
+  ❌ [gpt-oss:120b-cloud] tier4a 3DES_0009_openssl.bin: GT=3DES PRED=DES (7.3s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0010_pycryptodome.bin: GT=3DES PRED=3DES (8.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (11.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0012_openssl.bin: GT=3DES PRED=3DES (16.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0013_openssl.bin: GT=3DES PRED=3DES (11.5s)
+  ❌ [gpt-oss:120b-cloud] tier4a 3DES_0014_openssl.bin: GT=3DES PRED=ChaCha20 (12.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0015_pycryptodome.bin: GT=3DES PRED=3DES (9.6s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0016_openssl.bin: GT=3DES PRED=3DES (15.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0017_openssl.bin: GT=3DES PRED=3DES (17.8s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0018_pycryptodome.bin: GT=3DES PRED=3DES (15.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0019_pycryptodome.bin: GT=3DES PRED=3DES (10.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a 3DES_0020_openssl.bin: GT=3DES PRED=3DES (10.6s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0001_openssl.bin: GT=AES-128 PRED=AES-128 (9.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=AES-128 (10.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=AES-128 (9.8s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0004_openssl.bin: GT=AES-128 PRED=AES-128 (8.1s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0005_openssl.bin: GT=AES-128 PRED=AES-128 (10.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=AES-128 (11.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=AES-128 (14.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=AES-128 (11.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0009_openssl.bin: GT=AES-128 PRED=AES-128 (11.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0010_openssl.bin: GT=AES-128 PRED=AES-128 (7.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=AES-128 (8.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=AES-128 (5.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0013_openssl.bin: GT=AES-128 PRED=AES-128 (8.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0014_openssl.bin: GT=AES-128 PRED=AES-128 (15.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=AES-128 (16.4s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0016_openssl.bin: GT=AES-128 PRED=AES-128 (13.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=AES-128 (12.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0018_openssl.bin: GT=AES-128 PRED=AES-128 (10.4s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=AES-128 (10.3s)
+  ✅ [gpt-oss:120b-cloud] tier4a AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-128 (7.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-128 (15.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (15.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0003_openssl.bin: GT=AES-256 PRED=AES-128 (12.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-128 (19.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0005_openssl.bin: GT=AES-256 PRED=AES-128 (9.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (12.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (5.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=AES-128 (4.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0009_openssl.bin: GT=AES-256 PRED=AES-128 (7.5s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0010_openssl.bin: GT=AES-256 PRED=AES-128 (10.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=AES-128 (11.3s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-128 (10.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (10.5s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (8.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (8.6s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-128 (13.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (5.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0018_openssl.bin: GT=AES-256 PRED=AES-128 (13.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=AES-128 (9.8s)
+  ❌ [gpt-oss:120b-cloud] tier4a AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=AES-128 (9.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=AES-128 (11.3s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (14.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=AES-256 (22.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (9.6s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=AES-128 (15.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (10.8s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (7.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (5.6s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (7.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (15.6s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=RSA-2048 (36.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=AES-256 (8.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (20.5s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=AES-128 (9.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (9.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=AES-256 (15.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=AES-128 (5.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (17.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=AES-128 (14.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-128 (21.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0001_pycryptodome.bin: GT=DES PRED=3DES (10.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0002_openssl.bin: GT=DES PRED=3DES (9.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0003_openssl.bin: GT=DES PRED=3DES (7.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0004_openssl.bin: GT=DES PRED=3DES (12.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0005_pycryptodome.bin: GT=DES PRED=3DES (9.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a DES_0006_openssl.bin: GT=DES PRED=DES (13.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0007_openssl.bin: GT=DES PRED=3DES (17.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0008_pycryptodome.bin: GT=DES PRED=3DES (6.0s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0009_pycryptodome.bin: GT=DES PRED=3DES (11.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a DES_0010_openssl.bin: GT=DES PRED=DES (6.3s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0011_openssl.bin: GT=DES PRED=3DES (22.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0012_pycryptodome.bin: GT=DES PRED=3DES (20.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0013_pycryptodome.bin: GT=DES PRED=3DES (6.8s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0014_pycryptodome.bin: GT=DES PRED=3DES (8.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0015_openssl.bin: GT=DES PRED=3DES (18.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0016_pycryptodome.bin: GT=DES PRED=3DES (7.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0017_openssl.bin: GT=DES PRED=3DES (8.9s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0018_pycryptodome.bin: GT=DES PRED=3DES (9.2s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0019_openssl.bin: GT=DES PRED=3DES (6.1s)
+  ❌ [gpt-oss:120b-cloud] tier4a DES_0020_pycryptodome.bin: GT=DES PRED=3DES (38.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (21.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.6s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (3.8s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.1s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.1s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (7.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (6.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.4s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (31.4s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.6s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (14.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (3.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.0s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (13.6s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.1s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (4.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (8.3s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (3.9s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (9.1s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (9.7s)
+  ❌ [gpt-oss:120b-cloud] tier4a RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=AES-256 (29.7s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (9.1s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (4.2s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (6.3s)
+  ❌ [gpt-oss:120b-cloud] tier4a RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=AES-128 (10.4s)
+  ❌ [gpt-oss:120b-cloud] tier4a RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=AES-128 (11.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.5s)
+  ✅ [gpt-oss:120b-cloud] tier4a RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (4.3s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0001_openssl.bin: GT=3DES PRED=3DES (26.5s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0002_openssl.bin: GT=3DES PRED=3DES (36.8s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0003_pycryptodome.bin: GT=3DES PRED=3DES (26.7s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0004_pycryptodome.bin: GT=3DES PRED=3DES (46.9s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0005_openssl.bin: GT=3DES PRED=3DES (23.0s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0006_pycryptodome.bin: GT=3DES PRED=3DES (23.4s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0007_openssl.bin: GT=3DES PRED=3DES (26.1s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (25.6s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0009_openssl.bin: GT=3DES PRED=3DES (202.4s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0010_pycryptodome.bin: GT=3DES PRED=3DES (23.8s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (37.0s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0012_openssl.bin: GT=3DES PRED=3DES (39.5s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0013_openssl.bin: GT=3DES PRED=3DES (31.0s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0014_openssl.bin: GT=3DES PRED=3DES (36.8s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0015_pycryptodome.bin: GT=3DES PRED=3DES (24.1s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0016_openssl.bin: GT=3DES PRED=3DES (36.9s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0017_openssl.bin: GT=3DES PRED=3DES (129.9s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0018_pycryptodome.bin: GT=3DES PRED=3DES (27.0s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0019_pycryptodome.bin: GT=3DES PRED=3DES (23.1s)
+  ✅ [openrouter/owl-alpha] tier4a 3DES_0020_openssl.bin: GT=3DES PRED=3DES (14.6s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0001_openssl.bin: GT=AES-128 PRED=AES-128 (48.7s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=AES-128 (17.1s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=AES-128 (16.5s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0004_openssl.bin: GT=AES-128 PRED=AES-128 (17.2s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0005_openssl.bin: GT=AES-128 PRED=AES-128 (25.8s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=AES-128 (16.3s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=AES-128 (22.4s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=AES-128 (26.9s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0009_openssl.bin: GT=AES-128 PRED=AES-128 (25.1s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0010_openssl.bin: GT=AES-128 PRED=AES-128 (28.8s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=AES-128 (19.7s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=AES-128 (22.7s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0013_openssl.bin: GT=AES-128 PRED=AES-128 (18.0s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0014_openssl.bin: GT=AES-128 PRED=AES-128 (21.8s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=AES-128 (20.8s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0016_openssl.bin: GT=AES-128 PRED=AES-128 (28.2s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=AES-128 (24.7s)
+  ❌ [openrouter/owl-alpha] tier4a AES-128_0018_openssl.bin: GT=AES-128 PRED=AES-256 (22.6s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=AES-128 (19.9s)
+  ✅ [openrouter/owl-alpha] tier4a AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-128 (24.5s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-128 (20.6s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (294.9s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0003_openssl.bin: GT=AES-256 PRED=AES-128 (25.9s)
+  ✅ [openrouter/owl-alpha] tier4a AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-256 (25.8s)
+  ✅ [openrouter/owl-alpha] tier4a AES-256_0005_openssl.bin: GT=AES-256 PRED=AES-256 (21.6s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (32.7s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (31.8s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=AES-128 (18.2s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0009_openssl.bin: GT=AES-256 PRED=AES-128 (19.5s)
+  ✅ [openrouter/owl-alpha] tier4a AES-256_0010_openssl.bin: GT=AES-256 PRED=AES-256 (27.4s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=AES-128 (23.8s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-128 (15.6s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (60.9s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (26.8s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (29.7s)
+  ✅ [openrouter/owl-alpha] tier4a AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-256 (22.0s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (17.2s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0018_openssl.bin: GT=AES-256 PRED=AES-128 (17.8s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=ChaCha20 (7.4s)
+  ❌ [openrouter/owl-alpha] tier4a AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=AES-128 (18.0s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=AES-128 (152.6s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (17.9s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=AES-256 (27.1s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (18.4s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=AES-256 (42.8s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (19.7s)
+  ✅ [openrouter/owl-alpha] tier4a ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (43.0s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (19.6s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (27.1s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (25.6s)
+  ✅ [openrouter/owl-alpha] tier4a ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (22.0s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=AES-256 (54.2s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (32.4s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=AES-256 (23.1s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (18.9s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=AES-256 (39.6s)
+  ✅ [openrouter/owl-alpha] tier4a ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (13.1s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (25.8s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=AES-128 (16.2s)
+  ❌ [openrouter/owl-alpha] tier4a ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-256 (18.6s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0001_pycryptodome.bin: GT=DES PRED=3DES (33.3s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0002_openssl.bin: GT=DES PRED=3DES (19.6s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0003_openssl.bin: GT=DES PRED=3DES (15.4s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0004_openssl.bin: GT=DES PRED=3DES (31.0s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0005_pycryptodome.bin: GT=DES PRED=3DES (15.9s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0006_openssl.bin: GT=DES PRED=3DES (14.2s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0007_openssl.bin: GT=DES PRED=3DES (18.5s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0008_pycryptodome.bin: GT=DES PRED=3DES (16.1s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0009_pycryptodome.bin: GT=DES PRED=3DES (24.3s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0010_openssl.bin: GT=DES PRED=3DES (72.7s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0011_openssl.bin: GT=DES PRED=3DES (26.7s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0012_pycryptodome.bin: GT=DES PRED=3DES (16.7s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0013_pycryptodome.bin: GT=DES PRED=3DES (21.2s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0014_pycryptodome.bin: GT=DES PRED=3DES (19.0s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0015_openssl.bin: GT=DES PRED=3DES (19.2s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0016_pycryptodome.bin: GT=DES PRED=3DES (12.8s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0017_openssl.bin: GT=DES PRED=3DES (32.9s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0018_pycryptodome.bin: GT=DES PRED=3DES (26.5s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0019_openssl.bin: GT=DES PRED=3DES (32.4s)
+  ❌ [openrouter/owl-alpha] tier4a DES_0020_pycryptodome.bin: GT=DES PRED=3DES (18.5s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (19.5s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (19.0s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (21.0s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (15.9s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (21.4s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (23.0s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (17.2s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (20.6s)
+  ❌ [openrouter/owl-alpha] tier4a ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=RSA-2048 (20.9s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (19.4s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (15.7s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (20.6s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (17.2s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (16.1s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (16.8s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (27.9s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (23.1s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (20.6s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (12.6s)
+  ✅ [openrouter/owl-alpha] tier4a ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (19.7s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (19.1s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (28.1s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (18.0s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (32.1s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (16.8s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (29.6s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (3.2s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (22.2s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (17.1s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (32.6s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (24.3s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (98.1s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (29.0s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (29.2s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (22.0s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (17.9s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (85.6s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (26.1s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (54.4s)
+  ✅ [openrouter/owl-alpha] tier4a RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (34.1s)
+
+✅ tier4a COMPLETE: 395 calls in 11478s
+
+🚀 tier5: 140 files × 3 backends = 420 calls
+📋 Checkpoint: 0 results already in tier5_live_full_v2.jsonl
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0001_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0002_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0003_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0004_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0005_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0006_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0007_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0008_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0009_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0011_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0012_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0014_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gemma4:31b-cloud] tier5 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-128 (7.7s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (8.2s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0003_openssl.bin: GT=AES-256 PRED=AES-128 (15.6s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-128 (11.8s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0005_openssl.bin: GT=AES-256 PRED=AES-128 (10.9s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (62.4s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (49.1s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=AES-128 (6.9s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0009_openssl.bin: GT=AES-256 PRED=AES-128 (12.1s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0010_openssl.bin: GT=AES-256 PRED=AES-128 (5.7s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=AES-128 (6.2s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-128 (49.6s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (31.8s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (46.7s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (21.7s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-128 (20.2s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (19.5s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0018_openssl.bin: GT=AES-256 PRED=AES-128 (6.6s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=AES-128 (6.9s)
+  ❌ [gemma4:31b-cloud] tier5 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=AES-128 (7.5s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=AES-128 (9.6s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (17.3s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=AES-128 (9.7s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (6.7s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=AES-128 (19.9s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (7.2s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (6.6s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (6.1s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=3DES (10.4s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (6.6s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=RSA-2048 (19.9s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=AES-128 (78.6s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (9.1s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=AES-128 (11.8s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (12.3s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=AES-128 (8.0s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=AES-128 (13.0s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (24.4s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=3DES (9.4s)
+  ❌ [gemma4:31b-cloud] tier5 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-128 (8.5s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0001_pycryptodome.bin: GT=DES PRED=3DES (5.6s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0002_openssl.bin: GT=DES PRED=3DES (12.4s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0003_openssl.bin: GT=DES PRED=3DES (9.7s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0004_openssl.bin: GT=DES PRED=3DES (14.1s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0005_pycryptodome.bin: GT=DES PRED=3DES (8.0s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0006_openssl.bin: GT=DES PRED=3DES (14.2s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0007_openssl.bin: GT=DES PRED=3DES (21.8s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0008_pycryptodome.bin: GT=DES PRED=3DES (8.2s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0009_pycryptodome.bin: GT=DES PRED=3DES (5.7s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0010_openssl.bin: GT=DES PRED=3DES (9.6s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0011_openssl.bin: GT=DES PRED=3DES (71.5s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0012_pycryptodome.bin: GT=DES PRED=3DES (6.6s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0013_pycryptodome.bin: GT=DES PRED=3DES (16.0s)
+  ✅ [gemma4:31b-cloud] tier5 DES_0014_pycryptodome.bin: GT=DES PRED=DES (15.4s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0015_openssl.bin: GT=DES PRED=3DES (15.0s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0016_pycryptodome.bin: GT=DES PRED=3DES (18.2s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0017_openssl.bin: GT=DES PRED=3DES (6.6s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0018_pycryptodome.bin: GT=DES PRED=3DES (5.4s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0019_openssl.bin: GT=DES PRED=3DES (107.7s)
+  ❌ [gemma4:31b-cloud] tier5 DES_0020_pycryptodome.bin: GT=DES PRED=3DES (8.2s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (22.6s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (15.9s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (6.3s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (17.3s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (31.0s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (15.1s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (7.8s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (28.2s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (11.6s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (7.8s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (56.9s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.0s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.0s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (10.4s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (7.6s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (13.7s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.8s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (11.3s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (11.0s)
+  ✅ [gemma4:31b-cloud] tier5 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (5.1s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (13.4s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.6s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (5.5s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (5.6s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.8s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (31.3s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (4.7s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.5s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (30.7s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (6.1s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (6.8s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (9.4s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (14.0s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (7.8s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (6.7s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (34.7s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (5.1s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.4s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (7.8s)
+  ✅ [gemma4:31b-cloud] tier5 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (5.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0001_openssl.bin: GT=3DES PRED=3DES (21.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 3DES_0002_openssl.bin: GT=3DES PRED=ChaCha20 (9.2s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0003_pycryptodome.bin: GT=3DES PRED=3DES (21.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0004_pycryptodome.bin: GT=3DES PRED=3DES (18.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0005_openssl.bin: GT=3DES PRED=3DES (21.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0006_pycryptodome.bin: GT=3DES PRED=3DES (25.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0007_openssl.bin: GT=3DES PRED=3DES (21.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (21.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0009_openssl.bin: GT=3DES PRED=3DES (21.5s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0010_pycryptodome.bin: GT=3DES PRED=3DES (13.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (26.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0012_openssl.bin: GT=3DES PRED=3DES (18.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0013_openssl.bin: GT=3DES PRED=3DES (14.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0014_openssl.bin: GT=3DES PRED=3DES (18.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0015_pycryptodome.bin: GT=3DES PRED=3DES (27.2s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0016_openssl.bin: GT=3DES PRED=3DES (25.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0017_openssl.bin: GT=3DES PRED=3DES (25.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0018_pycryptodome.bin: GT=3DES PRED=3DES (16.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0019_pycryptodome.bin: GT=3DES PRED=3DES (19.6s)
+  ✅ [gpt-oss:120b-cloud] tier5 3DES_0020_openssl.bin: GT=3DES PRED=3DES (23.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0001_openssl.bin: GT=AES-128 PRED=AES-128 (22.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=AES-128 (20.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=AES-128 (21.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-128_0004_openssl.bin: GT=AES-128 PRED=3DES (21.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0005_openssl.bin: GT=AES-128 PRED=AES-128 (21.5s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=AES-128 (22.3s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=AES-128 (20.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=3DES (22.6s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0009_openssl.bin: GT=AES-128 PRED=AES-128 (24.5s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0010_openssl.bin: GT=AES-128 PRED=AES-128 (29.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=ChaCha20 (17.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=ChaCha20 (20.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0013_openssl.bin: GT=AES-128 PRED=AES-128 (26.5s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0014_openssl.bin: GT=AES-128 PRED=AES-128 (21.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=AES-128 (15.2s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0016_openssl.bin: GT=AES-128 PRED=AES-128 (23.2s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=AES-128 (28.9s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0018_openssl.bin: GT=AES-128 PRED=AES-128 (23.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=DES (23.9s)
+  ✅ [gpt-oss:120b-cloud] tier5 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-128 (21.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-128 (23.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (17.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0003_openssl.bin: GT=AES-256 PRED=AES-128 (20.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-128 (21.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0005_openssl.bin: GT=AES-256 PRED=AES-128 (23.0s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (15.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (18.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=AES-128 (18.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0009_openssl.bin: GT=AES-256 PRED=AES-128 (27.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0010_openssl.bin: GT=AES-256 PRED=ChaCha20 (17.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=AES-128 (14.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-128 (16.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (22.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (20.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (21.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-128 (29.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (22.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0018_openssl.bin: GT=AES-256 PRED=AES-128 (19.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=3DES (22.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=3DES (22.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=3DES (35.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=RSA-2048 (18.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=AES-128 (22.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (20.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (24.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=3DES (23.0s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=3DES (30.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (31.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (17.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=3DES (23.5s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=RSA-2048 (14.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=AES-128 (21.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (17.5s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=3DES (25.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (26.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (21.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (20.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (22.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=3DES (24.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-128 (32.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0001_pycryptodome.bin: GT=DES PRED=3DES (20.0s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0002_openssl.bin: GT=DES PRED=3DES (15.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0003_openssl.bin: GT=DES PRED=3DES (24.5s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0004_openssl.bin: GT=DES PRED=3DES (27.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0005_pycryptodome.bin: GT=DES PRED=3DES (18.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0006_openssl.bin: GT=DES PRED=3DES (15.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0007_openssl.bin: GT=DES PRED=3DES (16.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0008_pycryptodome.bin: GT=DES PRED=3DES (24.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0009_pycryptodome.bin: GT=DES PRED=3DES (20.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0010_openssl.bin: GT=DES PRED=3DES (15.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0011_openssl.bin: GT=DES PRED=ChaCha20 (13.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0012_pycryptodome.bin: GT=DES PRED=3DES (28.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0013_pycryptodome.bin: GT=DES PRED=3DES (25.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0014_pycryptodome.bin: GT=DES PRED=3DES (19.5s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0015_openssl.bin: GT=DES PRED=3DES (20.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0016_pycryptodome.bin: GT=DES PRED=3DES (19.2s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0017_openssl.bin: GT=DES PRED=3DES (17.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0018_pycryptodome.bin: GT=DES PRED=3DES (17.5s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0019_openssl.bin: GT=DES PRED=3DES (20.1s)
+  ❌ [gpt-oss:120b-cloud] tier5 DES_0020_pycryptodome.bin: GT=DES PRED=3DES (17.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (12.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (14.6s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (25.1s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (17.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=DES (17.5s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (14.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (18.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ChaCha20 (19.5s)
+  ❌ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=RSA-2048 (21.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=RSA-2048 (18.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (13.9s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (18.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (12.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (17.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (13.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=DES (17.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (19.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (13.9s)
+  ❌ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=RSA-2048 (16.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (13.5s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (19.7s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (14.8s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (26.7s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=ChaCha20 (17.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (19.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=DES (17.6s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (17.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (19.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=AES-128 (25.3s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=3DES (28.0s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (18.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (20.4s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (24.4s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=3DES (18.8s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=ChaCha20 (24.9s)
+  ✅ [gpt-oss:120b-cloud] tier5 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (15.6s)
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=DES (20.1s)
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [gpt-oss:120b-cloud] tier5 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+  ✅ [openrouter/owl-alpha] tier5 3DES_0001_openssl.bin: GT=3DES PRED=3DES (32.0s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0002_openssl.bin: GT=3DES PRED=ChaCha20 (47.5s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0003_pycryptodome.bin: GT=3DES PRED=3DES (105.4s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0004_pycryptodome.bin: GT=3DES PRED=ChaCha20 (39.4s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0005_openssl.bin: GT=3DES PRED=ChaCha20 (70.3s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0006_pycryptodome.bin: GT=3DES PRED=ChaCha20 (53.0s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0007_openssl.bin: GT=3DES PRED=3DES (71.8s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (59.4s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0009_openssl.bin: GT=3DES PRED=3DES (50.1s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0010_pycryptodome.bin: GT=3DES PRED=3DES (47.5s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (78.5s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0012_openssl.bin: GT=3DES PRED=3DES (101.6s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0013_openssl.bin: GT=3DES PRED=DES (43.5s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0014_openssl.bin: GT=3DES PRED=3DES (158.8s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0015_pycryptodome.bin: GT=3DES PRED=3DES (83.2s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0016_openssl.bin: GT=3DES PRED=3DES (35.4s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0017_openssl.bin: GT=3DES PRED=3DES (62.9s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0018_pycryptodome.bin: GT=3DES PRED=ChaCha20 (29.6s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0019_pycryptodome.bin: GT=3DES PRED=3DES (92.3s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0020_openssl.bin: GT=3DES PRED=ChaCha20 (79.7s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0001_openssl.bin: GT=AES-128 PRED=ChaCha20 (96.1s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=AES-128 (38.7s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=ChaCha20 (67.2s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0004_openssl.bin: GT=AES-128 PRED=AES-128 (61.1s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0005_openssl.bin: GT=AES-128 PRED=AES-128 (101.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=3DES (108.9s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=AES-128 (79.7s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=AES-128 (52.0s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0009_openssl.bin: GT=AES-128 PRED=AES-128 (40.9s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0010_openssl.bin: GT=AES-128 PRED=ChaCha20 (33.5s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=AES-128 (28.5s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=AES-128 (36.1s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0013_openssl.bin: GT=AES-128 PRED=AES-128 (60.0s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0014_openssl.bin: GT=AES-128 PRED=ChaCha20 (157.9s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=AES-128 (133.3s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0016_openssl.bin: GT=AES-128 PRED=AES-128 (177.3s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=AES-128 (123.4s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0018_openssl.bin: GT=AES-128 PRED=AES-128 (70.6s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=AES-128 (38.5s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-128 (32.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-128 (138.7s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (65.4s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0003_openssl.bin: GT=AES-256 PRED=ChaCha20 (68.4s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-128 (48.7s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0005_openssl.bin: GT=AES-256 PRED=AES-128 (57.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (69.1s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (76.2s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=DES (52.5s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0009_openssl.bin: GT=AES-256 PRED=AES-128 (116.6s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0010_openssl.bin: GT=AES-256 PRED=AES-128 (83.9s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=AES-128 (45.0s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-128 (46.9s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (34.4s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (52.1s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (153.0s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-128 (113.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (48.2s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0018_openssl.bin: GT=AES-256 PRED=ChaCha20 (51.2s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=AES-128 (42.2s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=ChaCha20 (86.7s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=AES-128 (84.1s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (104.3s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=AES-128 (98.9s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (370.5s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (49.1s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (57.1s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (59.7s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (64.6s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=DES (57.9s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (42.6s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (115.2s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=AES-128 (65.1s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=DES (335.5s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (195.0s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (70.9s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (68.2s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=AES-128 (179.1s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (289.7s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=AES-128 (43.3s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-128 (77.7s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0001_pycryptodome.bin: GT=DES PRED=ChaCha20 (159.3s)
+  ✅ [openrouter/owl-alpha] tier5 DES_0002_openssl.bin: GT=DES PRED=DES (71.6s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0003_openssl.bin: GT=DES PRED=3DES (52.8s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0004_openssl.bin: GT=DES PRED=3DES (90.0s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0005_pycryptodome.bin: GT=DES PRED=3DES (35.9s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0006_openssl.bin: GT=DES PRED=ChaCha20 (42.7s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0007_openssl.bin: GT=DES PRED=3DES (57.0s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0008_pycryptodome.bin: GT=DES PRED=3DES (36.9s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0009_pycryptodome.bin: GT=DES PRED=3DES (54.4s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0010_openssl.bin: GT=DES PRED=ChaCha20 (42.4s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0011_openssl.bin: GT=DES PRED=3DES (47.2s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0012_pycryptodome.bin: GT=DES PRED=ChaCha20 (41.4s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0013_pycryptodome.bin: GT=DES PRED=3DES (48.2s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0014_pycryptodome.bin: GT=DES PRED=3DES (208.8s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0015_openssl.bin: GT=DES PRED=3DES (42.5s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0016_pycryptodome.bin: GT=DES PRED=3DES (96.8s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0017_openssl.bin: GT=DES PRED=3DES (53.9s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0018_pycryptodome.bin: GT=DES PRED=3DES (39.0s)
+  ✅ [openrouter/owl-alpha] tier5 DES_0019_openssl.bin: GT=DES PRED=DES (44.8s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0020_pycryptodome.bin: GT=DES PRED=3DES (33.1s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ChaCha20 (62.8s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (49.0s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (35.2s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (30.7s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (46.2s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (21.5s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=3DES (32.2s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=3DES (65.2s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (48.2s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (31.9s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (31.0s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (57.2s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (34.9s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (58.9s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (42.7s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=3DES (37.7s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (25.8s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (55.6s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (37.5s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (35.1s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (58.1s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=ChaCha20 (56.2s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=3DES (60.5s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (53.5s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (43.4s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (51.6s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (37.6s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (29.8s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (33.3s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (36.4s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=3DES (65.6s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (37.5s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=AES-256 (53.2s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (45.7s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (30.6s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=ChaCha20 (144.3s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (29.5s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=ChaCha20 (33.4s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (64.2s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (59.7s)
+
+✅ tier5 COMPLETE: 420 calls in 20230s
+
+📁 Tier-4A: /home/elaref/.gidaai/workspaces/default/upgrade/acts_v2_poc/stage2_execution/results/tier4a_full_v2.jsonl
+📁 Tier-5:  /home/elaref/.gidaai/workspaces/default/upgrade/acts_v2_poc/stage2_execution/results/tier5_live_full_v2.jsonl
+ Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (1.2s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (1.2s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.9s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier4a RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+
+✅ tier4a COMPLETE: 700 calls in 21590s
+
+🚀 tier5: 140 files × 5 backends = 700 calls
+📋 Checkpoint: 282 results already in tier5_live_full_v2.jsonl
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0001_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0002_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0003_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0004_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0005_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0006_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0007_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0008_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0009_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0011_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0012_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0014_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.4s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0001_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0002_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0003_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0013_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0014_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0015_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.4s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.4s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [nemotron-3-super:cloud] tier5 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERR:HTTP 429: Too Many Requests | {"error":"you (aser27075) have
+  ❌ [openrouter/owl-alpha] tier5 3DES_0003_pycryptodome.bin: GT=3DES PRED=ChaCha20 (45.4s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0004_pycryptodome.bin: GT=3DES PRED=3DES (123.3s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0005_openssl.bin: GT=3DES PRED=ChaCha20 (54.4s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0006_pycryptodome.bin: GT=3DES PRED=ChaCha20 (59.1s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0007_openssl.bin: GT=3DES PRED=3DES (32.9s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (91.3s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0009_openssl.bin: GT=3DES PRED=ChaCha20 (44.0s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0010_pycryptodome.bin: GT=3DES PRED=3DES (53.0s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (88.3s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0012_openssl.bin: GT=3DES PRED=3DES (109.0s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0013_openssl.bin: GT=3DES PRED=3DES (39.1s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0014_openssl.bin: GT=3DES PRED=3DES (97.5s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0015_pycryptodome.bin: GT=3DES PRED=3DES (120.6s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0016_openssl.bin: GT=3DES PRED=3DES (33.9s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0017_openssl.bin: GT=3DES PRED=ChaCha20 (99.0s)
+  ❌ [openrouter/owl-alpha] tier5 3DES_0018_pycryptodome.bin: GT=3DES PRED=ChaCha20 (66.9s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0019_pycryptodome.bin: GT=3DES PRED=3DES (46.2s)
+  ✅ [openrouter/owl-alpha] tier5 3DES_0020_openssl.bin: GT=3DES PRED=3DES (39.8s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0001_openssl.bin: GT=AES-128 PRED=ChaCha20 (122.7s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=AES-128 (79.7s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=ChaCha20 (61.7s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0004_openssl.bin: GT=AES-128 PRED=AES-128 (181.9s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0005_openssl.bin: GT=AES-128 PRED=AES-128 (456.0s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=AES-128 (341.0s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=AES-128 (234.4s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=AES-128 (46.5s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0009_openssl.bin: GT=AES-128 PRED=AES-128 (271.0s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0010_openssl.bin: GT=AES-128 PRED=ChaCha20 (71.5s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=ChaCha20 (42.7s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=AES-128 (33.9s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0013_openssl.bin: GT=AES-128 PRED=AES-128 (45.5s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0014_openssl.bin: GT=AES-128 PRED=ChaCha20 (95.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=ChaCha20 (123.8s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0016_openssl.bin: GT=AES-128 PRED=ChaCha20 (67.5s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=AES-128 (108.5s)
+  ❌ [openrouter/owl-alpha] tier5 AES-128_0018_openssl.bin: GT=AES-128 PRED=ChaCha20 (89.9s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=AES-128 (51.8s)
+  ✅ [openrouter/owl-alpha] tier5 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-128 (31.7s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-128 (211.9s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (88.8s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0003_openssl.bin: GT=AES-256 PRED=AES-128 (69.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-128 (50.6s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0005_openssl.bin: GT=AES-256 PRED=ChaCha20 (76.6s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (61.6s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (49.8s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=AES-128 (61.8s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0009_openssl.bin: GT=AES-256 PRED=ChaCha20 (134.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0010_openssl.bin: GT=AES-256 PRED=AES-128 (78.8s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=AES-128 (60.2s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-128 (48.2s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-128 (100.0s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-128 (80.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (83.4s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=AES-128 (265.1s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (50.5s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0018_openssl.bin: GT=AES-256 PRED=AES-128 (59.0s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=AES-128 (53.3s)
+  ❌ [openrouter/owl-alpha] tier5 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=ChaCha20 (42.0s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (36.0s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (336.4s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=3DES (55.0s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (196.0s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (206.9s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (71.9s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (183.5s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (122.9s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (241.2s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (44.2s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=ChaCha20 (68.1s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=DES (89.8s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (50.8s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=AES-128 (77.9s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (38.1s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (97.7s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (43.7s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (84.4s)
+  ✅ [openrouter/owl-alpha] tier5 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (41.5s)
+  ❌ [openrouter/owl-alpha] tier5 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=AES-128 (31.5s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0001_pycryptodome.bin: GT=DES PRED=ChaCha20 (60.5s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0002_openssl.bin: GT=DES PRED=ChaCha20 (39.9s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0003_openssl.bin: GT=DES PRED=ChaCha20 (47.1s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0004_openssl.bin: GT=DES PRED=ChaCha20 (119.3s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0005_pycryptodome.bin: GT=DES PRED=ChaCha20 (47.8s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0006_openssl.bin: GT=DES PRED=ChaCha20 (48.2s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0007_openssl.bin: GT=DES PRED=ChaCha20 (43.9s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0008_pycryptodome.bin: GT=DES PRED=3DES (35.2s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0009_pycryptodome.bin: GT=DES PRED=3DES (38.9s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0010_openssl.bin: GT=DES PRED=3DES (106.5s)
+  ✅ [openrouter/owl-alpha] tier5 DES_0011_openssl.bin: GT=DES PRED=DES (39.1s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0012_pycryptodome.bin: GT=DES PRED=3DES (34.2s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0013_pycryptodome.bin: GT=DES PRED=3DES (148.5s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0014_pycryptodome.bin: GT=DES PRED=3DES (182.6s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0015_openssl.bin: GT=DES PRED=ChaCha20 (42.3s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0016_pycryptodome.bin: GT=DES PRED=3DES (50.4s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0017_openssl.bin: GT=DES PRED=3DES (285.6s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0018_pycryptodome.bin: GT=DES PRED=3DES (29.1s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0019_openssl.bin: GT=DES PRED=3DES (66.1s)
+  ❌ [openrouter/owl-alpha] tier5 DES_0020_pycryptodome.bin: GT=DES PRED=3DES (29.5s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (45.6s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (40.8s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (38.2s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=RSA-2048 (36.9s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=DES (54.1s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (37.6s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=DES (37.2s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (49.9s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=DES (51.4s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=DES (31.0s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (36.5s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=ChaCha20 (58.7s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=ChaCha20 (48.7s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (37.7s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=DES (32.7s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (35.2s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=ChaCha20 (37.8s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (45.8s)
+  ❌ [openrouter/owl-alpha] tier5 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=DES (37.4s)
+  ✅ [openrouter/owl-alpha] tier5 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (31.1s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (41.8s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=ChaCha20 (57.7s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (40.8s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (47.3s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=3DES (34.5s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=AES-128 (229.7s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (46.4s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (47.6s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=3DES (46.8s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (32.7s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=3DES (49.2s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (44.7s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (60.1s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (35.4s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (39.7s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (59.3s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (46.0s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (31.8s)
+  ✅ [openrouter/owl-alpha] tier5 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (62.8s)
+  ❌ [openrouter/owl-alpha] tier5 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=AES-128 (46.6s)
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0001_openssl.bin: GT=3DES PRED=3DES (26.3s)
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0002_openssl.bin: GT=3DES PRED=3DES (22.6s)
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0003_pycryptodome.bin: GT=3DES PRED=3DES (19.0s)
+    ⏳ 429, retry in 6s
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0004_pycryptodome.bin: GT=3DES PRED=3DES (18.6s)
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0005_openssl.bin: GT=3DES PRED=3DES (20.3s)
+    ⏳ 429, retry in 6s
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0006_pycryptodome.bin: GT=3DES PRED=3DES (20.0s)
+    ⏳ 429, retry in 6s
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0007_openssl.bin: GT=3DES PRED=3DES (22.6s)
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (19.7s)
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0009_openssl.bin: GT=3DES PRED=3DES (25.7s)
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.9s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Provider 
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (33.2s)
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0012_openssl.bin: GT=3DES PRED=3DES (21.9s)
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Provider 
+  ✅ [google/gemma-4-31b-it:free] tier5 3DES_0014_openssl.bin: GT=3DES PRED=3DES (16.3s)
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Provider 
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (11.3s)
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.9s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0001_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0002_openssl.bin: GT=AES-256 PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0003_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0013_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0014_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0015_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.9s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (2.2s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (1.1s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (1.2s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (1.2s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.3s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.1s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.1s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.3s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.2s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (1.4s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (1.0s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.9s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.9s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (2.4s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (1.1s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.8s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (5.5s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi
+    ⏳ 429, retry in 6s
+    ⏳ 429, retry in 11s
+    ⏳ 429, retry in 21s
+  ❌ [google/gemma-4-31b-it:free] tier5 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.3s) ERR:HTTP 429: Too Many Requests | {"error":{"message":"Rate limi

@@ -1,0 +1,157 @@
+Samples: 140 | Tiers: ['tier1', 'tier3'] | Backends: 3
+Key present: YES
+
+[gpt-oss:120b-cloud] checkpoint=254 model=gpt-oss:120b-cloud
+[gemma4:31b-cloud] checkpoint=254 model=gemma4:31b-cloud[nemotron-3-super:cloud] checkpoint=130 model=nemotron-3-super:cloud
+
+
+[gemma4:31b-cloud] COMPLETE: 0 calls
+
+[gpt-oss:120b-cloud] COMPLETE: 0 calls
+  [nemotron-3-super:cloud]    tier3 3DES_0004_pycryptodome.bin: GT=3DES PRED=ChaCha20 (30.0s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0005_openssl.bin: GT=3DES PRED=3DES (21.9s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0006_pycryptodome.bin: GT=3DES PRED=3DES (16.0s)
+  [nemotron-3-super:cloud]    tier3 3DES_0007_openssl.bin: GT=3DES PRED=AES-128 (26.8s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0008_pycryptodome.bin: GT=3DES PRED=3DES (39.7s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0009_openssl.bin: GT=3DES PRED=3DES (45.9s)
+  [nemotron-3-super:cloud]    tier3 3DES_0010_pycryptodome.bin: GT=3DES PRED=ChaCha20 (15.6s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0011_pycryptodome.bin: GT=3DES PRED=3DES (11.9s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0012_openssl.bin: GT=3DES PRED=3DES (9.6s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0013_openssl.bin: GT=3DES PRED=3DES (19.0s)
+  [nemotron-3-super:cloud]    tier3 3DES_0014_openssl.bin: GT=3DES PRED=ChaCha20 (16.2s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0015_pycryptodome.bin: GT=3DES PRED=3DES (24.5s)
+  [nemotron-3-super:cloud]    tier3 3DES_0016_openssl.bin: GT=3DES PRED=AES-128 (31.3s)
+  [nemotron-3-super:cloud]    tier3 3DES_0017_openssl.bin: GT=3DES PRED=ML-KEM-768 (15.2s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0018_pycryptodome.bin: GT=3DES PRED=3DES (14.3s)
+  [nemotron-3-super:cloud]    tier3 3DES_0019_pycryptodome.bin: GT=3DES PRED=DES (16.9s)
+  [nemotron-3-super:cloud] OK tier3 3DES_0020_openssl.bin: GT=3DES PRED=3DES (27.4s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0001_openssl.bin: GT=AES-128 PRED=AES-128 (12.8s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=3DES (8.6s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=3DES (13.1s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0004_openssl.bin: GT=AES-128 PRED=AES-128 (20.6s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0005_openssl.bin: GT=AES-128 PRED=AES-128 (27.3s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=3DES (14.9s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=3DES (10.9s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=AES-128 (19.3s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0009_openssl.bin: GT=AES-128 PRED=AES-128 (25.9s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0010_openssl.bin: GT=AES-128 PRED=AES-128 (24.5s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=AES-128 (24.5s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=AES-128 (18.1s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0013_openssl.bin: GT=AES-128 PRED=AES-128 (16.7s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0014_openssl.bin: GT=AES-128 PRED=AES-128 (10.3s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=AES-128 (15.8s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0016_openssl.bin: GT=AES-128 PRED=AES-128 (27.5s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=3DES (22.0s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0018_openssl.bin: GT=AES-128 PRED=3DES (32.0s)
+  [nemotron-3-super:cloud]    tier3 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=3DES (12.1s)
+  [nemotron-3-super:cloud] OK tier3 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-128 (9.3s)
+  [nemotron-3-super:cloud] OK tier3 AES-256_0001_openssl.bin: GT=AES-256 PRED=AES-256 (21.2s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-128 (20.7s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0003_openssl.bin: GT=AES-256 PRED=3DES (24.9s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0004_openssl.bin: GT=AES-256 PRED=AES-128 (32.4s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0005_openssl.bin: GT=AES-256 PRED=3DES (13.2s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0006_openssl.bin: GT=AES-256 PRED=AES-128 (14.9s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=AES-128 (32.5s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=AES-128 (28.0s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0009_openssl.bin: GT=AES-256 PRED=AES-128 (24.7s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0010_openssl.bin: GT=AES-256 PRED=AES-128 (24.5s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=3DES (11.1s)
+  [nemotron-3-super:cloud] OK tier3 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=AES-256 (11.1s)
+  [nemotron-3-super:cloud] OK tier3 AES-256_0013_openssl.bin: GT=AES-256 PRED=AES-256 (15.5s)
+  [nemotron-3-super:cloud] OK tier3 AES-256_0014_openssl.bin: GT=AES-256 PRED=AES-256 (13.9s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0015_openssl.bin: GT=AES-256 PRED=AES-128 (9.7s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=3DES (13.1s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0017_openssl.bin: GT=AES-256 PRED=AES-128 (11.9s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0018_openssl.bin: GT=AES-256 PRED=3DES (22.0s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=3DES (17.7s)
+  [nemotron-3-super:cloud]    tier3 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=AES-128 (36.8s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=3DES (21.8s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=3DES (21.3s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=RSA-2048 (30.2s)
+  [nemotron-3-super:cloud] OK tier3 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=ChaCha20 (16.3s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=3DES (6.1s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (17.3s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=AES-256 (14.0s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=AES-128 (16.6s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=3DES (30.3s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=3DES (20.7s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=AES-128 (27.0s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=RSA-2048 (14.8s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=3DES (39.0s)
+  [nemotron-3-super:cloud]    tier3 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=DES (36.7s)
+  [nemotron-3-super:cloud]    tier3 DES_0001_pycryptodome.bin: GT=DES PRED=ChaCha20 (16.9s)
+  [nemotron-3-super:cloud]    tier3 DES_0002_openssl.bin: GT=DES PRED=3DES (30.5s)
+  [nemotron-3-super:cloud]    tier3 DES_0003_openssl.bin: GT=DES PRED=ChaCha20 (21.0s)
+  [nemotron-3-super:cloud]    tier3 DES_0004_openssl.bin: GT=DES PRED=3DES (20.1s)
+  [nemotron-3-super:cloud]    tier3 DES_0005_pycryptodome.bin: GT=DES PRED=3DES (33.0s)
+  [nemotron-3-super:cloud] OK tier3 DES_0006_openssl.bin: GT=DES PRED=DES (16.1s)
+  [nemotron-3-super:cloud]    tier3 DES_0007_openssl.bin: GT=DES PRED=3DES (64.9s)
+  [nemotron-3-super:cloud]    tier3 DES_0008_pycryptodome.bin: GT=DES PRED=3DES (21.9s)
+  [nemotron-3-super:cloud]    tier3 DES_0009_pycryptodome.bin: GT=DES PRED=3DES (24.3s)
+  [nemotron-3-super:cloud]    tier3 DES_0010_openssl.bin: GT=DES PRED=3DES (12.6s)
+  [nemotron-3-super:cloud]    tier3 DES_0011_openssl.bin: GT=DES PRED=3DES (16.8s)
+  [nemotron-3-super:cloud]    tier3 DES_0012_pycryptodome.bin: GT=DES PRED=3DES (10.5s)
+  [nemotron-3-super:cloud]    tier3 DES_0013_pycryptodome.bin: GT=DES PRED=3DES (46.2s)
+  [nemotron-3-super:cloud]    tier3 DES_0014_pycryptodome.bin: GT=DES PRED=ChaCha20 (28.4s)
+  [nemotron-3-super:cloud] OK tier3 DES_0015_openssl.bin: GT=DES PRED=DES (19.9s)
+  [nemotron-3-super:cloud] OK tier3 DES_0016_pycryptodome.bin: GT=DES PRED=DES (15.8s)
+  [nemotron-3-super:cloud]    tier3 DES_0017_openssl.bin: GT=DES PRED=3DES (25.5s)
+  [nemotron-3-super:cloud]    tier3 DES_0018_pycryptodome.bin: GT=DES PRED=3DES (17.1s)
+  [nemotron-3-super:cloud]    tier3 DES_0019_openssl.bin: GT=DES PRED=ML-KEM-768 (20.5s)
+  [nemotron-3-super:cloud]    tier3 DES_0020_pycryptodome.bin: GT=DES PRED=3DES (34.8s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.5s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (17.3s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=3DES (9.3s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (8.8s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=3DES (13.8s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (36.9s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (13.0s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (9.8s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (4.8s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (11.5s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=3DES (32.5s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=3DES (24.8s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=3DES (11.7s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=3DES (18.7s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=3DES (11.8s)
+  [nemotron-3-super:cloud] OK tier3 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=ML-KEM-768 (67.4s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=3DES (7.3s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=3DES (9.5s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=3DES (7.1s)
+  [nemotron-3-super:cloud]    tier3 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=3DES (7.4s)
+  [nemotron-3-super:cloud] OK tier3 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (13.6s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=AES-256 (17.4s)
+  [nemotron-3-super:cloud] OK tier3 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (13.2s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=3DES (15.1s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=3DES (10.9s)
+  [nemotron-3-super:cloud] OK tier3 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (15.0s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=3DES (11.7s)
+  [nemotron-3-super:cloud] OK tier3 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (21.7s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=3DES (20.5s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=AES-128 (27.2s)
+  [nemotron-3-super:cloud]    tier3 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=ChaCha20 (18.6s)
+  [nemotron-3-super:cloud] OK tier3 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=RSA-2048 (8.1s)
+  [nemotron-3-super:cloud] 429 wait 20s (attempt 1/5) RSA-2048_0020_openssl.bin
+  [nemotron-3-super:cloud] 429 wait 35s (attempt 2/5) RSA-2048_0020_openssl.bin
+  [nemotron-3-super:cloud] 429 wait 65s (attempt 3/5) RSA-2048_0020_openssl.bin
+  [nemotron-3-super:cloud] 429 wait 120s (attempt 4/5) RSA-2048_0020_openssl.bin
+  [nemotron-3-super:cloud] 429 wait 120s (attempt 5/5) RSA-2048_0020_openssl.bin
+
+[nemotron-3-super:cloud] COMPLETE: 123 calls
+
+
+============================================================
+FINAL RESULTS — v2b Corpus Tier-1 + Tier-3
+============================================================
+  gemma4:31b-cloud               tier1: 58/127 = 45.7%
+  gemma4:31b-cloud               tier3: 31/127 = 24.4%
+  gemma4:31b-cloud               T1=58/127=45.7%  T3=31/127=24.4%
+  gpt-oss:120b-cloud             tier1: 102/127 = 80.3%
+  gpt-oss:120b-cloud             tier3: 39/127 = 30.7%
+  gpt-oss:120b-cloud             T1=102/127=80.3%  T3=39/127=30.7%
+  nemotron-3-super:cloud         tier1: 113/127 = 89.0%
+  nemotron-3-super:cloud         tier3: 47/126 = 37.3%
+  nemotron-3-super:cloud         T1=113/127=89.0%  T3=47/126=37.3%
+
+  GRAND TOTAL: 390/761 = 51.2%
+============================================================

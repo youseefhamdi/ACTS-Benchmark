@@ -1,0 +1,1257 @@
+{
+  "generated_at": "2026-06-01T16:19:14.164061+00:00",
+  "tiers": {
+    "tier1": {
+      "total_records": 611,
+      "backends": [
+        "gemma4:31b-cloud",
+        "google/gemma-4-31b-it:free",
+        "gpt-oss:120b-cloud",
+        "nemotron-3-super:cloud",
+        "openrouter/owl-alpha"
+      ],
+      "overall": {
+        "k": 540,
+        "n": 611,
+        "accuracy": 0.8838,
+        "ci_lower": 0.856,
+        "ci_upper": 0.9068
+      },
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 1.0,
+          "ci_lower": 0.9733,
+          "ci_upper": 1.0,
+          "avg_latency_s": 1.84,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        },
+        "google/gemma-4-31b-it:free": {
+          "k": 0,
+          "n": 51,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.07,
+          "avg_latency_s": 0.67,
+          "default_guess_label": "UNKNOWN",
+          "default_guess_rate": 1.0,
+          "errors": 51
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 1.0,
+          "ci_lower": 0.9733,
+          "ci_upper": 1.0,
+          "avg_latency_s": 1.52,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        },
+        "nemotron-3-super:cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 1.0,
+          "ci_lower": 0.9733,
+          "ci_upper": 1.0,
+          "avg_latency_s": 0.91,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        },
+        "openrouter/owl-alpha": {
+          "k": 120,
+          "n": 140,
+          "accuracy": 0.8571,
+          "ci_lower": 0.7896,
+          "ci_upper": 0.9056,
+          "avg_latency_s": 3.16,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        }
+      },
+      "per_backend_family": {
+        "gemma4:31b-cloud|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|ChaCha20": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "google/gemma-4-31b-it:free|AES-128": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "google/gemma-4-31b-it:free|AES-256": {
+          "k": 0,
+          "n": 11,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.2588
+        },
+        "google/gemma-4-31b-it:free|3DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gpt-oss:120b-cloud|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|ChaCha20": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|ChaCha20": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|ChaCha20": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "openrouter/owl-alpha|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "3DES": {
+          "3DES": 80,
+          "UNKNOWN": 20
+        },
+        "AES-128": {
+          "AES-128": 80,
+          "UNKNOWN": 20
+        },
+        "AES-256": {
+          "AES-256": 80,
+          "UNKNOWN": 11
+        },
+        "ChaCha20": {
+          "ChaCha20": 60,
+          "CHACHA20": 20
+        },
+        "DES": {
+          "DES": 80
+        },
+        "ML-KEM-768": {
+          "ML-KEM-768": 80
+        },
+        "RSA-2048": {
+          "RSA-2048": 80
+        }
+      },
+      "default_guess_rate": {}
+    },
+    "tier2": {
+      "total_records": 560,
+      "backends": [
+        "gemma4:31b-cloud",
+        "gpt-oss:120b-cloud",
+        "nemotron-3-super:cloud",
+        "openrouter/owl-alpha"
+      ],
+      "overall": {
+        "k": 540,
+        "n": 560,
+        "accuracy": 0.9643,
+        "ci_lower": 0.9455,
+        "ci_upper": 0.9768
+      },
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 1.0,
+          "ci_lower": 0.9733,
+          "ci_upper": 1.0,
+          "avg_latency_s": 1.12,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 1.0,
+          "ci_lower": 0.9733,
+          "ci_upper": 1.0,
+          "avg_latency_s": 1.43,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        },
+        "nemotron-3-super:cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 1.0,
+          "ci_lower": 0.9733,
+          "ci_upper": 1.0,
+          "avg_latency_s": 1.11,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        },
+        "openrouter/owl-alpha": {
+          "k": 120,
+          "n": 140,
+          "accuracy": 0.8571,
+          "ci_lower": 0.7896,
+          "ci_upper": 0.9056,
+          "avg_latency_s": 4.2,
+          "default_guess_label": "3DES",
+          "default_guess_rate": 0.1429,
+          "errors": 0
+        }
+      },
+      "per_backend_family": {
+        "gemma4:31b-cloud|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|ChaCha20": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gemma4:31b-cloud|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|ChaCha20": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "gpt-oss:120b-cloud|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|ChaCha20": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "nemotron-3-super:cloud|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|AES-128": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|AES-256": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|3DES": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|ChaCha20": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "openrouter/owl-alpha|RSA-2048": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        },
+        "openrouter/owl-alpha|ML-KEM-768": {
+          "k": 20,
+          "n": 20,
+          "accuracy": 1.0,
+          "ci_lower": 0.8389,
+          "ci_upper": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "3DES": {
+          "3DES": 80
+        },
+        "AES-128": {
+          "AES-128": 80
+        },
+        "AES-256": {
+          "AES-256": 80
+        },
+        "ChaCha20": {
+          "ChaCha20": 60,
+          "CHACHA20": 20
+        },
+        "DES": {
+          "DES": 80
+        },
+        "ML-KEM-768": {
+          "ML-KEM-768": 80
+        },
+        "RSA-2048": {
+          "RSA-2048": 80
+        }
+      },
+      "default_guess_rate": {}
+    },
+    "tier3": {
+      "total_records": 973,
+      "backends": [
+        "gemma4:31b-cloud",
+        "gpt-oss:120b-cloud",
+        "nemotron-3-super:cloud",
+        "openrouter/owl-alpha"
+      ],
+      "overall": {
+        "k": 197,
+        "n": 973,
+        "accuracy": 0.2025,
+        "ci_lower": 0.1784,
+        "ci_upper": 0.2289
+      },
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 37,
+          "n": 280,
+          "accuracy": 0.1321,
+          "ci_lower": 0.0974,
+          "ci_upper": 0.1768,
+          "avg_latency_s": 1.71,
+          "default_guess_label": "ChaCha20",
+          "default_guess_rate": 0.9107,
+          "errors": 0
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 116,
+          "n": 280,
+          "accuracy": 0.4143,
+          "ci_lower": 0.3581,
+          "ci_upper": 0.4728,
+          "avg_latency_s": 8.27,
+          "default_guess_label": "AES-256",
+          "default_guess_rate": 0.4179,
+          "errors": 0
+        },
+        "nemotron-3-super:cloud": {
+          "k": 44,
+          "n": 313,
+          "accuracy": 0.1406,
+          "ci_lower": 0.1064,
+          "ci_upper": 0.1835,
+          "avg_latency_s": 7.01,
+          "default_guess_label": "UNKNOWN",
+          "default_guess_rate": 0.6454,
+          "errors": 202
+        },
+        "openrouter/owl-alpha": {
+          "k": 0,
+          "n": 100,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.037,
+          "avg_latency_s": 3.22,
+          "default_guess_label": "CHACHA20",
+          "default_guess_rate": 0.51,
+          "errors": 21
+        }
+      },
+      "per_backend_family": {
+        "gemma4:31b-cloud|AES-128": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "gemma4:31b-cloud|AES-256": {
+          "k": 4,
+          "n": 40,
+          "accuracy": 0.1,
+          "ci_lower": 0.0396,
+          "ci_upper": 0.2305
+        },
+        "gemma4:31b-cloud|DES": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "gemma4:31b-cloud|3DES": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "gemma4:31b-cloud|ChaCha20": {
+          "k": 33,
+          "n": 40,
+          "accuracy": 0.825,
+          "ci_lower": 0.6805,
+          "ci_upper": 0.9125
+        },
+        "gemma4:31b-cloud|RSA-2048": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "gemma4:31b-cloud|ML-KEM-768": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "gpt-oss:120b-cloud|AES-128": {
+          "k": 4,
+          "n": 40,
+          "accuracy": 0.1,
+          "ci_lower": 0.0396,
+          "ci_upper": 0.2305
+        },
+        "gpt-oss:120b-cloud|AES-256": {
+          "k": 34,
+          "n": 40,
+          "accuracy": 0.85,
+          "ci_lower": 0.7093,
+          "ci_upper": 0.9294
+        },
+        "gpt-oss:120b-cloud|DES": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "gpt-oss:120b-cloud|3DES": {
+          "k": 15,
+          "n": 40,
+          "accuracy": 0.375,
+          "ci_lower": 0.2422,
+          "ci_upper": 0.5297
+        },
+        "gpt-oss:120b-cloud|ChaCha20": {
+          "k": 8,
+          "n": 40,
+          "accuracy": 0.2,
+          "ci_lower": 0.105,
+          "ci_upper": 0.3476
+        },
+        "gpt-oss:120b-cloud|RSA-2048": {
+          "k": 38,
+          "n": 40,
+          "accuracy": 0.95,
+          "ci_lower": 0.835,
+          "ci_upper": 0.9862
+        },
+        "gpt-oss:120b-cloud|ML-KEM-768": {
+          "k": 17,
+          "n": 40,
+          "accuracy": 0.425,
+          "ci_lower": 0.2851,
+          "ci_upper": 0.5781
+        },
+        "nemotron-3-super:cloud|AES-128": {
+          "k": 21,
+          "n": 40,
+          "accuracy": 0.525,
+          "ci_lower": 0.375,
+          "ci_upper": 0.6706
+        },
+        "nemotron-3-super:cloud|AES-256": {
+          "k": 13,
+          "n": 48,
+          "accuracy": 0.2708,
+          "ci_lower": 0.1657,
+          "ci_upper": 0.41
+        },
+        "nemotron-3-super:cloud|DES": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "nemotron-3-super:cloud|3DES": {
+          "k": 10,
+          "n": 40,
+          "accuracy": 0.25,
+          "ci_lower": 0.1419,
+          "ci_upper": 0.4019
+        },
+        "nemotron-3-super:cloud|ChaCha20": {
+          "k": 0,
+          "n": 45,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0787
+        },
+        "nemotron-3-super:cloud|RSA-2048": {
+          "k": 0,
+          "n": 42,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0838
+        },
+        "nemotron-3-super:cloud|ML-KEM-768": {
+          "k": 0,
+          "n": 58,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0621
+        },
+        "openrouter/owl-alpha|AES-128": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        },
+        "openrouter/owl-alpha|AES-256": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "openrouter/owl-alpha|3DES": {
+          "k": 0,
+          "n": 40,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0876
+        }
+      },
+      "confusion_matrix": {
+        "3DES": {
+          "ChaCha20": 68,
+          "AES-256": 23,
+          "AES-128": 3,
+          "3DES": 25,
+          "RSA-2048": 1,
+          "DES": 13,
+          "CHACHA20": 27
+        },
+        "AES-128": {
+          "ChaCha20": 40,
+          "AES-256": 70,
+          "AES-128": 25,
+          "CHACHA20": 24,
+          "UNKNOWN": 1
+        },
+        "AES-256": {
+          "ChaCha20": 39,
+          "AES-256": 51,
+          "AES-128": 20,
+          "ML-KEM-768": 1,
+          "UNKNOWN": 37
+        },
+        "ChaCha20": {
+          "ChaCha20": 41,
+          "AES-256": 31,
+          "AES-128": 4,
+          "RSA-2048": 4,
+          "UNKNOWN": 45
+        },
+        "DES": {
+          "ChaCha20": 61,
+          "3DES": 10,
+          "AES-256": 5,
+          "RSA-2048": 3,
+          "AES-128": 1,
+          "UNKNOWN": 40
+        },
+        "ML-KEM-768": {
+          "ChaCha20": 39,
+          "AES-256": 23,
+          "ML-KEM-768": 17,
+          "AES-128": 1,
+          "UNKNOWN": 58
+        },
+        "RSA-2048": {
+          "ChaCha20": 39,
+          "AES-256": 3,
+          "RSA-2048": 38,
+          "UNKNOWN": 42
+        }
+      },
+      "default_guess_rate": {}
+    },
+    "tier3_raw": {
+      "total_records": 486,
+      "backends": [
+        "gemma4:31b-cloud",
+        "gpt-oss:120b-cloud",
+        "nemotron-3-super:cloud",
+        "openrouter/owl-alpha"
+      ],
+      "overall": {
+        "k": 96,
+        "n": 486,
+        "accuracy": 0.1975,
+        "ci_lower": 0.1646,
+        "ci_upper": 0.2352
+      },
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 17,
+          "n": 140,
+          "accuracy": 0.1214,
+          "ci_lower": 0.0772,
+          "ci_upper": 0.1859,
+          "avg_latency_s": 0.96,
+          "default_guess_label": "ChaCha20",
+          "default_guess_rate": 0.9214,
+          "errors": 0
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 54,
+          "n": 140,
+          "accuracy": 0.3857,
+          "ci_lower": 0.3092,
+          "ci_upper": 0.4684,
+          "avg_latency_s": 8.7,
+          "default_guess_label": "AES-256",
+          "default_guess_rate": 0.4429,
+          "errors": 0
+        },
+        "nemotron-3-super:cloud": {
+          "k": 25,
+          "n": 156,
+          "accuracy": 0.1603,
+          "ci_lower": 0.111,
+          "ci_upper": 0.2259,
+          "avg_latency_s": 8.36,
+          "default_guess_label": "UNKNOWN",
+          "default_guess_rate": 0.6474,
+          "errors": 101
+        },
+        "openrouter/owl-alpha": {
+          "k": 0,
+          "n": 50,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0714,
+          "avg_latency_s": 3.3,
+          "default_guess_label": "CHACHA20",
+          "default_guess_rate": 0.54,
+          "errors": 11
+        }
+      },
+      "per_backend_family": {
+        "gemma4:31b-cloud|AES-128": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gemma4:31b-cloud|AES-256": {
+          "k": 2,
+          "n": 20,
+          "accuracy": 0.1,
+          "ci_lower": 0.0279,
+          "ci_upper": 0.301
+        },
+        "gemma4:31b-cloud|DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gemma4:31b-cloud|3DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gemma4:31b-cloud|ChaCha20": {
+          "k": 15,
+          "n": 20,
+          "accuracy": 0.75,
+          "ci_lower": 0.5313,
+          "ci_upper": 0.8881
+        },
+        "gemma4:31b-cloud|RSA-2048": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gemma4:31b-cloud|ML-KEM-768": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gpt-oss:120b-cloud|AES-128": {
+          "k": 1,
+          "n": 20,
+          "accuracy": 0.05,
+          "ci_lower": 0.0089,
+          "ci_upper": 0.2361
+        },
+        "gpt-oss:120b-cloud|AES-256": {
+          "k": 18,
+          "n": 20,
+          "accuracy": 0.9,
+          "ci_lower": 0.699,
+          "ci_upper": 0.9721
+        },
+        "gpt-oss:120b-cloud|DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "gpt-oss:120b-cloud|3DES": {
+          "k": 7,
+          "n": 20,
+          "accuracy": 0.35,
+          "ci_lower": 0.1812,
+          "ci_upper": 0.5671
+        },
+        "gpt-oss:120b-cloud|ChaCha20": {
+          "k": 3,
+          "n": 20,
+          "accuracy": 0.15,
+          "ci_lower": 0.0524,
+          "ci_upper": 0.3604
+        },
+        "gpt-oss:120b-cloud|RSA-2048": {
+          "k": 18,
+          "n": 20,
+          "accuracy": 0.9,
+          "ci_lower": 0.699,
+          "ci_upper": 0.9721
+        },
+        "gpt-oss:120b-cloud|ML-KEM-768": {
+          "k": 7,
+          "n": 20,
+          "accuracy": 0.35,
+          "ci_lower": 0.1812,
+          "ci_upper": 0.5671
+        },
+        "nemotron-3-super:cloud|AES-128": {
+          "k": 12,
+          "n": 20,
+          "accuracy": 0.6,
+          "ci_lower": 0.3866,
+          "ci_upper": 0.7812
+        },
+        "nemotron-3-super:cloud|AES-256": {
+          "k": 8,
+          "n": 24,
+          "accuracy": 0.3333,
+          "ci_lower": 0.1797,
+          "ci_upper": 0.5329
+        },
+        "nemotron-3-super:cloud|DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "nemotron-3-super:cloud|3DES": {
+          "k": 5,
+          "n": 20,
+          "accuracy": 0.25,
+          "ci_lower": 0.1119,
+          "ci_upper": 0.4687
+        },
+        "nemotron-3-super:cloud|ChaCha20": {
+          "k": 0,
+          "n": 22,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1487
+        },
+        "nemotron-3-super:cloud|RSA-2048": {
+          "k": 0,
+          "n": 21,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1546
+        },
+        "nemotron-3-super:cloud|ML-KEM-768": {
+          "k": 0,
+          "n": 29,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.117
+        },
+        "openrouter/owl-alpha|AES-128": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        },
+        "openrouter/owl-alpha|AES-256": {
+          "k": 0,
+          "n": 10,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.2775
+        },
+        "openrouter/owl-alpha|3DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        }
+      },
+      "confusion_matrix": {
+        "3DES": {
+          "ChaCha20": 35,
+          "AES-256": 12,
+          "3DES": 12,
+          "DES": 6,
+          "CHACHA20": 14,
+          "AES-128": 1
+        },
+        "AES-128": {
+          "ChaCha20": 23,
+          "AES-256": 30,
+          "AES-128": 13,
+          "CHACHA20": 13,
+          "UNKNOWN": 1
+        },
+        "AES-256": {
+          "ChaCha20": 19,
+          "AES-256": 28,
+          "AES-128": 8,
+          "UNKNOWN": 19
+        },
+        "ChaCha20": {
+          "ChaCha20": 18,
+          "AES-256": 18,
+          "AES-128": 2,
+          "RSA-2048": 2,
+          "UNKNOWN": 22
+        },
+        "DES": {
+          "ChaCha20": 31,
+          "3DES": 4,
+          "AES-256": 3,
+          "RSA-2048": 2,
+          "UNKNOWN": 20
+        },
+        "ML-KEM-768": {
+          "ChaCha20": 22,
+          "AES-256": 11,
+          "ML-KEM-768": 7,
+          "UNKNOWN": 29
+        },
+        "RSA-2048": {
+          "ChaCha20": 20,
+          "RSA-2048": 18,
+          "AES-256": 2,
+          "UNKNOWN": 21
+        }
+      },
+      "default_guess_rate": {}
+    },
+    "tier4a": {
+      "total_records": 32,
+      "backends": [
+        "gemma4:31b-cloud"
+      ],
+      "overall": {
+        "k": 0,
+        "n": 32,
+        "accuracy": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.1072
+      },
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 0,
+          "n": 32,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1072,
+          "avg_latency_s": 0.25,
+          "default_guess_label": "UNKNOWN",
+          "default_guess_rate": 1.0,
+          "errors": 32
+        }
+      },
+      "per_backend_family": {
+        "gemma4:31b-cloud|AES-128": {
+          "k": 0,
+          "n": 12,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.2425
+        },
+        "gemma4:31b-cloud|3DES": {
+          "k": 0,
+          "n": 20,
+          "accuracy": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.1611
+        }
+      },
+      "confusion_matrix": {
+        "3DES": {
+          "UNKNOWN": 20
+        },
+        "AES-128": {
+          "UNKNOWN": 12
+        }
+      },
+      "default_guess_rate": {}
+    }
+  },
+  "gaps": {
+    "gemma4:31b-cloud|tier1_vs_tier3": {
+      "gap": 0.8679,
+      "ci_lower": 0.826,
+      "ci_upper": 0.9098
+    },
+    "gemma4:31b-cloud|tier4a_vs_tier3": {
+      "gap": -0.1321,
+      "ci_lower": -0.1988,
+      "ci_upper": -0.0654
+    },
+    "gpt-oss:120b-cloud|tier1_vs_tier3": {
+      "gap": 0.5857,
+      "ci_lower": 0.5268,
+      "ci_upper": 0.6446
+    },
+    "nemotron-3-super:cloud|tier1_vs_tier3": {
+      "gap": 0.8594,
+      "ci_lower": 0.8186,
+      "ci_upper": 0.9002
+    },
+    "openrouter/owl-alpha|tier1_vs_tier3": {
+      "gap": 0.8571,
+      "ci_lower": 0.7962,
+      "ci_upper": 0.918
+    }
+  }
+}
