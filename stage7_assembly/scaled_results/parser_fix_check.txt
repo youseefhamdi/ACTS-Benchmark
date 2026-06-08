@@ -1,0 +1,62 @@
+=== Part C: Parser Fix Self-Check — FINAL VERIFIED ===
+Generated: 2026-05-31
+
+--- Files Modified ---
+1. tier5_runner_v2.py: CIPHER_ALIASES dict — added "3-des", "triple-des", "triple des" aliases
+2. tier5_runner.py: Replaced inline cipher list with CIPHER_MATCH list of (pattern, canonical) tuples
+
+--- Changes Made ---
+
+tier5_runner_v2.py (lines 35-47):
+  Added aliases:
+    "3-des": "3des",
+    "triple-des": "3des",
+    "triple des": "3des",
+
+tier5_runner.py (lines 219-237):
+  Replaced: for c in ["aes-128", "aes128", ...]:
+  With:     CIPHER_MATCH = [("aes-128","aes128"), ...] list of (pattern, canonical) tuples
+  Added:    ("triple des", "3des"), ("triple-des", "3des")
+  Fixed:    "chaCha20" typo -> "chacha20"
+  Fixed:    Now returns canonical form (e.g., "3des") instead of raw match (e.g., "tripledes")
+
+--- Verification Results ---
+
+Input                -> v2.py (aliases)  -> v5.py (inline)   -> Expected       Status
+-------------------------------------------------------------------------------------
+3DES                 -> 3des              -> 3des              -> 3des           ✓
+Triple-DES           -> 3des              -> 3des              -> 3des           ✓
+tripledes            -> 3des              -> 3des              -> 3des           ✓
+triple des           -> 3des              -> 3des              -> 3des           ✓
+3-des                -> 3des              -> 3des              -> 3des           ✓
+DES                  -> des               -> des               -> des            ✓
+AES-256              -> aes256            -> aes256            -> aes256         ✓
+AES                  -> aes128            -> aes128            -> aes128         ✓
+ChaCha20             -> chacha20          -> chacha20          -> chacha20       ✓
+RSA-2048             -> rsa2048           -> rsa2048           -> rsa2048        ✓
+ML-KEM-768           -> mlkem768          -> mlkem768          -> mlkem768       ✓
+
+ALL 11 TEST CASES PASS ✓
+
+--- Summary of Bugs Fixed ---
+
+BUG 1 (tier5_runner_v2.py): "Triple-DES" and "triple des" normalized to "des" instead of "3des"
+  Root cause: "Triple-DES".lower() = "triple-des", which doesn't match "3des" or "tripledes" aliases
+             but DOES match "des" as a substring
+  Fix: Added "3-des", "triple-des", "triple des" as aliases for "3des"
+
+BUG 2 (tier5_runner.py): "AES" alone normalized to "unknown"
+  Root cause: Inline list had "aes-128" and "aes-256" but not "aes" alone
+  Fix: Added "aes" to CIPHER_MATCH list (after specific aes variants)
+
+BUG 3 (tier5_runner.py): "Triple-DES" and "triple des" normalized to "des"
+  Root cause: Same as BUG 1 — "des" substring matched before "triple des" could be checked
+  Fix: Added "triple des" and "triple-des" to CIPHER_MATCH, before "des"
+
+BUG 4 (tier5_runner.py): "chaCha20" typo in canonical form
+  Root cause: Typo in the chaCha20 canonical value (mixed case)
+  Fix: Changed to "chacha20"
+
+BUG 5 (tier5_runner.py): Returned raw matched string instead of canonical form
+  Root cause: Old code returned c.replace("-","") which gave "tripledes" for "tripledes"
+  Fix: Now returns explicit canonical form from (pattern, canonical) tuple

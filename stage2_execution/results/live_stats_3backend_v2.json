@@ -1,0 +1,248 @@
+{
+  "label": "3-backend interim, pure v2",
+  "generated_at": "2026-06-02T03:11:14.658048+00:00",
+  "backends": [
+    "gemma4:31b-cloud",
+    "gpt-oss:120b-cloud",
+    "nemotron-3-super:cloud"
+  ],
+  "tiers": [
+    "tier1",
+    "tier2",
+    "tier3",
+    "tier4a",
+    "tier5"
+  ],
+  "families": [
+    "3DES",
+    "AES-128",
+    "AES-256",
+    "ChaCha20",
+    "DES",
+    "ML-KEM-768",
+    "RSA-2048"
+  ],
+  "total_records": 2481,
+  "per_backend_tier": {
+    "gemma4:31b-cloud|tier1": {
+      "k": 140,
+      "n": 140,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2": {
+      "k": 140,
+      "n": 140,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier3": {
+      "k": 38,
+      "n": 280,
+      "accuracy": 0.1357,
+      "ci_lower": 0.1005,
+      "ci_upper": 0.1808
+    },
+    "gemma4:31b-cloud|tier4a": {
+      "k": 21,
+      "n": 140,
+      "accuracy": 0.15,
+      "ci_lower": 0.1002,
+      "ci_upper": 0.2184
+    },
+    "gemma4:31b-cloud|tier5": {
+      "k": 26,
+      "n": 140,
+      "accuracy": 0.1857,
+      "ci_lower": 0.13,
+      "ci_upper": 0.2582
+    },
+    "gpt-oss:120b-cloud|tier1": {
+      "k": 140,
+      "n": 140,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2": {
+      "k": 140,
+      "n": 140,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier3": {
+      "k": 57,
+      "n": 280,
+      "accuracy": 0.2036,
+      "ci_lower": 0.1606,
+      "ci_upper": 0.2546
+    },
+    "gpt-oss:120b-cloud|tier4a": {
+      "k": 21,
+      "n": 140,
+      "accuracy": 0.15,
+      "ci_lower": 0.1002,
+      "ci_upper": 0.2184
+    },
+    "gpt-oss:120b-cloud|tier5": {
+      "k": 20,
+      "n": 140,
+      "accuracy": 0.1429,
+      "ci_lower": 0.0944,
+      "ci_upper": 0.2104
+    },
+    "nemotron-3-super:cloud|tier1": {
+      "k": 140,
+      "n": 140,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2": {
+      "k": 140,
+      "n": 140,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier3": {
+      "k": 41,
+      "n": 241,
+      "accuracy": 0.1701,
+      "ci_lower": 0.128,
+      "ci_upper": 0.2226
+    },
+    "nemotron-3-super:cloud|tier4a": {
+      "k": 20,
+      "n": 140,
+      "accuracy": 0.1429,
+      "ci_lower": 0.0944,
+      "ci_upper": 0.2104
+    },
+    "nemotron-3-super:cloud|tier5": {
+      "k": 19,
+      "n": 140,
+      "accuracy": 0.1357,
+      "ci_lower": 0.0886,
+      "ci_upper": 0.2023
+    }
+  },
+  "overall_tier1": {
+    "k": 420,
+    "n": 420,
+    "accuracy": 1.0,
+    "ci_lower": 0.9909,
+    "ci_upper": 1.0
+  },
+  "overall_tier2": {
+    "k": 420,
+    "n": 420,
+    "accuracy": 1.0,
+    "ci_lower": 0.9909,
+    "ci_upper": 1.0
+  },
+  "overall_tier3": {
+    "k": 136,
+    "n": 801,
+    "accuracy": 0.1698,
+    "ci_lower": 0.1454,
+    "ci_upper": 0.1974
+  },
+  "overall_tier4a": {
+    "k": 62,
+    "n": 420,
+    "accuracy": 0.1476,
+    "ci_lower": 0.1169,
+    "ci_upper": 0.1847
+  },
+  "overall_tier5": {
+    "k": 65,
+    "n": 420,
+    "accuracy": 0.1548,
+    "ci_lower": 0.1233,
+    "ci_upper": 0.1925
+  },
+  "newcombe_gaps": {
+    "gemma4:31b-cloud": {
+      "T1_minus_T3": {
+        "gap": 0.8643,
+        "newcombe_ci": [
+          0.8119,
+          0.8995
+        ],
+        "significant": true
+      },
+      "T4A_minus_T3": {
+        "gap": 0.0143,
+        "newcombe_ci": [
+          -0.0528,
+          0.0913
+        ],
+        "significant": false
+      },
+      "T5_minus_T3": {
+        "gap": 0.05,
+        "newcombe_ci": [
+          -0.0217,
+          0.1306
+        ],
+        "significant": false
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "T1_minus_T3": {
+        "gap": 0.7964,
+        "newcombe_ci": [
+          0.7388,
+          0.8394
+        ],
+        "significant": true
+      },
+      "T4A_minus_T3": {
+        "gap": -0.0536,
+        "newcombe_ci": [
+          -0.1248,
+          0.0272
+        ],
+        "significant": false
+      },
+      "T5_minus_T3": {
+        "gap": -0.0607,
+        "newcombe_ci": [
+          -0.1311,
+          0.0193
+        ],
+        "significant": false
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "T1_minus_T3": {
+        "gap": 0.8299,
+        "newcombe_ci": [
+          0.771,
+          0.872
+        ],
+        "significant": true
+      },
+      "T4A_minus_T3": {
+        "gap": -0.0272,
+        "newcombe_ci": [
+          -0.0987,
+          0.0524
+        ],
+        "significant": false
+      },
+      "T5_minus_T3": {
+        "gap": -0.0344,
+        "newcombe_ci": [
+          -0.1049,
+          0.0444
+        ],
+        "significant": false
+      }
+    }
+  }
+}

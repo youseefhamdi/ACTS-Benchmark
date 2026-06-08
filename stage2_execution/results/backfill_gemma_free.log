@@ -1,0 +1,1892 @@
+📋 Checkpoint: 1518 completed cells in live_matrix_full_v2.jsonl
+
+🔧 Backend: google/gemma-4-31b-it:free (delay=5.0s)
+  📊 Tier: tier1
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0001_openssl.bin: GT=3DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0002_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0003_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0004_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0005_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0006_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0007_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0008_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0009_openssl.bin: GT=3DES PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0011_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0012_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0014_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0001_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0002_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0003_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (1.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (1.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0013_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0014_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0015_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (1.1s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (1.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (1.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (1.2s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier1 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+  📊 Tier: tier2
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0001_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0002_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0003_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0004_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0005_openssl.bin: GT=3DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0006_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0007_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0008_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0009_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (1.2s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0011_pycryptodome.bin: GT=3DES PRED=UNKNOWN (1.0s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0012_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0014_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (1.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0001_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0002_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0003_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0013_openssl.bin: GT=AES-256 PRED=UNKNOWN (1.1s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0014_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0015_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (1.0s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (1.0s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (1.1s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (1.3s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier2 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+  📊 Tier: tier3
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0001_openssl.bin: GT=3DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0001_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0002_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0002_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0003_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0003_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0004_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0004_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0005_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0005_openssl.bin: GT=3DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0006_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0006_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0007_openssl.bin: GT=3DES PRED=UNKNOWN (1.1s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0007_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0008_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0008_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0009_openssl.bin: GT=3DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0009_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0010_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0011_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0011_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0012_openssl.bin: GT=3DES PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0012_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0013_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0014_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0014_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0015_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0016_openssl.bin: GT=3DES PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0017_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0018_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0019_pycryptodome.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw 3DES_0020_openssl.bin: GT=3DES PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0001_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ❌ tier3 AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=AES-256 (5.4s)
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0002_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0003_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0004_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0005_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0006_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0007_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0008_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0009_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0010_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0011_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0012_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.8s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0013_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0014_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0015_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0016_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0017_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0018_openssl.bin: GT=AES-128 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Provider returned e
+    ❌ tier3 AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=CHACHA20 (1.1s)
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-128_0019_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (1.0s) ERROR:HTTP 429: {"error":{"message":"Provider returned e
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=UNKNOWN (2.3s) ERROR:HTTP 429: {"error":{"message":"Provider returned e
+    ❌ tier3_raw AES-128_0020_pycryptodome.bin: GT=AES-128 PRED=AES-256 (1.0s)
+    ❌ tier3 AES-256_0001_openssl.bin: GT=AES-256 PRED=CHACHA20 (6.0s)
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0001_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Provider returned e
+    ✅ tier3 AES-256_0002_openssl.bin: GT=AES-256 PRED=AES-256 (3.9s)
+    ❌ tier3_raw AES-256_0002_openssl.bin: GT=AES-256 PRED=CHACHA20 (5.6s)
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ❌ tier3 AES-256_0003_openssl.bin: GT=AES-256 PRED=CHACHA20 (1.2s)
+    ⏳ tier3_raw 429, retry in 15s
+    ✅ tier3_raw AES-256_0003_openssl.bin: GT=AES-256 PRED=AES-256 (4.8s)
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Provider returned e
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0004_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Provider returned e
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0005_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0006_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.5s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0007_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0008_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0009_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0010_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0011_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0012_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0013_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0013_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.9s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0014_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0014_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.7s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0015_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ❌ tier3_raw AES-256_0015_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ 429, retry in 15s (attempt 1/3)
+    ⏳ 429, retry in 25s (attempt 2/3)
+    ⏳ 429, retry in 45s (attempt 3/3)
+    ❌ tier3 AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.6s) ERROR:HTTP 429: {"error":{"message":"Rate limit exceeded
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ❌ tier3_raw AES-256_0016_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (1.8s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (0.6s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (1.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (0.8s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.4s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (2.0s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (1.5s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.6s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.8s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.5s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (1.7s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.2s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.3s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ⏳ Error: HTTP 401: {"error":{"message":"User not found.","code":401}}, retrying...
+    ❌ tier3 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+    ❌ tier3_raw RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (0.1s) ERROR:HTTP 401: {"error":{"message":"User not found.","c
+
+======================================================================
+✅ BACKFILL COMPLETE: 560 calls in 37383s | skipped=0 errors=0
+   Results saved to: /home/elaref/.gidaai/workspaces/default/upgrade/acts_v2_poc/stage2_execution/results/live_matrix_full_v2.jsonl

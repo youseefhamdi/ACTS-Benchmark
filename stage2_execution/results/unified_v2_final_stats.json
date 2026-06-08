@@ -1,0 +1,1498 @@
+{
+  "label": "ACTS v2 FINAL \u2014 4 backends, pure v2, minimax excluded",
+  "note": "Errors (429/timeout/parse) excluded from k/N. UNKNOWN predictions excluded.",
+  "generated_at": "2026-06-02T06:16:09.773703+00:00",
+  "backends": [
+    "gemma4:31b-cloud",
+    "gpt-oss:120b-cloud",
+    "nemotron-3-super:cloud",
+    "openrouter/owl-alpha"
+  ],
+  "tiers": [
+    "tier1",
+    "tier2",
+    "tier3",
+    "tier4a",
+    "tier5"
+  ],
+  "families": [
+    "3DES",
+    "AES-128",
+    "AES-256",
+    "ChaCha20",
+    "DES",
+    "ML-KEM-768",
+    "RSA-2048"
+  ],
+  "total_good_records": 3320,
+  "excluded_backends": [
+    "minimax-m3:cloud (incomplete, too slow)"
+  ],
+  "per_backend_tier": {
+    "gemma4:31b-cloud|tier1": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier3": {
+      "k": 38,
+      "n": 280,
+      "missing": 0,
+      "accuracy": 0.1357,
+      "ci_lower": 0.1005,
+      "ci_upper": 0.1808
+    },
+    "gemma4:31b-cloud|tier4a": {
+      "k": 21,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.15,
+      "ci_lower": 0.1002,
+      "ci_upper": 0.2184
+    },
+    "gemma4:31b-cloud|tier5": {
+      "k": 26,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.1857,
+      "ci_lower": 0.13,
+      "ci_upper": 0.2582
+    },
+    "gpt-oss:120b-cloud|tier1": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier3": {
+      "k": 57,
+      "n": 280,
+      "missing": 0,
+      "accuracy": 0.2036,
+      "ci_lower": 0.1606,
+      "ci_upper": 0.2546
+    },
+    "gpt-oss:120b-cloud|tier4a": {
+      "k": 21,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.15,
+      "ci_lower": 0.1002,
+      "ci_upper": 0.2184
+    },
+    "gpt-oss:120b-cloud|tier5": {
+      "k": 20,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.1429,
+      "ci_lower": 0.0944,
+      "ci_upper": 0.2104
+    },
+    "nemotron-3-super:cloud|tier1": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier3": {
+      "k": 41,
+      "n": 241,
+      "missing": 0,
+      "accuracy": 0.1701,
+      "ci_lower": 0.128,
+      "ci_upper": 0.2226
+    },
+    "nemotron-3-super:cloud|tier4a": {
+      "k": 20,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.1429,
+      "ci_lower": 0.0944,
+      "ci_upper": 0.2104
+    },
+    "nemotron-3-super:cloud|tier5": {
+      "k": 19,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.1357,
+      "ci_lower": 0.0886,
+      "ci_upper": 0.2023
+    },
+    "openrouter/owl-alpha|tier1": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2": {
+      "k": 140,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 1.0,
+      "ci_lower": 0.9733,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier3": {
+      "k": 37,
+      "n": 279,
+      "missing": 0,
+      "accuracy": 0.1326,
+      "ci_lower": 0.0978,
+      "ci_upper": 0.1774
+    },
+    "openrouter/owl-alpha|tier4a": {
+      "k": 18,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.1286,
+      "ci_lower": 0.0829,
+      "ci_upper": 0.1941
+    },
+    "openrouter/owl-alpha|tier5": {
+      "k": 49,
+      "n": 140,
+      "missing": 0,
+      "accuracy": 0.35,
+      "ci_lower": 0.276,
+      "ci_upper": 0.4321
+    }
+  },
+  "overall_tier1": {
+    "k": 560,
+    "n": 560,
+    "accuracy": 1.0,
+    "ci_lower": 0.9932,
+    "ci_upper": 1.0
+  },
+  "overall_tier2": {
+    "k": 560,
+    "n": 560,
+    "accuracy": 1.0,
+    "ci_lower": 0.9932,
+    "ci_upper": 1.0
+  },
+  "overall_tier3": {
+    "k": 173,
+    "n": 1080,
+    "accuracy": 0.1602,
+    "ci_lower": 0.1395,
+    "ci_upper": 0.1833
+  },
+  "overall_tier4a": {
+    "k": 80,
+    "n": 560,
+    "accuracy": 0.1429,
+    "ci_lower": 0.1163,
+    "ci_upper": 0.1743
+  },
+  "overall_tier5": {
+    "k": 114,
+    "n": 560,
+    "accuracy": 0.2036,
+    "ci_lower": 0.1723,
+    "ci_upper": 0.2389
+  },
+  "per_backend_tier_family": {
+    "gemma4:31b-cloud|tier1|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier1|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier1|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier1|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier1|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier1|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier1|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier2|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gemma4:31b-cloud|tier3|3DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gemma4:31b-cloud|tier3|AES-128": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gemma4:31b-cloud|tier3|AES-256": {
+      "k": 2,
+      "n": 40,
+      "accuracy": 0.05,
+      "ci_lower": 0.0138,
+      "ci_upper": 0.165
+    },
+    "gemma4:31b-cloud|tier3|ChaCha20": {
+      "k": 36,
+      "n": 40,
+      "accuracy": 0.9,
+      "ci_lower": 0.7695,
+      "ci_upper": 0.9604
+    },
+    "gemma4:31b-cloud|tier3|DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gemma4:31b-cloud|tier3|ML-KEM-768": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gemma4:31b-cloud|tier3|RSA-2048": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gemma4:31b-cloud|tier4a|3DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier4a|AES-128": {
+      "k": 6,
+      "n": 20,
+      "accuracy": 0.3,
+      "ci_lower": 0.1455,
+      "ci_upper": 0.519
+    },
+    "gemma4:31b-cloud|tier4a|AES-256": {
+      "k": 15,
+      "n": 20,
+      "accuracy": 0.75,
+      "ci_lower": 0.5313,
+      "ci_upper": 0.8881
+    },
+    "gemma4:31b-cloud|tier4a|ChaCha20": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier4a|DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier4a|ML-KEM-768": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier4a|RSA-2048": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier5|3DES": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "gemma4:31b-cloud|tier5|AES-128": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier5|AES-256": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier5|ChaCha20": {
+      "k": 2,
+      "n": 20,
+      "accuracy": 0.1,
+      "ci_lower": 0.0279,
+      "ci_upper": 0.301
+    },
+    "gemma4:31b-cloud|tier5|DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gemma4:31b-cloud|tier5|ML-KEM-768": {
+      "k": 8,
+      "n": 20,
+      "accuracy": 0.4,
+      "ci_lower": 0.2188,
+      "ci_upper": 0.6134
+    },
+    "gemma4:31b-cloud|tier5|RSA-2048": {
+      "k": 15,
+      "n": 20,
+      "accuracy": 0.75,
+      "ci_lower": 0.5313,
+      "ci_upper": 0.8881
+    },
+    "gpt-oss:120b-cloud|tier1|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier1|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier1|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier1|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier1|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier1|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier1|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier2|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier3|3DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gpt-oss:120b-cloud|tier3|AES-128": {
+      "k": 4,
+      "n": 40,
+      "accuracy": 0.1,
+      "ci_lower": 0.0396,
+      "ci_upper": 0.2305
+    },
+    "gpt-oss:120b-cloud|tier3|AES-256": {
+      "k": 33,
+      "n": 40,
+      "accuracy": 0.825,
+      "ci_lower": 0.6805,
+      "ci_upper": 0.9125
+    },
+    "gpt-oss:120b-cloud|tier3|ChaCha20": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gpt-oss:120b-cloud|tier3|DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "gpt-oss:120b-cloud|tier3|ML-KEM-768": {
+      "k": 11,
+      "n": 40,
+      "accuracy": 0.275,
+      "ci_lower": 0.1611,
+      "ci_upper": 0.4284
+    },
+    "gpt-oss:120b-cloud|tier3|RSA-2048": {
+      "k": 9,
+      "n": 40,
+      "accuracy": 0.225,
+      "ci_lower": 0.1232,
+      "ci_upper": 0.375
+    },
+    "gpt-oss:120b-cloud|tier4a|3DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gpt-oss:120b-cloud|tier4a|AES-128": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gpt-oss:120b-cloud|tier4a|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "gpt-oss:120b-cloud|tier4a|ChaCha20": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gpt-oss:120b-cloud|tier4a|DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gpt-oss:120b-cloud|tier4a|ML-KEM-768": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gpt-oss:120b-cloud|tier4a|RSA-2048": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "gpt-oss:120b-cloud|tier5|3DES": {
+      "k": 3,
+      "n": 20,
+      "accuracy": 0.15,
+      "ci_lower": 0.0524,
+      "ci_upper": 0.3604
+    },
+    "gpt-oss:120b-cloud|tier5|AES-128": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "gpt-oss:120b-cloud|tier5|AES-256": {
+      "k": 8,
+      "n": 20,
+      "accuracy": 0.4,
+      "ci_lower": 0.2188,
+      "ci_upper": 0.6134
+    },
+    "gpt-oss:120b-cloud|tier5|ChaCha20": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "gpt-oss:120b-cloud|tier5|DES": {
+      "k": 3,
+      "n": 20,
+      "accuracy": 0.15,
+      "ci_lower": 0.0524,
+      "ci_upper": 0.3604
+    },
+    "gpt-oss:120b-cloud|tier5|ML-KEM-768": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "gpt-oss:120b-cloud|tier5|RSA-2048": {
+      "k": 4,
+      "n": 20,
+      "accuracy": 0.2,
+      "ci_lower": 0.0807,
+      "ci_upper": 0.416
+    },
+    "nemotron-3-super:cloud|tier1|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier1|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier1|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier1|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier1|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier1|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier1|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier2|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "nemotron-3-super:cloud|tier3|3DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "nemotron-3-super:cloud|tier3|AES-128": {
+      "k": 3,
+      "n": 23,
+      "accuracy": 0.1304,
+      "ci_lower": 0.0454,
+      "ci_upper": 0.3213
+    },
+    "nemotron-3-super:cloud|tier3|AES-256": {
+      "k": 17,
+      "n": 20,
+      "accuracy": 0.85,
+      "ci_lower": 0.6396,
+      "ci_upper": 0.9476
+    },
+    "nemotron-3-super:cloud|tier3|ChaCha20": {
+      "k": 1,
+      "n": 38,
+      "accuracy": 0.0263,
+      "ci_lower": 0.0047,
+      "ci_upper": 0.135
+    },
+    "nemotron-3-super:cloud|tier3|DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "nemotron-3-super:cloud|tier3|ML-KEM-768": {
+      "k": 13,
+      "n": 40,
+      "accuracy": 0.325,
+      "ci_lower": 0.2008,
+      "ci_upper": 0.4798
+    },
+    "nemotron-3-super:cloud|tier3|RSA-2048": {
+      "k": 7,
+      "n": 40,
+      "accuracy": 0.175,
+      "ci_lower": 0.0875,
+      "ci_upper": 0.3195
+    },
+    "nemotron-3-super:cloud|tier4a|3DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier4a|AES-128": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier4a|AES-256": {
+      "k": 19,
+      "n": 20,
+      "accuracy": 0.95,
+      "ci_lower": 0.7639,
+      "ci_upper": 0.9911
+    },
+    "nemotron-3-super:cloud|tier4a|ChaCha20": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier4a|DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier4a|ML-KEM-768": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "nemotron-3-super:cloud|tier4a|RSA-2048": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier5|3DES": {
+      "k": 5,
+      "n": 20,
+      "accuracy": 0.25,
+      "ci_lower": 0.1119,
+      "ci_upper": 0.4687
+    },
+    "nemotron-3-super:cloud|tier5|AES-128": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier5|AES-256": {
+      "k": 4,
+      "n": 20,
+      "accuracy": 0.2,
+      "ci_lower": 0.0807,
+      "ci_upper": 0.416
+    },
+    "nemotron-3-super:cloud|tier5|ChaCha20": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "nemotron-3-super:cloud|tier5|DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "nemotron-3-super:cloud|tier5|ML-KEM-768": {
+      "k": 7,
+      "n": 20,
+      "accuracy": 0.35,
+      "ci_lower": 0.1812,
+      "ci_upper": 0.5671
+    },
+    "nemotron-3-super:cloud|tier5|RSA-2048": {
+      "k": 2,
+      "n": 20,
+      "accuracy": 0.1,
+      "ci_lower": 0.0279,
+      "ci_upper": 0.301
+    },
+    "openrouter/owl-alpha|tier1|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier1|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier1|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier1|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier1|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier1|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier1|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|3DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|AES-128": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|AES-256": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|ChaCha20": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|DES": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|ML-KEM-768": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier2|RSA-2048": {
+      "k": 20,
+      "n": 20,
+      "accuracy": 1.0,
+      "ci_lower": 0.8389,
+      "ci_upper": 1.0
+    },
+    "openrouter/owl-alpha|tier3|3DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "openrouter/owl-alpha|tier3|AES-128": {
+      "k": 0,
+      "n": 39,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0897
+    },
+    "openrouter/owl-alpha|tier3|AES-256": {
+      "k": 14,
+      "n": 40,
+      "accuracy": 0.35,
+      "ci_lower": 0.2213,
+      "ci_upper": 0.5049
+    },
+    "openrouter/owl-alpha|tier3|ChaCha20": {
+      "k": 23,
+      "n": 40,
+      "accuracy": 0.575,
+      "ci_lower": 0.4219,
+      "ci_upper": 0.7149
+    },
+    "openrouter/owl-alpha|tier3|DES": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "openrouter/owl-alpha|tier3|ML-KEM-768": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "openrouter/owl-alpha|tier3|RSA-2048": {
+      "k": 0,
+      "n": 40,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0876
+    },
+    "openrouter/owl-alpha|tier4a|3DES": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "openrouter/owl-alpha|tier4a|AES-128": {
+      "k": 14,
+      "n": 20,
+      "accuracy": 0.7,
+      "ci_lower": 0.481,
+      "ci_upper": 0.8545
+    },
+    "openrouter/owl-alpha|tier4a|AES-256": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "openrouter/owl-alpha|tier4a|ChaCha20": {
+      "k": 2,
+      "n": 20,
+      "accuracy": 0.1,
+      "ci_lower": 0.0279,
+      "ci_upper": 0.301
+    },
+    "openrouter/owl-alpha|tier4a|DES": {
+      "k": 2,
+      "n": 20,
+      "accuracy": 0.1,
+      "ci_lower": 0.0279,
+      "ci_upper": 0.301
+    },
+    "openrouter/owl-alpha|tier4a|ML-KEM-768": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "openrouter/owl-alpha|tier4a|RSA-2048": {
+      "k": 0,
+      "n": 20,
+      "accuracy": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.1611
+    },
+    "openrouter/owl-alpha|tier5|3DES": {
+      "k": 6,
+      "n": 20,
+      "accuracy": 0.3,
+      "ci_lower": 0.1455,
+      "ci_upper": 0.519
+    },
+    "openrouter/owl-alpha|tier5|AES-128": {
+      "k": 15,
+      "n": 20,
+      "accuracy": 0.75,
+      "ci_lower": 0.5313,
+      "ci_upper": 0.8881
+    },
+    "openrouter/owl-alpha|tier5|AES-256": {
+      "k": 4,
+      "n": 20,
+      "accuracy": 0.2,
+      "ci_lower": 0.0807,
+      "ci_upper": 0.416
+    },
+    "openrouter/owl-alpha|tier5|ChaCha20": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "openrouter/owl-alpha|tier5|DES": {
+      "k": 1,
+      "n": 20,
+      "accuracy": 0.05,
+      "ci_lower": 0.0089,
+      "ci_upper": 0.2361
+    },
+    "openrouter/owl-alpha|tier5|ML-KEM-768": {
+      "k": 15,
+      "n": 20,
+      "accuracy": 0.75,
+      "ci_lower": 0.5313,
+      "ci_upper": 0.8881
+    },
+    "openrouter/owl-alpha|tier5|RSA-2048": {
+      "k": 7,
+      "n": 20,
+      "accuracy": 0.35,
+      "ci_lower": 0.1812,
+      "ci_upper": 0.5671
+    }
+  },
+  "newcombe_gaps": {
+    "gemma4:31b-cloud": {
+      "T1_vs_T3": {
+        "gap": 0.8643,
+        "newcombe_ci": [
+          0.8119,
+          0.8995
+        ],
+        "significant": true
+      },
+      "T4A_vs_T3": {
+        "gap": 0.0143,
+        "newcombe_ci": [
+          -0.0528,
+          0.0913
+        ],
+        "significant": false
+      },
+      "T5_vs_T3": {
+        "gap": 0.05,
+        "newcombe_ci": [
+          -0.0217,
+          0.1306
+        ],
+        "significant": false
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "T1_vs_T3": {
+        "gap": 0.7964,
+        "newcombe_ci": [
+          0.7388,
+          0.8394
+        ],
+        "significant": true
+      },
+      "T4A_vs_T3": {
+        "gap": -0.0536,
+        "newcombe_ci": [
+          -0.1248,
+          0.0272
+        ],
+        "significant": false
+      },
+      "T5_vs_T3": {
+        "gap": -0.0607,
+        "newcombe_ci": [
+          -0.1311,
+          0.0193
+        ],
+        "significant": false
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "T1_vs_T3": {
+        "gap": 0.8299,
+        "newcombe_ci": [
+          0.771,
+          0.872
+        ],
+        "significant": true
+      },
+      "T4A_vs_T3": {
+        "gap": -0.0272,
+        "newcombe_ci": [
+          -0.0987,
+          0.0524
+        ],
+        "significant": false
+      },
+      "T5_vs_T3": {
+        "gap": -0.0344,
+        "newcombe_ci": [
+          -0.1049,
+          0.0444
+        ],
+        "significant": false
+      }
+    },
+    "openrouter/owl-alpha": {
+      "T1_vs_T3": {
+        "gap": 0.8674,
+        "newcombe_ci": [
+          0.8152,
+          0.9022
+        ],
+        "significant": true
+      },
+      "T4A_vs_T3": {
+        "gap": -0.004,
+        "newcombe_ci": [
+          -0.068,
+          0.0702
+        ],
+        "significant": false
+      },
+      "T5_vs_T3": {
+        "gap": 0.2174,
+        "newcombe_ci": [
+          0.1308,
+          0.3065
+        ],
+        "significant": true
+      }
+    }
+  },
+  "default_guesses_t3": {
+    "gemma4:31b-cloud": {
+      "ChaCha20": {
+        "count": 255,
+        "pct": 0.9107
+      },
+      "AES-256": {
+        "count": 25,
+        "pct": 0.0893
+      }
+    },
+    "gpt-oss:120b-cloud": {
+      "AES-256": {
+        "count": 197,
+        "pct": 0.7036
+      },
+      "AES-128": {
+        "count": 26,
+        "pct": 0.0929
+      },
+      "ML-KEM-768": {
+        "count": 24,
+        "pct": 0.0857
+      },
+      "RSA-2048": {
+        "count": 21,
+        "pct": 0.075
+      },
+      "ChaCha20": {
+        "count": 11,
+        "pct": 0.0393
+      },
+      "3DES": {
+        "count": 1,
+        "pct": 0.0036
+      }
+    },
+    "nemotron-3-super:cloud": {
+      "AES-256": {
+        "count": 188,
+        "pct": 0.7801
+      },
+      "ML-KEM-768": {
+        "count": 28,
+        "pct": 0.1162
+      },
+      "AES-128": {
+        "count": 10,
+        "pct": 0.0415
+      },
+      "RSA-2048": {
+        "count": 9,
+        "pct": 0.0373
+      },
+      "ChaCha20": {
+        "count": 4,
+        "pct": 0.0166
+      },
+      "DES": {
+        "count": 2,
+        "pct": 0.0083
+      }
+    },
+    "openrouter/owl-alpha": {
+      "ChaCha20": {
+        "count": 183,
+        "pct": 0.6559
+      },
+      "AES-256": {
+        "count": 92,
+        "pct": 0.3297
+      },
+      "AES-128": {
+        "count": 4,
+        "pct": 0.0143
+      }
+    }
+  },
+  "coverage": {
+    "gemma4:31b-cloud|tier1": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gemma4:31b-cloud|tier2": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gemma4:31b-cloud|tier3": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gemma4:31b-cloud|tier4a": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gemma4:31b-cloud|tier5": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gpt-oss:120b-cloud|tier1": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gpt-oss:120b-cloud|tier2": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gpt-oss:120b-cloud|tier3": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gpt-oss:120b-cloud|tier4a": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "gpt-oss:120b-cloud|tier5": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "nemotron-3-super:cloud|tier1": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "nemotron-3-super:cloud|tier2": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "nemotron-3-super:cloud|tier3": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "nemotron-3-super:cloud|tier4a": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "nemotron-3-super:cloud|tier5": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "openrouter/owl-alpha|tier1": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "openrouter/owl-alpha|tier2": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "openrouter/owl-alpha|tier3": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "openrouter/owl-alpha|tier4a": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    },
+    "openrouter/owl-alpha|tier5": {
+      "good": 140,
+      "missing": 0,
+      "pct": 100.0
+    }
+  },
+  "complete_cells": 20,
+  "total_cells": 20
+}

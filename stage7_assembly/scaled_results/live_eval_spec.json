@@ -1,0 +1,290 @@
+{
+  "report_title": "ACTS v2 Live Evaluation Specification — Read-Only Audit",
+  "generated_at": "2026-05-31",
+  "workspace": "/home/elaref/.gidaai/workspaces/default/upgrade/acts_v2_poc",
+
+  "section_1_model_backends": {
+    "description": "5 model-backends actually used in the live inference experiments",
+    "models": [
+      {
+        "id": 1,
+        "name": "gemma4:31b-cloud",
+        "backend": "Ollama (local, localhost:11434)",
+        "notes": "Google Gemma 4 31B via Ollama cloud tier. All 21 pilot tests succeeded. Corpus-14 run also succeeded (42 tests)."
+      },
+      {
+        "id": 2,
+        "name": "gpt-oss:120b-cloud",
+        "backend": "Ollama (local, localhost:11434)",
+        "notes": "OpenAI GPT-OSS 120B via Ollama cloud tier. All 21 pilot tests succeeded. Corpus-14 run also succeeded (42 tests)."
+      },
+      {
+        "id": 3,
+        "name": "nemotron-3-super:cloud",
+        "backend": "Ollama (local, localhost:11434)",
+        "notes": "NVIDIA Nemotron 3 Super via Ollama cloud tier. All 21 pilot tests succeeded. Separate corpus-14 tier-3-only run also succeeded (14 tests)."
+      },
+      {
+        "id": 4,
+        "name": "glm-5.1:cloud",
+        "backend": "Ollama (local, localhost:11434)",
+        "notes": "GLM 5.1 via Ollama cloud tier. ALL 21 tests returned HTTP 403 Forbidden. No valid results."
+      },
+      {
+        "id": 5,
+        "name": "minimax-m2.7:cloud",
+        "backend": "Ollama (local, localhost:11434)",
+        "notes": "MiniMax M2.7 via Ollama cloud tier. ALL 21 tests returned HTTP 403 Forbidden. No valid results."
+      }
+    ],
+    "additional_model_in_corpus14_runs": {
+      "name": "nvidia/nemotron-3-super-120b-a12b:free",
+      "backend": "OpenRouter (cloud, openrouter.ai)",
+      "notes": "Separate Nemotron model via OpenRouter used for corpus-14 tier-3-only run (14 tests). Only tier-3 was run. Results saved to openrouter_nemotron_super_v2.json."
+    },
+    "summary": "3 of 5 Ollama models produced valid results. 2 Ollama models (glm-5.1, minimax-m2.7) failed with 403. 1 additional OpenRouter model was used for tier-3-only corpus-14 run."
+  },
+
+  "section_2_tier1_2x2_design": {
+    "description": "The Tier-1/2/3 design is NOT a 2x2 factorial. It is a 3-condition single-factor design (metadata level).",
+    "clarification": "The paper describes this as a 'metadata gap' measurement across 3 tiers, not a 2x2. There is no 'misleading filename' or 'no filename' condition in the actual implementation.",
+    "actual_conditions": {
+      "tier1_metadata_rich": {
+        "condition_name": "Tier-1: Metadata-Rich",
+        "filename_shown": "Yes — real filename with cipher hint (e.g., aes_128_s000_openssl.bin)",
+        "metadata_shown": "Yes — Algorithm, Mode, Padding, Implementation, Key size, File size",
+        "prompt_includes": "Full known metadata including the correct cipher family name. The model is asked to CONFIRM the cipher family.",
+        "purpose": "Upper bound — can the model understand and utilize explicit cryptographic labels?"
+      },
+      "tier2_filename_only": {
+        "condition_name": "Tier-2: Filename-Only",
+        "filename_shown": "Yes — real filename with cipher hint (e.g., aes_128_s000_openssl.bin)",
+        "metadata_shown": "No — only filename and file size",
+        "prompt_includes": "Filename and file size. The model must infer from filename conventions.",
+        "purpose": "Tests whether model infers cipher from filename alone vs analyzing ciphertext bytes"
+      },
+      "tier3_blind": {
+        "condition_name": "Tier-3: Blind (No Metadata)",
+        "filename_shown": "No — filename is NOT shown to the model",
+        "metadata_shown": "No — only computed statistics (file size, entropy, chi-square, hex prefix)",
+        "prompt_includes": "Ciphertext statistics only: file size, Shannon entropy, chi-square statistic, hex prefix. No filename. No algorithm info.",
+        "purpose": "Core blind inference test — genuine cryptanalytic capability vs metadata crutch"
+      }
+    },
+    "important_note": "The filenames in corpus_14 all contain the cipher name as a prefix (e.g., 'aes_128_...', 'rsa_2048_...'). This means Tier-2 is essentially a filename-hint condition. The gap between Tier-1 and Tier-2 measures whether the model can read filenames. The gap between Tier-2 and Tier-3 measures whether the model can analyze ciphertext without filename hints."
+  },
+
+  "section_3_prompt_templates": {
+    "tier1_prompt_template": {
+      "source_file": "stage2_execution/prompts/tier1_metadata_rich.md",
+      "verbatim_template": "You are a cryptographic analysis expert.\n\nI have attached a ciphertext file with the following KNOWN properties:\n- Algorithm: [CIPHER_FAMILY]\n- Mode: [MODE]\n- Padding: [PADDING]\n- Implementation: [IMPLEMENTATION]\n- Key size: [KEY_SIZE] bits\n- File size: [FILE_SIZE] bytes\n\nGiven this metadata, confirm the cipher family used.\n\nFile: [FILENAME]",
+      "actual_prompt_used_in_corpus14_runs": "You are a cryptographic analysis expert.\n\nGiven the following KNOWN metadata:\n- Cipher family: [CIPHER_FAMILY]\n- Mode: CBC (or stream for ChaCha20)\n- Implementation: [IMPLEMENTATION]\n\nConfirm the cipher family name from this list: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nYour answer (cipher name only):",
+      "note": "The actual prompt used in the corpus-14 runs (seen in raw JSON data) is SIMPLER than the template file. It omits Padding, Key size, and the 'I have attached' framing. It directly states the cipher family and asks for confirmation from a list."
+    },
+    "tier2_prompt_template": {
+      "source_file": "stage2_execution/prompts/tier2_filename_only.md",
+      "verbatim_template": "You are a cryptographic analysis expert.\n\nI have attached a ciphertext file. The filename is: [FILENAME]\n\nBased on the filename and the file contents, what cipher family was\nmost likely used to encrypt this file?\n\nPlease provide your best guess and briefly explain your reasoning.",
+      "actual_prompt_used_in_corpus14_runs": "You are a cryptographic forensics expert.\n\nA ciphertext file is named: \"[FILENAME]\"\nFile size: [FILE_SIZE] bytes\n\nBased on the filename and typical naming conventions, what cipher family\nwas likely used?\n\nOptions: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nYour answer (cipher name only):",
+      "note": "The actual prompt adds file size and uses 'cipher forensics expert' instead of 'cryptographic analysis expert'. It also adds 'typical naming conventions' and asks for answer only."
+    },
+    "tier3_prompt_template": {
+      "source_file": "stage2_execution/prompts/tier3_blind.md",
+      "verbatim_template": "You are a cryptographic forensics expert.\n\nI have attached a ciphertext file. There is NO metadata available:\n- The filename is generic (encrypted_s007.bin)\n- No algorithm information is provided\n- No implementation details are known\n\nAnalyze the raw binary content and determine what cipher family\nwas most likely used. Consider:\n1. File size and structure\n2. Byte-level entropy\n3. Statistical patterns\n4. Block alignment properties\n\nProvide your best identification and explain your reasoning.\nNote: The answer could be any modern or classical cipher family.",
+      "actual_prompt_used_in_corpus14_runs": "You are a cryptographic forensics expert.\n\nAnalyze the following ciphertext sample and identify the cipher family.\n\nCiphertext Statistics:\n- File size: [FILE_SIZE] bytes\n- Shannon entropy: [ENTROPY] bits/byte\n- Chi-square statistic: [CHI2]\n- Hex prefix (first 32 bytes): [HEX_PREFIX]\n\nCipher family options: AES-128, AES-256, DES, 3DES, ChaCha20, RSA-2048, ML-KEM-768\n\nRules:\n1. Provide ONLY the cipher name from the list above\n2. No explanation needed\n3. If uncertain, provide your best guess\n\nYour answer (cipher name only):",
+      "note": "The actual prompt is more structured. It provides computed statistics (entropy, chi2, hex prefix) rather than asking the model to analyze raw bytes. The model never sees the actual ciphertext bytes — only pre-computed statistics."
+    },
+    "tier4a_prompt": {
+      "description": "Tier-4A: Tool-augmented LLM (agentic pipeline)",
+      "status": "NO Tier-4A live inference data exists in the result files",
+      "note": "The paper describes Tier-4A as an agentic pipeline where the LLM calls external tools (entropy calculator, chi-square test, file analyzer). No raw inference logs for Tier-4A were found in the result files. The Tier-4A accuracy of 41.3% appears in the rebuttal letter and MASTER_FINDINGS.json but the actual prompt template and inference logs are not present in the workspace."
+    },
+    "tier4b_prompt": {
+      "description": "Tier-4B: Tool pipeline (deterministic feature extraction + Random Forest)",
+      "status": "NOT a live LLM inference — this is a classical ML pipeline",
+      "source_file": "tier4b_ablation_pipeline.py",
+      "note": "Tier-4B is NOT an LLM prompt. It is a deterministic Python pipeline that extracts 17 engineered features from each ciphertext file and classifies via Random Forest. The 17 features are: file_size, entropy, chi2, bigram_entropy, trigram_entropy, block_std_8, block_std_16, runs, serial_corr, max_byte_freq, zero_ratio, ff_ratio, mod8, mod16, is_256b, is_1088b, size_1000_1200. No prompt template exists because no LLM is involved."
+    },
+    "tier5_prompts": {
+      "description": "Tier-5: Expert Forensic Analysis with Forced Reasoning (3 sub-variants)",
+      "source_file": "stage2_execution/prompts/README_TIER5.md",
+      "sub_variants": {
+        "tier5a_cot_enforced": {
+          "source_file": "stage2_execution/prompts/tier5a_cot_enforced.md",
+          "verbatim_template": "You are an expert forensic cryptographer participating in a controlled benchmark. Your task is to identify the cipher family used to produce the attached ciphertext file through **rigorous, evidence-based analysis**.\n\n### CRITICAL INSTRUCTIONS\n1. You **MUST** show your reasoning step-by-step. A single-word answer will be rejected.\n2. You **MUST** cite specific evidence from the ciphertext (byte values, entropy, structure).\n3. You **MUST** explain WHY each alternative cipher family was eliminated.\n4. You **MAY** use the following forensic tools mentally or by describing calculations:\n   - Shannon entropy calculation\n   - Chi-square test for randomness\n   - Block size detection (repeating patterns)\n   - File size analysis\n   - Byte frequency distribution\n\n### CIPHERTEXT FILE\n- Filename: `{filename}`\n- File size: `{file_size}` bytes\n- Hex preview (first 128 bytes): `{hex_preview}`\n- Entropy (Shannon): `{entropy:.4f}` bits/byte\n- Chi-square statistic: `{chi2:.2f}` (p-value: `{chi2_p:.4f}`)\n- Byte frequency (top 5): `{top_bytes}`\n\n### AVAILABLE CIPHER FAMILIES\n1. AES-128 (16-byte blocks)\n2. AES-256 (16-byte blocks)\n3. 3DES (8-byte blocks)\n4. DES (8-byte blocks)\n5. ChaCha20 (stream cipher, 64-byte blocks internally)\n6. RSA-2048 (variable, typically 256-byte output)\n7. ML-KEM-768 (post-quantum, fixed ~1088-byte encapsulation)\n\n### OUTPUT FORMAT\nYou MUST respond in this exact structure:\n\n```\nSTEP 1 — ENTROPY ANALYSIS:\n[Your analysis of the entropy value and what it suggests]\n\nSTEP 2 — STRUCTURAL ANALYSIS:\n[Your analysis of block structure, file size, and repeating patterns]\n\nSTEP 3 — STATISTICAL TESTING:\n[Your analysis of chi-square and byte frequency]\n\nSTEP 4 — ELIMINATION:\n[Which ciphers did you eliminate and WHY — cite evidence]\n\nSTEP 5 — FINAL DETERMINATION:\n[Your final answer — ONE cipher family from the list above]\n\nCONFIDENCE: [0-100%]\n```\n\n### RULES\n- If you cannot genuinely determine the cipher, say \"UNKNOWN\" and explain why.\n- Do NOT guess based on filename or context — analyze the DATA.\n- Your reasoning will be independently evaluated for cryptographic soundness.\n\nBEGIN YOUR FORENSIC ANALYSIS:"
+        },
+        "tier5b_code_reasoning": {
+          "source_file": "stage2_execution/prompts/tier5b_code_reasoning.md",
+          "description": "Model must write Python code that analyzes the ciphertext, then describe what the code would output and classify based on code logic.",
+          "key_structure": "Two parts: (1) Write Python analysis code, (2) State classification as PREDICTED_CIPHER: [cipher] with CONFIDENCE and JUSTIFICATION."
+        },
+        "tier5c_self_correction": {
+          "source_file": "stage2_execution/prompts/tier5c_self_correction.md",
+          "description": "Two-round analysis. Round 1: initial prediction. Round 2: self-critique against 5 common forensic fallacies, then FINAL_PREDICTION.",
+          "key_structure": "ROUND_1_PREDICTION → FALLACY_1_CHECK through FALLACY_5_CHECK → FINAL_PREDICTION with ROUND_1_WAS_CORRECT and WHY_CHANGED."
+        }
+      },
+      "note": "Tier-5 was run as deterministic heuristic self-inference (not live LLM). The MASTER_FINDINGS.json shows Tier-5 accuracy of 46.43% across all 3 sub-variants, which is described as 'deterministic heuristic' performance, not live LLM inference."
+    }
+  },
+
+  "section_4_answer_parsing": {
+    "description": "How the cipher name is extracted from model response and correct/incorrect is computed",
+    "parsing_logic": {
+      "source_files": [
+        "tier5_runner.py (lines 116-157)",
+        "tier5_runner_v2.py (lines 202-247)",
+        "live_validation_100.py (lines 117-123)"
+      ],
+      "step_1_extract_raw_response": "The raw text response from the LLM is captured as-is from the Ollama/OpenRouter API response.",
+      "step_2_normalize_prediction": {
+        "function": "normalize_prediction() in tier5_runner_v2.py",
+        "priority_order": [
+          "1st: Search the final_answer_text line (extracted from markers like 'FINAL_DETERMINATION:', 'PREDICTED_CIPHER:', 'FINAL_PREDICTION:', 'STEP 5', 'CLASSIFICATION:', 'CIPHER FAMILY:', 'ANSWER:')",
+          "2nd: Search the last 20 lines of the response in reverse order",
+          "3rd: Search the full text"
+        ],
+        "matching_logic": "For each search target, check if any alias from CIPHER_ALIASES dict appears in the text. The CIPHER_ALIASES dict maps: 'aes-128'→'aes128', 'aes128'→'aes128', 'aes-256'→'aes256', 'aes256'→'aes256', '3des'→'des', 'tripledes'→'des', 'des'→'des', 'chacha20'→'chacha20', 'chacha'→'chacha20', 'rsa-2048'→'rsa2048', 'rsa2048'→'rsa2048', 'rsa'→'rsa2048', 'ml-kem-768'→'mlkem768', 'mlkem768'→'mlkem768', 'ml-kem'→'mlkem768', 'ml'→'mlkem768', 'aes'→'aes128'",
+        "fallback": "If no alias matches, return 'unknown'"
+      },
+      "step_3_normalize_answer_live_validation": {
+        "function": "normalize_answer() in live_validation_100.py",
+        "logic": "Uppercase the answer. Check: 'AES' + '256' → 'AES-256', 'AES' → 'AES-128', '3DES' or 'TRIPLE' → '3DES', 'DES' → 'DES', 'CHACHA' → 'ChaCha20', 'RSA' → 'RSA-2048', 'ML' or 'KEM' → 'ML-KEM-768', else → 'UNKNOWN'"
+      },
+      "step_4_correctness_check": {
+        "logic": "Compare normalized prediction to ground_truth. For corpus-14 runs, ground truth is extracted from filename using extract_ground_truth() which maps filename prefixes to cipher families via CIPHER_FAMILIES dict.",
+        "exact_match": "predicted == true_cipher → correct = true, else correct = false",
+        "note": "The ground truth values use format 'AES-128', 'AES-256', 'DES', '3DES', 'ChaCha20', 'RSA-2048', 'ML-KEM-768'. The predicted values use format 'aes128', 'aes256', etc. The comparison is done AFTER normalization to a common format."
+      }
+    },
+    "critical_bug_in_tier5_runner": {
+      "description": "The CIPHER_ALIASES dict in tier5_runner.py and tier5_runner_v2.py maps '3des' → 'des' (NOT '3DES'). This means when the model says '3DES', it gets normalized to 'des', which does NOT match the ground truth '3DES'. This is a parsing bug that would cause 3DES to always be marked incorrect.",
+      "affected_files": ["tier5_runner.py", "tier5_runner_v2.py"],
+      "line": "CIPHER_FAMILIES = {\"3des\": \"3des\", ...} but CIPHER_ALIASES = {\"3des\": \"des\", ...}",
+      "impact": "Any model response containing '3DES' would be normalized to 'des' and compared against ground truth '3DES', resulting in incorrect classification. This affects the gemma4_all_tiers.json results where 3DES tier-1 was marked incorrect despite the model responding '3DES'."
+    }
+  },
+
+  "section_5_expected_vs_actual_matrix": {
+    "description": "Full expected Tier-1/2/3 matrix vs what actually exists in raw_results.json",
+    "design": {
+      "backends": 5,
+      "tiers": 3,
+      "families": 7,
+      "files_per_family_in_corpus14": 2,
+      "total_expected_cells": "5 backends × 3 tiers × 14 files = 210 cells",
+      "note": "The '14 files' = 7 families × 2 implementations (OpenSSL, liboqs) from corpus_14_sample_mapping.json"
+    },
+    "corpus_14_files": [
+      "aes_128_s000_openssl.bin → AES-128",
+      "aes_128_s010_liboqs.bin → AES-128",
+      "aes_256_s020_openssl.bin → AES-256",
+      "aes_256_s030_liboqs.bin → AES-256",
+      "des_s040_openssl.bin → DES",
+      "des_s050_liboqs.bin → DES",
+      "3des_s060_openssl.bin → 3DES",
+      "3des_s070_liboqs.bin → 3DES",
+      "chacha20_s080_openssl.bin → ChaCha20",
+      "chacha20_s090_liboqs.bin → ChaCha20",
+      "rsa_2048_s100_openssl.bin → RSA-2048",
+      "rsa_2048_s110_liboqs.bin → RSA-2048",
+      "ml_kem_768_s120_openssl.bin → ML-KEM-768",
+      "ml_kem_768_s130_liboqs.bin → ML-KEM-768"
+    ],
+    "raw_results_json_contents": {
+      "description": "raw_results.json does NOT contain Tier-1/2/3 live inference results. It contains ONLY the Tier-4B ablation results (10 configs) and metadata about the ULTRA corpus.",
+      "sections_in_raw_results": [
+        "metadata: corpus=stage1_data/corpus_ultra, n_total=7000",
+        "ablation: 10 configurations with test_accuracy, per_class_accuracy, confusion_matrix, feature_importances"
+      ],
+      "tier123_data_location": "Tier-1/2/3 live inference results are stored in SEPARATE files in stage2_execution/results/, NOT in raw_results.json"
+    },
+    "actual_data_files_found": {
+      "pilot_scale_7_files": {
+        "description": "7 test files (one per family, old naming convention: encrypted_aes.bin etc.)",
+        "files": [
+          "gemma4_all_tiers.json — 21 tests (3 tiers × 7 files), all succeeded",
+          "gptoss_all_tiers.json — 21 tests (3 tiers × 7 files), all succeeded",
+          "nemotron_all_tiers.json — 21 tests (3 tiers × 7 files), all succeeded",
+          "glm51_all_tiers.json — 21 tests, ALL 21 returned HTTP 403",
+          "minimax_all_tiers.json — 21 tests, ALL 21 returned HTTP 403"
+        ],
+        "total_cells": "5 × 3 × 7 = 105 expected, 63 actual (3 models × 21), 42 missing (2 failed models × 21)"
+      },
+      "corpus14_scale_14_files": {
+        "description": "14 corpus files (2 per family, new naming convention)",
+        "files": [
+          "gemma4_corpus14.json — 42 tests (3 tiers × 14 files), all succeeded",
+          "gptoss_corpus14.json — 42 tests (3 tiers × 14 files), all succeeded",
+          "nemotron_corpus14_tier3only.json — 14 tests (tier-3 only × 14 files), all succeeded",
+          "openrouter_nemotron_super_v2.json — 14 tests (tier-3 only × 14 files, different model via OpenRouter)"
+        ],
+        "total_cells": "5 × 3 × 14 = 210 expected, 112 actual (gemma4: 42 + gptoss: 42 + nemotron: 14 + openrouter_nemotron: 14)"
+      }
+    },
+    "missing_cells_analysis": {
+      "description": "The 12 missing cells referenced in the paper (43% of 28 queries) correspond to the gap between the ORIGINAL pilot design and the expanded corpus-14 design.",
+      "original_pilot_design": {
+        "backends": 4,
+        "tiers": 3,
+        "families": 7,
+        "total_expected": "4 × 3 × 7 = 84 cells (not 28)"
+      },
+      "paper_s_28_queries": {
+        "explanation": "The paper mentions '28 queries' which likely refers to: 4 backends × 7 families = 28 Tier-1 queries (single tier only), or possibly 4 backends × 7 families = 28 cells for a specific tier.",
+        "missing_12_of_28": "12 of 28 = 43% missing. This matches the 2 failed Ollama models (glm-5.1 and minimax-m2.7) which would account for 2 × 7 = 14 missing cells in Tier-1, or approximately 50% of 28. The exact 12/28 figure may refer to a specific subset."
+      },
+      "precise_missing_cells": {
+        "glm51_all_tiers": "ALL 21 cells missing (3 tiers × 7 families) — HTTP 403",
+        "minimax_all_tiers": "ALL 21 cells missing (3 tiers × 7 families) — HTTP 403",
+        "total_missing_from_pilot": "42 cells (2 models × 21 tests)",
+        "note": "The '12 of 28' figure from the paper does not precisely match the 42 missing cells from the pilot. The 28 likely refers to a different counting method (e.g., 4 backends × 7 families for Tier-1 only = 28, of which 2×7=14 are missing from failed models). The paper's '12 missing' may be an approximation or refer to a specific subset of queries."
+      }
+    },
+    "corpus14_missing_cells": {
+      "description": "For the corpus-14 scale runs, the missing cells are:",
+      "missing": [
+        "nemotron-3-super: Tier-1 and Tier-2 for all 14 files (28 cells) — only Tier-3 was run",
+        "openrouter nemotron: Tier-1 and Tier-2 for all 14 files (28 cells) — only Tier-3 was run",
+        "glm-5.1: All 3 tiers for all 14 files (42 cells) — never run on corpus-14",
+        "minimax-m2.7: All 3 tiers for all 14 files (42 cells) — never run on corpus-14"
+      ],
+      "total_corpus14_missing": "28 + 28 + 42 + 42 = 140 cells missing from corpus-14 runs",
+      "total_corpus14_actual": "112 cells (gemma4: 42 + gptoss: 42 + nemotron_t3: 14 + openrouter_t3: 14)"
+    }
+  },
+
+  "section_6_corpus_files_per_tier": {
+    "description": "Number of corpus files used in each live tier",
+    "tier1": {
+      "pilot": "7 files (one per family, old naming: encrypted_aes.bin etc.)",
+      "corpus14": "14 files (two per family: OpenSSL + liboqs)",
+      "ultra": "NOT RUN for Tier-1 live inference"
+    },
+    "tier2": {
+      "pilot": "7 files (same as Tier-1)",
+      "corpus14": "14 files (gemma4, gptoss only — nemotron only ran Tier-3)",
+      "ultra": "NOT RUN for Tier-2 live inference"
+    },
+    "tier3": {
+      "pilot": "7 files (same as Tier-1)",
+      "corpus14": "14 files (gemma4, gptoss, nemotron-ollama, nemotron-openrouter)",
+      "ultra_100_sample": "100 random samples from corpus_ultra (live_validation_100.py, gpt-oss:120b-cloud only)"
+    },
+    "tier4a": {
+      "status": "NO live inference data found",
+      "claimed_accuracy": "41.3% (from rebuttal letter and MASTER_FINDINGS.json)",
+      "note": "The 41.3% figure appears in documentation but no raw inference logs were found"
+    },
+    "tier4b": {
+      "description": "NOT live inference — deterministic ML pipeline",
+      "corpus": "7,000 files from corpus_ultra",
+      "split": "70/30 stratified (4,900 train / 2,100 test)"
+    },
+    "tier5": {
+      "description": "Deterministic heuristic self-inference (NOT live LLM)",
+      "corpus": "140 files (20 per family from expanded corpus)",
+      "note": "Tier-5 was run as deterministic heuristic, not live LLM inference. The 46.43% accuracy is from the deterministic 3-rule heuristic."
+    },
+    "summary": "The expected 14 files per tier (corpus-14) is confirmed for the models that actually ran. gemma4 and gptoss completed all 3 tiers × 14 files. nemotron only ran Tier-3 on corpus-14. glm-5.1 and minimax failed entirely."
+  }
+}

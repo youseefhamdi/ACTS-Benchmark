@@ -1,0 +1,82 @@
+{
+  "3DES": {
+    "n": 20,
+    "unique_plaintext_lens": 8,
+    "plaintext_len_range": [128, 8192],
+    "unique_ciphertext_lens": 8,
+    "ciphertext_len_range": [136, 8200],
+    "padding_modes": ["PKCS7", "ISO10126", "ANSI_X923", "Zero", "Random"],
+    "pad_amount_varies": "N",
+    "pad_amount_detail": "All 8 plaintext lengths are multiples of block_size=8, so padding is always exactly 8 bytes (1 block). The 5 padding schemes produce different byte patterns but identical padding length.",
+    "padding_scheme_note": "5 schemes used (PKCS7, ISO10126, ANSI_X923, Zero, Random) — content varies but length does not"
+  },
+  "AES-128": {
+    "n": 20,
+    "unique_plaintext_lens": 8,
+    "plaintext_len_range": [128, 8192],
+    "unique_ciphertext_lens": 8,
+    "ciphertext_len_range": [144, 8208],
+    "padding_modes": ["PKCS7", "ISO10126", "ANSI_X923", "Zero", "Random"],
+    "pad_amount_varies": "N",
+    "pad_amount_detail": "All 8 plaintext lengths are multiples of block_size=16, so padding is always exactly 16 bytes (1 block).",
+    "padding_scheme_note": "5 schemes used — content varies but length does not"
+  },
+  "AES-256": {
+    "n": 20,
+    "unique_plaintext_lens": 8,
+    "plaintext_len_range": [128, 8192],
+    "unique_ciphertext_lens": 8,
+    "ciphertext_len_range": [144, 8208],
+    "padding_modes": ["PKCS7", "ISO10126", "ANSI_X923", "Zero", "Random"],
+    "pad_amount_varies": "N",
+    "pad_amount_detail": "All 8 plaintext lengths are multiples of block_size=16, so padding is always exactly 16 bytes (1 block).",
+    "padding_scheme_note": "5 schemes used — content varies but length does not"
+  },
+  "DES": {
+    "n": 20,
+    "unique_plaintext_lens": 8,
+    "plaintext_len_range": [128, 8192],
+    "unique_ciphertext_lens": 8,
+    "ciphertext_len_range": [136, 8200],
+    "padding_modes": ["PKCS7", "ISO10126", "ANSI_X923", "Zero", "Random"],
+    "pad_amount_varies": "N",
+    "pad_amount_detail": "All 8 plaintext lengths are multiples of block_size=8, so padding is always exactly 8 bytes (1 block).",
+    "padding_scheme_note": "5 schemes used — content varies but length does not"
+  },
+  "ChaCha20": {
+    "n": 20,
+    "unique_plaintext_lens": 8,
+    "plaintext_len_range": [128, 8192],
+    "unique_ciphertext_lens": 8,
+    "ciphertext_len_range": [128, 8192],
+    "padding_modes": ["None"],
+    "pad_amount_varies": "N/A",
+    "pad_amount_detail": "Stream cipher — no padding. CT length = PT length. 8 unique plaintext lengths confirms PT length varies.",
+    "nonce_note": "Random 16-byte (openssl) or 12-byte (pycryptodome) nonce per file"
+  },
+  "RSA-2048": {
+    "n": 20,
+    "unique_plaintext_lens": 5,
+    "plaintext_len_range": [16, 200],
+    "unique_ciphertext_lens": 1,
+    "ciphertext_len_range": [256, 256],
+    "padding_modes": ["PKCS1v15"],
+    "pad_amount_varies": "N/A",
+    "pad_amount_detail": "PKCS#1 v1.5 padding — always pads to key size (256 bytes). CT length is constant; PT length varies (5 unique values).",
+    "padding_scheme_note": "PKCS1v15 used for both openssl and pycryptodome implementations"
+  },
+  "ML-KEM-768": {
+    "n": 20,
+    "unique_plaintext_lens": 1,
+    "plaintext_len_range": [32, 32],
+    "unique_ciphertext_lens": 1,
+    "ciphertext_len_range": [1088, 1088],
+    "padding_modes": ["None"],
+    "pad_amount_varies": "N/A",
+    "pad_amount_detail": "KEM encapsulation — CT is always 1088 bytes (fixed by ML-KEM-768 spec), shared secret is always 32 bytes. No padding concept applies.",
+    "nonce_note": "Implicit random coins per encapsulation call"
+  },
+  "gate": "FAIL",
+  "fail_reason": "Block cipher families (DES, 3DES, AES-128, AES-256): padding amount is CONSTANT within each family because all chosen plaintext lengths are exact multiples of the block size. The generation script uses PLAINTEXT_LENGTHS=[128,256,512,768,1024,2048,4096,8192] which are all divisible by 8 and 16. Pad byte *content* varies across 5 schemes but pad *length* does not vary. Reviewer #4's concern about padding diversity is valid for block cipher families.",
+  "recommendation": "Regenerate v2 corpus with non-block-aligned plaintext lengths so padding amounts genuinely vary. Need plaintext lengths where len % block_size != 0 for block cipher families."
+}

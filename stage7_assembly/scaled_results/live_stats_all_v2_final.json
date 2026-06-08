@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-06-02T01:10:33.220265+00:00",
+  "tiers": {
+    "tier1": {
+      "label": "T1",
+      "total_records": 582,
+      "k": 582,
+      "accuracy": 100.0,
+      "ci": [
+        99.3,
+        100.0
+      ],
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "nemotron-3-super:cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "openrouter/owl-alpha": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "google/gemma-4-31b-it:free": {
+          "k": 22,
+          "n": 22,
+          "accuracy": 100.0,
+          "ci": [
+            85.1,
+            100.0
+          ],
+          "unique_files": 22,
+          "modal_prediction": "3DES",
+          "modal_rate": 86.4
+        }
+      },
+      "coverage": {
+        "gemma4:31b-cloud": 140,
+        "gpt-oss:120b-cloud": 140,
+        "nemotron-3-super:cloud": 140,
+        "openrouter/owl-alpha": 140,
+        "google/gemma-4-31b-it:free": 22
+      }
+    },
+    "tier2": {
+      "label": "T2",
+      "total_records": 563,
+      "k": 563,
+      "accuracy": 100.0,
+      "ci": [
+        99.3,
+        100.0
+      ],
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "nemotron-3-super:cloud": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "openrouter/owl-alpha": {
+          "k": 140,
+          "n": 140,
+          "accuracy": 100.0,
+          "ci": [
+            97.3,
+            100.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 14.3
+        },
+        "google/gemma-4-31b-it:free": {
+          "k": 3,
+          "n": 3,
+          "accuracy": 100.0,
+          "ci": [
+            43.8,
+            100.0
+          ],
+          "unique_files": 3,
+          "modal_prediction": "ChaCha20",
+          "modal_rate": 100.0
+        }
+      },
+      "coverage": {
+        "gemma4:31b-cloud": 140,
+        "gpt-oss:120b-cloud": 140,
+        "nemotron-3-super:cloud": 140,
+        "openrouter/owl-alpha": 140,
+        "google/gemma-4-31b-it:free": 3
+      }
+    },
+    "tier3": {
+      "label": "T3",
+      "total_records": 1065,
+      "k": 328,
+      "accuracy": 30.8,
+      "ci": [
+        28.1,
+        33.6
+      ],
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 39,
+          "n": 280,
+          "accuracy": 13.9,
+          "ci": [
+            10.4,
+            18.5
+          ],
+          "unique_files": 140,
+          "modal_prediction": "ChaCha20",
+          "modal_rate": 90.7
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 109,
+          "n": 280,
+          "accuracy": 38.9,
+          "ci": [
+            33.4,
+            44.8
+          ],
+          "unique_files": 140,
+          "modal_prediction": "AES-256",
+          "modal_rate": 41.1
+        },
+        "nemotron-3-super:cloud": {
+          "k": 137,
+          "n": 280,
+          "accuracy": 48.9,
+          "ci": [
+            43.1,
+            54.8
+          ],
+          "unique_files": 140,
+          "modal_prediction": "AES-256",
+          "modal_rate": 25.7
+        },
+        "openrouter/owl-alpha": {
+          "k": 43,
+          "n": 225,
+          "accuracy": 19.1,
+          "ci": [
+            14.5,
+            24.8
+          ],
+          "unique_files": 113,
+          "modal_prediction": "ChaCha20",
+          "modal_rate": 61.8
+        }
+      },
+      "coverage": {
+        "gemma4:31b-cloud": 140,
+        "gpt-oss:120b-cloud": 140,
+        "nemotron-3-super:cloud": 140,
+        "openrouter/owl-alpha": 113
+      }
+    },
+    "tier4a": {
+      "label": "T4A",
+      "total_records": 423,
+      "k": 257,
+      "accuracy": 60.8,
+      "ci": [
+        56.0,
+        65.3
+      ],
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 80,
+          "n": 140,
+          "accuracy": 57.1,
+          "ci": [
+            48.9,
+            65.0
+          ],
+          "unique_files": 140,
+          "modal_prediction": "AES-128",
+          "modal_rate": 37.9
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 82,
+          "n": 140,
+          "accuracy": 58.6,
+          "ci": [
+            50.3,
+            66.4
+          ],
+          "unique_files": 140,
+          "modal_prediction": "AES-128",
+          "modal_rate": 34.3
+        },
+        "nemotron-3-super:cloud": {
+          "k": 85,
+          "n": 132,
+          "accuracy": 64.4,
+          "ci": [
+            55.9,
+            72.0
+          ],
+          "unique_files": 128,
+          "modal_prediction": "AES-128",
+          "modal_rate": 37.9
+        },
+        "openrouter/owl-alpha": {
+          "k": 10,
+          "n": 11,
+          "accuracy": 90.9,
+          "ci": [
+            62.3,
+            98.4
+          ],
+          "unique_files": 11,
+          "modal_prediction": "3DES",
+          "modal_rate": 90.9
+        }
+      },
+      "coverage": {
+        "gemma4:31b-cloud": 140,
+        "gpt-oss:120b-cloud": 140,
+        "nemotron-3-super:cloud": 128,
+        "openrouter/owl-alpha": 11
+      }
+    },
+    "tier5": {
+      "label": "T5",
+      "total_records": 333,
+      "k": 185,
+      "accuracy": 55.6,
+      "ci": [
+        50.2,
+        60.8
+      ],
+      "per_backend": {
+        "gemma4:31b-cloud": {
+          "k": 79,
+          "n": 140,
+          "accuracy": 56.4,
+          "ci": [
+            48.2,
+            64.4
+          ],
+          "unique_files": 140,
+          "modal_prediction": "AES-128",
+          "modal_rate": 37.9
+        },
+        "gpt-oss:120b-cloud": {
+          "k": 65,
+          "n": 140,
+          "accuracy": 46.4,
+          "ci": [
+            38.4,
+            54.7
+          ],
+          "unique_files": 140,
+          "modal_prediction": "3DES",
+          "modal_rate": 31.4
+        },
+        "nemotron-3-super:cloud": {
+          "k": 28,
+          "n": 34,
+          "accuracy": 82.4,
+          "ci": [
+            66.5,
+            91.7
+          ],
+          "unique_files": 34,
+          "modal_prediction": "3DES",
+          "modal_rate": 47.1
+        },
+        "openrouter/owl-alpha": {
+          "k": 13,
+          "n": 19,
+          "accuracy": 68.4,
+          "ci": [
+            46.0,
+            84.6
+          ],
+          "unique_files": 19,
+          "modal_prediction": "3DES",
+          "modal_rate": 68.4
+        }
+      },
+      "coverage": {
+        "gemma4:31b-cloud": 140,
+        "gpt-oss:120b-cloud": 140,
+        "nemotron-3-super:cloud": 34,
+        "openrouter/owl-alpha": 19
+      }
+    }
+  },
+  "gaps": {
+    "T1 vs T3": {
+      "gemma4:31b-cloud": {
+        "t1_acc": 100.0,
+        "t2_acc": 13.9,
+        "gap": 86.1,
+        "ci": [
+          80.8,
+          89.6
+        ],
+        "excludes_zero": true
+      },
+      "gpt-oss:120b-cloud": {
+        "t1_acc": 100.0,
+        "t2_acc": 38.9,
+        "gap": 61.1,
+        "ci": [
+          54.7,
+          66.6
+        ],
+        "excludes_zero": true
+      },
+      "nemotron-3-super:cloud": {
+        "t1_acc": 100.0,
+        "t2_acc": 48.9,
+        "gap": 51.1,
+        "ci": [
+          44.7,
+          56.9
+        ],
+        "excludes_zero": true
+      },
+      "openrouter/owl-alpha": {
+        "t1_acc": 100.0,
+        "t2_acc": 19.1,
+        "gap": 80.9,
+        "ci": [
+          74.6,
+          85.5
+        ],
+        "excludes_zero": true
+      }
+    },
+    "T4A vs T3": {
+      "gemma4:31b-cloud": {
+        "t1_acc": 57.1,
+        "t2_acc": 13.9,
+        "gap": 43.2,
+        "ci": [
+          33.8,
+          51.9
+        ],
+        "excludes_zero": true
+      },
+      "gpt-oss:120b-cloud": {
+        "t1_acc": 58.6,
+        "t2_acc": 38.9,
+        "gap": 19.6,
+        "ci": [
+          9.5,
+          29.2
+        ],
+        "excludes_zero": true
+      },
+      "nemotron-3-super:cloud": {
+        "t1_acc": 64.4,
+        "t2_acc": 48.9,
+        "gap": 15.5,
+        "ci": [
+          5.2,
+          25.1
+        ],
+        "excludes_zero": true
+      },
+      "openrouter/owl-alpha": {
+        "t1_acc": 90.9,
+        "t2_acc": 19.1,
+        "gap": 71.8,
+        "ci": [
+          42.6,
+          80.5
+        ],
+        "excludes_zero": true
+      }
+    },
+    "T5 vs T3": {
+      "gemma4:31b-cloud": {
+        "t1_acc": 56.4,
+        "t2_acc": 13.9,
+        "gap": 42.5,
+        "ci": [
+          33.1,
+          51.2
+        ],
+        "excludes_zero": true
+      },
+      "gpt-oss:120b-cloud": {
+        "t1_acc": 46.4,
+        "t2_acc": 38.9,
+        "gap": 7.5,
+        "ci": [
+          -2.4,
+          17.4
+        ],
+        "excludes_zero": false
+      },
+      "nemotron-3-super:cloud": {
+        "t1_acc": 82.4,
+        "t2_acc": 48.9,
+        "gap": 33.4,
+        "ci": [
+          16.5,
+          44.4
+        ],
+        "excludes_zero": true
+      },
+      "openrouter/owl-alpha": {
+        "t1_acc": 68.4,
+        "t2_acc": 19.1,
+        "gap": 49.3,
+        "ci": [
+          26.2,
+          66.2
+        ],
+        "excludes_zero": true
+      }
+    }
+  }
+}

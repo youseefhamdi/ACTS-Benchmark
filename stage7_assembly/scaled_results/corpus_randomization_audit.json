@@ -1,0 +1,39 @@
+{
+  "audit_date": "2026-06-01",
+  "auditor": "OWL agent — R3 revision Task 1",
+  "corpus": "stage2_execution/results/live_sample_140",
+  "manifest_seed": 42,
+  "ultra_corpus_seed": 42,
+  "total_files": 140,
+  "per_family": {
+    "3DES":       {"n": 20, "distinct_keys": 20, "distinct_ivs": 20, "distinct_ct": 20, "key_source": "os.urandom per-file", "iv_source": "os.urandom per-file"},
+    "AES-128":    {"n": 20, "distinct_keys": 20, "distinct_ivs": 20, "distinct_ct": 20, "key_source": "os.urandom per-file", "iv_source": "os.urandom per-file"},
+    "AES-256":    {"n": 20, "distinct_keys": 20, "distinct_ivs": 20, "distinct_ct": 20, "key_source": "os.urandom per-file", "iv_source": "os.urandom per-file"},
+    "ChaCha20":   {"n": 20, "distinct_keys": 20, "distinct_ivs": 20, "distinct_ct": 20, "key_source": "os.urandom per-file", "iv_source": "os.urandom per-file"},
+    "DES":        {"n": 20, "distinct_keys": 20, "distinct_ivs": 20, "distinct_ct": 20, "key_source": "os.urandom per-file", "iv_source": "os.urandom per-file"},
+    "ML-KEM-768": {"n": 20, "distinct_keys": 18, "distinct_ivs": 0,  "distinct_ct": 20, "key_source": "100 keypairs shared across 1000 files", "iv_source": "N/A (KEM)"},
+    "RSA-2048":   {"n": 20, "distinct_keys": 19, "distinct_ivs": 0,  "distinct_ct": 20, "key_source": "100 keypairs shared across 1000 files", "iv_source": "N/A (PKCS1v15)"}
+  },
+  "issues": [
+    {
+      "severity": "MEDIUM",
+      "issue": "Fixed seed (42) used for random.shuffle in corpus_ultra generation and sample selection",
+      "detail": "generate_corpus_ultra.py line 21: random.seed(42). The 140-file sample manifest also has seed:42. Keys/IVs/plaintexts use os.urandom (CSPRNG) and are independent, but the file selection order is deterministic.",
+      "recommendation": "Regenerate with secrets.SystemRandom() or no fixed seed for selection"
+    },
+    {
+      "severity": "LOW",
+      "issue": "RSA-2048 and ML-KEM-768 key reuse (100 keys for 1000 files)",
+      "detail": "generate_corpus_ultra.py generates 100 keypairs per asymmetric family, then cycles through them. 20 sampled files share 19/18 distinct keys respectively. Ciphertexts are still distinct because plaintexts differ.",
+      "recommendation": "Generate unique keypair per file for asymmetric families, or note as design choice"
+    },
+    {
+      "severity": "INFO",
+      "issue": "3 duplicate (key,iv) pairs in asymmetric families",
+      "detail": "ML-KEM: 2 pairs share keys. RSA: 1 pair shares keys. Expected given 100 keys for 1000 files. All ciphertexts remain distinct.",
+      "recommendation": "None required if key reuse is documented"
+    }
+  ],
+  "verdict": "REGENERATE",
+  "rationale": "While cryptographic material (keys, IVs, plaintexts) is generated via os.urandom (CSPRNG) and all 140 ciphertexts are distinct, the fixed seed=42 for random.shuffle violates Reviewer 4.3's requirement for independent random selection. Recommend regenerating the 140-file sample with secrets.SystemRandom() for selection and unique keys for all asymmetric files."
+}

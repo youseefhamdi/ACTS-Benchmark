@@ -1,0 +1,261 @@
+📋 Checkpoint: 1511 completed cells in live_matrix_full_v2.jsonl
+
+🔧 Backend: nemotron-3-super:cloud (delay=30.0s)
+  📊 Tier: tier3
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw AES-256_0017_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw AES-256_0018_openssl.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw AES-256_0019_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw AES-256_0020_pycryptodome.bin: GT=AES-256 PRED=UNKNOWN (0.3s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw ChaCha20_0001_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw ChaCha20_0002_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.4s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw ChaCha20_0003_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ tier3_raw 429, retry in 15s
+    ⏳ tier3_raw 429, retry in 25s
+    ⏳ tier3_raw 429, retry in 45s
+    ⏳ tier3_raw 429, retry in 85s
+    ⏳ tier3_raw 429, retry in 165s
+    ❌ tier3_raw ChaCha20_0004_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ⏳ 429, retry in 15s (attempt 1/5)
+    ⏳ 429, retry in 25s (attempt 2/5)
+    ⏳ 429, retry in 45s (attempt 3/5)
+    ⏳ 429, retry in 85s (attempt 4/5)
+    ⏳ 429, retry in 165s (attempt 5/5)
+    ❌ tier3 ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (0.2s) ERROR:HTTP Error 429: Too Many Requests
+    ❌ tier3_raw ChaCha20_0005_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (9.9s)
+    ❌ tier3 ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (2.9s)
+    ❌ tier3_raw ChaCha20_0006_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (3.4s)
+    ❌ tier3 ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (2.7s)
+    ❌ tier3_raw ChaCha20_0007_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (10.5s)
+    ❌ tier3 ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (5.0s)
+    ❌ tier3_raw ChaCha20_0008_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (10.8s)
+    ❌ tier3 ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (5.2s)
+    ❌ tier3_raw ChaCha20_0009_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (3.9s)
+    ❌ tier3 ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (6.4s)
+    ❌ tier3_raw ChaCha20_0010_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (4.5s)
+    ❌ tier3 ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (4.8s)
+    ❌ tier3_raw ChaCha20_0011_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (11.9s)
+    ❌ tier3 ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (3.0s)
+    ❌ tier3_raw ChaCha20_0012_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (2.7s)
+    ❌ tier3 ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (5.5s)
+    ❌ tier3_raw ChaCha20_0013_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (6.6s)
+    ❌ tier3 ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (5.9s)
+    ❌ tier3_raw ChaCha20_0014_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (6.6s)
+    ❌ tier3 ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (31.0s)
+    ❌ tier3_raw ChaCha20_0015_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (7.1s)
+    ❌ tier3 ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (12.1s)
+    ❌ tier3_raw ChaCha20_0016_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (7.0s)
+    ❌ tier3 ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (2.9s)
+    ❌ tier3_raw ChaCha20_0017_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (3.2s)
+    ❌ tier3 ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (2.8s)
+    ❌ tier3_raw ChaCha20_0018_pycryptodome.bin: GT=ChaCha20 PRED=UNKNOWN (7.3s)
+    ❌ tier3 ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (17.1s)
+    ❌ tier3_raw ChaCha20_0019_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (17.2s)
+    ❌ tier3 ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (5.8s)
+    ❌ tier3_raw ChaCha20_0020_openssl.bin: GT=ChaCha20 PRED=UNKNOWN (5.7s)
+    ❌ tier3 DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.3s)
+    ❌ tier3_raw DES_0001_pycryptodome.bin: GT=DES PRED=UNKNOWN (5.6s)
+    ❌ tier3 DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (15.0s)
+    ❌ tier3_raw DES_0002_openssl.bin: GT=DES PRED=UNKNOWN (2.5s)
+    ❌ tier3 DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (3.1s)
+    ❌ tier3_raw DES_0003_openssl.bin: GT=DES PRED=UNKNOWN (13.6s)
+    ❌ tier3 DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (5.7s)
+    ❌ tier3_raw DES_0004_openssl.bin: GT=DES PRED=UNKNOWN (2.6s)
+    ❌ tier3 DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (4.2s)
+    ❌ tier3_raw DES_0005_pycryptodome.bin: GT=DES PRED=UNKNOWN (13.7s)
+    ❌ tier3 DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (15.4s)
+    ❌ tier3_raw DES_0006_openssl.bin: GT=DES PRED=UNKNOWN (27.3s)
+    ❌ tier3 DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (2.5s)
+    ❌ tier3_raw DES_0007_openssl.bin: GT=DES PRED=UNKNOWN (5.4s)
+    ❌ tier3 DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (3.1s)
+    ❌ tier3_raw DES_0008_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.7s)
+    ❌ tier3 DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.7s)
+    ❌ tier3_raw DES_0009_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.7s)
+    ❌ tier3 DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (14.7s)
+    ❌ tier3_raw DES_0010_openssl.bin: GT=DES PRED=UNKNOWN (6.4s)
+    ❌ tier3 DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (3.8s)
+    ❌ tier3_raw DES_0011_openssl.bin: GT=DES PRED=UNKNOWN (3.5s)
+    ❌ tier3 DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (3.0s)
+    ❌ tier3_raw DES_0012_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.8s)
+    ❌ tier3 DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (3.3s)
+    ❌ tier3_raw DES_0013_pycryptodome.bin: GT=DES PRED=UNKNOWN (5.4s)
+    ❌ tier3 DES_0014_pycryptodome.bin: GT=DES PRED=CHACHA20 (4.3s)
+    ❌ tier3_raw DES_0014_pycryptodome.bin: GT=DES PRED=UNKNOWN (5.3s)
+    ❌ tier3 DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (5.9s)
+    ❌ tier3_raw DES_0015_openssl.bin: GT=DES PRED=UNKNOWN (2.8s)
+    ❌ tier3 DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.7s)
+    ❌ tier3_raw DES_0016_pycryptodome.bin: GT=DES PRED=UNKNOWN (2.7s)
+    ❌ tier3 DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (3.4s)
+    ❌ tier3_raw DES_0017_openssl.bin: GT=DES PRED=UNKNOWN (24.9s)
+    ❌ tier3 DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (4.0s)
+    ❌ tier3_raw DES_0018_pycryptodome.bin: GT=DES PRED=UNKNOWN (14.7s)
+    ❌ tier3 DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (6.9s)
+    ❌ tier3_raw DES_0019_openssl.bin: GT=DES PRED=UNKNOWN (4.5s)
+    ❌ tier3 DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (3.4s)
+    ❌ tier3_raw DES_0020_pycryptodome.bin: GT=DES PRED=UNKNOWN (6.3s)
+    ❌ tier3 ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.6s)
+    ❌ tier3_raw ML-KEM-768_0001_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.2s)
+    ❌ tier3 ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (14.8s)
+    ❌ tier3_raw ML-KEM-768_0002_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (14.6s)
+    ❌ tier3 ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.5s)
+    ❌ tier3_raw ML-KEM-768_0003_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.6s)
+    ❌ tier3 ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.8s)
+    ❌ tier3_raw ML-KEM-768_0004_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (8.7s)
+    ❌ tier3 ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.0s)
+    ❌ tier3_raw ML-KEM-768_0005_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.4s)
+    ❌ tier3 ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (6.7s)
+    ❌ tier3_raw ML-KEM-768_0006_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.2s)
+    ❌ tier3 ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (7.1s)
+    ❌ tier3_raw ML-KEM-768_0007_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (17.0s)
+    ❌ tier3 ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.6s)
+    ❌ tier3_raw ML-KEM-768_0008_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.7s)
+    ❌ tier3 ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (7.3s)
+    ❌ tier3_raw ML-KEM-768_0009_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.2s)
+    ❌ tier3 ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (5.3s)
+    ❌ tier3_raw ML-KEM-768_0010_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (14.8s)
+    ❌ tier3 ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.7s)
+    ❌ tier3_raw ML-KEM-768_0011_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (12.2s)
+    ❌ tier3 ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (9.1s)
+    ❌ tier3_raw ML-KEM-768_0012_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (8.0s)
+    ❌ tier3 ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.5s)
+    ❌ tier3_raw ML-KEM-768_0013_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.7s)
+    ❌ tier3 ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (7.5s)
+    ❌ tier3_raw ML-KEM-768_0014_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (7.9s)
+    ❌ tier3 ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.7s)
+    ❌ tier3_raw ML-KEM-768_0015_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.5s)
+    ❌ tier3 ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (2.8s)
+    ❌ tier3_raw ML-KEM-768_0016_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (8.9s)
+    ❌ tier3 ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (6.6s)
+    ❌ tier3_raw ML-KEM-768_0017_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.5s)
+    ❌ tier3 ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (3.2s)
+    ❌ tier3_raw ML-KEM-768_0018_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (4.1s)
+    ❌ tier3 ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (6.3s)
+    ❌ tier3_raw ML-KEM-768_0019_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (13.4s)
+    ❌ tier3 ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (5.6s)
+    ❌ tier3_raw ML-KEM-768_0020_openssl.bin: GT=ML-KEM-768 PRED=UNKNOWN (5.4s)
+    ❌ tier3 RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.8s)
+    ❌ tier3_raw RSA-2048_0001_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (8.2s)
+    ❌ tier3 RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (5.1s)
+    ❌ tier3_raw RSA-2048_0002_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (6.8s)
+    ❌ tier3 RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (2.9s)
+    ❌ tier3_raw RSA-2048_0003_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (9.0s)
+    ❌ tier3 RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (4.9s)
+    ❌ tier3_raw RSA-2048_0004_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (3.5s)
+    ❌ tier3 RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.3s)
+    ✅ tier3_raw RSA-2048_0005_pycryptodome.bin: GT=RSA-2048 PRED=RSA-2048 (5.3s)
+    ❌ tier3 RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.7s)
+    ❌ tier3_raw RSA-2048_0006_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.7s)
+    ❌ tier3 RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (5.6s)
+    ❌ tier3_raw RSA-2048_0007_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.9s)
+    ❌ tier3 RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (6.7s)
+    ❌ tier3_raw RSA-2048_0008_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (3.6s)
+    ❌ tier3 RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (8.2s)
+    ❌ tier3_raw RSA-2048_0009_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (3.4s)
+    ❌ tier3 RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (6.0s)
+    ❌ tier3_raw RSA-2048_0010_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (4.1s)
+    ❌ tier3 RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (4.5s)
+    ❌ tier3_raw RSA-2048_0011_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (4.4s)
+    ❌ tier3 RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (4.8s)
+    ❌ tier3_raw RSA-2048_0012_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (8.0s)
+    ❌ tier3 RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.1s)
+    ❌ tier3_raw RSA-2048_0013_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (7.5s)
+    ❌ tier3 RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (2.7s)
+    ❌ tier3_raw RSA-2048_0014_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (3.2s)
+    ❌ tier3 RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (8.7s)
+    ❌ tier3_raw RSA-2048_0015_pycryptodome.bin: GT=RSA-2048 PRED=UNKNOWN (3.3s)
+    ❌ tier3 RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (5.4s)
+    ❌ tier3_raw RSA-2048_0016_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (3.1s)
+    ❌ tier3 RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (5.9s)
+    ❌ tier3_raw RSA-2048_0017_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (2.9s)
+    ❌ tier3 RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (27.1s)
+    ❌ tier3_raw RSA-2048_0018_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (5.4s)
+    ❌ tier3 RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (19.3s)
+    ❌ tier3_raw RSA-2048_0019_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (3.1s)
+    ❌ tier3 RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (20.5s)
+    ❌ tier3_raw RSA-2048_0020_openssl.bin: GT=RSA-2048 PRED=UNKNOWN (11.1s)
+
+======================================================================
+✅ BACKFILL COMPLETE: 168 calls in 9251s | skipped=56 errors=0
+   Results saved to: /home/elaref/.gidaai/workspaces/default/upgrade/acts_v2_poc/stage2_execution/results/live_matrix_full_v2.jsonl

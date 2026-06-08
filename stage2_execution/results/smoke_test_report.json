@@ -1,0 +1,174 @@
+{
+  "report_title": "ACTS v2 Live Evaluation — Smoke Test Report",
+  "generated_at": "2026-05-31",
+  "test_type": "SMOKE TEST — 1 file per family × 5 backends × Tier-1 only = 35 calls",
+  "corpus": "stage1_data/corpus_ultra (seed=42 selection)",
+
+  "section_1_backend_status": {
+    "description": "Which backends responded successfully",
+    "ollama_local": {
+      "gemma4:31b-cloud": {
+        "status": "✅ OK",
+        "calls": 7, "correct": 7, "accuracy": "100%",
+        "avg_latency_s": 1.35,
+        "avg_prompt_tokens": 106,
+        "avg_completion_tokens": 5,
+        "errors": 0,
+        "sample_raw_response": "3DES"
+      },
+      "gpt-oss:120b-cloud": {
+        "status": "✅ OK",
+        "calls": 7, "correct": 7, "accuracy": "100%",
+        "avg_latency_s": 0.90,
+        "avg_prompt_tokens": 147,
+        "avg_completion_tokens": 60,
+        "errors": 0,
+        "sample_raw_response": "3DES"
+      },
+      "nemotron-3-super:cloud": {
+        "status": "✅ OK",
+        "calls": 7, "correct": 7, "accuracy": "100%",
+        "avg_latency_s": 0.53,
+        "avg_prompt_tokens": 112,
+        "avg_completion_tokens": 36,
+        "errors": 0,
+        "sample_raw_response": "3DES"
+      }
+    },
+    "openrouter_cloud": {
+      "owl-alpha": {
+        "status": "❌ FAIL — HTTP 401 'User not found'",
+        "calls": 7, "correct": 0, "accuracy": "N/A",
+        "error": "OpenRouter API key invalid or model not found. All 7 calls retried 3x then logged as UNKNOWN.",
+        "action_required": "Check OPENROUTER_API_KEY env var. Run: echo $OPENROUTER_API_KEY"
+      },
+      "openai/gpt-oss-120b:free": {
+        "status": "❌ FAIL — HTTP 401 'User not found'",
+        "calls": 7, "correct": 0, "accuracy": "N/A",
+        "error": "Same OpenRouter auth issue. All 7 calls failed.",
+        "action_required": "Fix OpenRouter API key before full run."
+      }
+    },
+    "overall": "3 of 5 backends functional. 2 OpenRouter backends need API key fix."
+  },
+
+  "section_2_sample_records": {
+    "description": "One parsed record per backend showing raw_response + parsed_prediction + correct",
+    "gemma4:31b-cloud": {
+      "file": "3DES_0251_openssl.bin",
+      "ground_truth": "3DES",
+      "raw_response": "3DES",
+      "parsed_prediction": "3DES",
+      "correct": true,
+      "latency_s": 1.9,
+      "note": "Parser correctly maps '3DES' → '3DES' (not 'DES') — the fix works"
+    },
+    "gpt-oss:120b-cloud": {
+      "file": "3DES_0251_openssl.bin",
+      "ground_truth": "3DES",
+      "raw_response": "3DES",
+      "parsed_prediction": "3DES",
+      "correct": true,
+      "latency_s": 0.8
+    },
+    "nemotron-3-super:cloud": {
+      "file": "3DES_0251_openssl.bin",
+      "ground_truth": "3DES",
+      "raw_response": "3DES",
+      "parsed_prediction": "3DES",
+      "correct": true,
+      "latency_s": 0.5
+    },
+    "owl-alpha": {
+      "file": "3DES_0251_openssl.bin",
+      "ground_truth": "3DES",
+      "raw_response": "",
+      "parsed_prediction": "UNKNOWN",
+      "correct": false,
+      "error": "HTTP 401: User not found"
+    },
+    "openai/gpt-oss-120b:free": {
+      "file": "3DES_0251_openssl.bin",
+      "ground_truth": "3DES",
+      "raw_response": "",
+      "parsed_prediction": "UNKNOWN",
+      "correct": false,
+      "error": "HTTP 401: User not found"
+    }
+  },
+
+  "section_3_latency_and_tokens": {
+    "description": "Measured average latency and tokens per call per backend (Tier-1 only)",
+    "table": [
+      {"backend": "gemma4:31b-cloud",     "avg_latency_s": 1.35, "avg_prompt_tokens": 106, "avg_completion_tokens": 5,  "notes": "3DES/ML-KEM slower (~4s), others ~0.4s"},
+      {"backend": "gpt-oss:120b-cloud",    "avg_latency_s": 0.90, "avg_prompt_tokens": 147, "avg_completion_tokens": 60, "notes": "Most consistent across families"},
+      {"backend": "nemotron-3-super:cloud","avg_latency_s": 0.53, "avg_prompt_tokens": 112, "avg_completion_tokens": 36, "notes": "Fastest of the three"},
+      {"backend": "owl-alpha",             "avg_latency_s": 0.40, "avg_prompt_tokens": 0,   "avg_completion_tokens": 0,  "notes": "NO VALID CALLS — auth failure"},
+      {"backend": "openai/gpt-oss-120b:free", "avg_latency_s": 0.25, "avg_prompt_tokens": 0, "avg_completion_tokens": 0, "notes": "NO VALID CALLS — auth failure"}
+    ]
+  },
+
+  "section_4_3des_parser_verification": {
+    "description": "Critical check: does the fixed normalize_prediction() correctly map '3DES' to '3DES' (not 'DES')?",
+    "result": "✅ PASS",
+    "evidence": "All 3 Ollama backends returned '3DES' and were marked correct. The CIPHER_ALIASES fix (3des → 3DES) works correctly.",
+    "previous_bug": "In the old tier5_runner.py, '3des' mapped to 'des' causing 3DES to always be wrong. Fixed in tier5_runner_v2.py and carried into run_live_matrix.py."
+  },
+
+  "section_5_full_matrix_extrapolation": {
+    "description": "Estimated time + rate-limit concerns for the full 5×3×140 = 2100-call run (plus tier3_raw variant)",
+    "full_matrix": {
+      "total_calls_standard": 2100,
+      "total_calls_with_tier3_raw": 2800,
+      "breakdown": {
+        "ollama_3_backends": "140 files × 3 tiers × 3 backends = 1260 calls",
+        "openrouter_2_backends": "140 files × 3 tiers × 2 backends = 840 calls",
+        "tier3_raw_variant": "140 files × 1 variant × 5 backends = 700 calls"
+      }
+    },
+    "time_estimates": {
+      "ollama_total": "~30 minutes (avg 0.93s/call + 0.5s delay × 1260 = 29.6 min)",
+      "ollama_per_backend": "~10 minutes each",
+      "openrouter_estimate": "Cannot estimate — auth failure. If key fixed: avg ~2s/call × 1540 = ~51 min + rate-limit overhead",
+      "total_estimated": "~1.5 hours if OpenRouter key fixed, ~30 min with Ollama only"
+    },
+    "rate_limit_concerns": {
+      "ollama_local": "No rate limits. All 3 models running locally on localhost:11434.",
+      "openrouter": "Free tier rate limit: ~20 requests/min for free models. With 2 free backends (owl-alpha + gpt-oss-120b:free), need ~51 min + backoff time. Already implemented: exponential backoff (5s, 10s, 20s) on 429. If 3 consecutive hard-failures, model is skipped.",
+      "agent_router": "Token in env as sk-or-v1-XX. Smoke test confirms OpenRouter key is currently INVALID (HTTP 401 'User not found'). Full run CANNOT proceed until key is fixed."
+    },
+    "openrouter_key_status": "⚠️ INVALID — HTTP 401 'User not found'. Need to: (1) verify OPENROUTER_API_KEY is set correctly, (2) check openrouter.ai dashboard for key status",
+    "checkpoint_resume": "✅ Working — Results saved to smoke_test.json as JSONL. On restart, already-completed (backend, tier, filename) triples are skipped."
+  },
+
+  "section_6_issues_and_actions": {
+    "blocking_issues": [
+      {
+        "issue": "OpenRouter API key invalid",
+        "impact": "2 of 5 backends (owl-alpha, openai/gpt-oss-120b:free) cannot make any calls",
+        "action": "Check OPENROUTER_API_KEY: echo $OPENROUTER_API_KEY. Verify at https://openrouter.ai/keys. Generate new key if needed."
+      }
+    ],
+    "non_blocking_findings": [
+      {
+        "finding": "All 3 Ollama backends at 100% accuracy on Tier-1 (as expected — metadata-rich prompts)",
+        "significance": "Confirms the runner infrastructure works correctly"
+      },
+      {
+        "finding": "3DES parser fix verified — '3DES' correctly maps to '3DES' not 'DES'",
+        "significance": "The normalize_prediction() fix from the previous session is working"
+      },
+      {
+        "finding": "Tier-1 prompts use the exact wording from 'actual_prompt_used_in_corpus14_runs' in live_eval_spec.json",
+        "significance": "Results will be directly comparable to existing corpus-14 runs"
+      }
+    ]
+  },
+
+  "section_7_files_created": {
+    "manifest_140_files": "stage2_execution/results/live_sample_140/manifest.json",
+    "runner": "stage2_execution/run_live_matrix.py",
+    "smoke_results_jsonl": "stage2_execution/results/smoke_test.json",
+    "full_matrix_output": "stage2_execution/results/live_matrix_full.jsonl (not yet created — waiting for OpenRouter key fix)"
+  }
+}

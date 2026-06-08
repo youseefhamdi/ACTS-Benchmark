@@ -1,0 +1,292 @@
+{
+  "tier1": [
+    {
+      "family": "3des",
+      "k": 99,
+      "n": 100,
+      "accuracy": 99.0,
+      "ci_lo": 94.6,
+      "ci_hi": 99.8
+    },
+    {
+      "family": "aes-128",
+      "k": 83,
+      "n": 100,
+      "accuracy": 83.0,
+      "ci_lo": 74.5,
+      "ci_hi": 89.1
+    },
+    {
+      "family": "aes-256",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "chacha20",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "des",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "ml-kem-768",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "rsa-2048",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    }
+  ],
+  "tier2": [
+    {
+      "family": "3des",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "aes-128",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "aes-256",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "chacha20",
+      "k": 83,
+      "n": 100,
+      "accuracy": 83.0,
+      "ci_lo": 74.5,
+      "ci_hi": 89.1
+    },
+    {
+      "family": "des",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "ml-kem-768",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    },
+    {
+      "family": "rsa-2048",
+      "k": 80,
+      "n": 100,
+      "accuracy": 80.0,
+      "ci_lo": 71.1,
+      "ci_hi": 86.7
+    }
+  ],
+  "tier3": [
+    {
+      "family": "3des",
+      "k": 21,
+      "n": 200,
+      "accuracy": 10.5,
+      "ci_lo": 7.0,
+      "ci_hi": 15.5
+    },
+    {
+      "family": "aes-128",
+      "k": 21,
+      "n": 200,
+      "accuracy": 10.5,
+      "ci_lo": 7.0,
+      "ci_hi": 15.5
+    },
+    {
+      "family": "aes-256",
+      "k": 67,
+      "n": 200,
+      "accuracy": 33.5,
+      "ci_lo": 27.3,
+      "ci_hi": 40.3
+    },
+    {
+      "family": "chacha20",
+      "k": 81,
+      "n": 200,
+      "accuracy": 40.5,
+      "ci_lo": 33.9,
+      "ci_hi": 47.4
+    },
+    {
+      "family": "des",
+      "k": 9,
+      "n": 200,
+      "accuracy": 4.5,
+      "ci_lo": 2.4,
+      "ci_hi": 8.3
+    },
+    {
+      "family": "ml-kem-768",
+      "k": 51,
+      "n": 200,
+      "accuracy": 25.5,
+      "ci_lo": 20.0,
+      "ci_hi": 32.0
+    },
+    {
+      "family": "rsa-2048",
+      "k": 78,
+      "n": 200,
+      "accuracy": 39.0,
+      "ci_lo": 32.5,
+      "ci_hi": 45.9
+    }
+  ],
+  "tier4a": [
+    {
+      "family": "3des",
+      "k": 65,
+      "n": 71,
+      "accuracy": 91.5,
+      "ci_lo": 82.8,
+      "ci_hi": 96.1
+    },
+    {
+      "family": "aes-128",
+      "k": 59,
+      "n": 60,
+      "accuracy": 98.3,
+      "ci_lo": 91.1,
+      "ci_hi": 99.7
+    },
+    {
+      "family": "aes-256",
+      "k": 0,
+      "n": 64,
+      "accuracy": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 5.7
+    },
+    {
+      "family": "chacha20",
+      "k": 12,
+      "n": 60,
+      "accuracy": 20.0,
+      "ci_lo": 11.8,
+      "ci_hi": 31.8
+    },
+    {
+      "family": "des",
+      "k": 1,
+      "n": 60,
+      "accuracy": 1.7,
+      "ci_lo": 0.3,
+      "ci_hi": 8.9
+    },
+    {
+      "family": "ml-kem-768",
+      "k": 60,
+      "n": 60,
+      "accuracy": 100.0,
+      "ci_lo": 94.0,
+      "ci_hi": 100.0
+    },
+    {
+      "family": "rsa-2048",
+      "k": 60,
+      "n": 60,
+      "accuracy": 100.0,
+      "ci_lo": 94.0,
+      "ci_hi": 100.0
+    }
+  ],
+  "tier5": [
+    {
+      "family": "3des",
+      "k": 66,
+      "n": 100,
+      "accuracy": 66.0,
+      "ci_lo": 56.3,
+      "ci_hi": 74.5
+    },
+    {
+      "family": "aes-128",
+      "k": 45,
+      "n": 100,
+      "accuracy": 45.0,
+      "ci_lo": 35.6,
+      "ci_hi": 54.8
+    },
+    {
+      "family": "aes-256",
+      "k": 0,
+      "n": 100,
+      "accuracy": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 3.7
+    },
+    {
+      "family": "chacha20",
+      "k": 5,
+      "n": 100,
+      "accuracy": 5.0,
+      "ci_lo": 2.2,
+      "ci_hi": 11.2
+    },
+    {
+      "family": "des",
+      "k": 2,
+      "n": 100,
+      "accuracy": 2.0,
+      "ci_lo": 0.6,
+      "ci_hi": 7.0
+    },
+    {
+      "family": "ml-kem-768",
+      "k": 34,
+      "n": 100,
+      "accuracy": 34.0,
+      "ci_lo": 25.5,
+      "ci_hi": 43.7
+    },
+    {
+      "family": "rsa-2048",
+      "k": 33,
+      "n": 100,
+      "accuracy": 33.0,
+      "ci_lo": 24.6,
+      "ci_hi": 42.7
+    }
+  ]
+}

@@ -35,7 +35,9 @@ CIPHER_FAMILIES = {
 CIPHER_ALIASES = {
     "aes-128": "aes128", "aes128": "aes128",
     "aes-256": "aes256", "aes256": "aes256",
-    "3des": "3des", "tripledes": "3des",
+    # 3des variants MUST come before "des" — includes hyphenated/space forms
+    "3des": "3des", "tripledes": "3des", "3-des": "3des",
+    "triple-des": "3des", "triple des": "3des",
     "des": "des",
     "chacha20": "chacha20", "chacha": "chacha20",
     "rsa-2048": "rsa2048", "rsa2048": "rsa2048", "rsa": "rsa2048",
